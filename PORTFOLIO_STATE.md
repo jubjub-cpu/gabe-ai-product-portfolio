@@ -10,11 +10,11 @@ Local filesystem workspace. Git for Windows 2.55.0 was installed with `winget` a
 
 ## Current Issue
 
-Local issue bodies are represented by this state file and the release checklist in `docs/RECRUITER_REVIEW.md`. GitHub issues should be created after the remote repository exists.
+GitHub issues #1 through #15 were created and closed for kickoff, midpoint, and release completion across all five projects.
 
 ## Last Completed Action
 
-Created the central portfolio structure, five static demos, docs, validation script, screenshot evidence, and local browser smoke checks.
+Created the central portfolio structure, five static demos, docs, validation script, screenshot evidence, local browser smoke checks, public GitHub repository, closed milestone issues, GitHub Pages deployment, and final v1.0.0 release preparation.
 
 ## Tests Last Run
 
@@ -39,10 +39,9 @@ None known after validation and browser smoke checks.
 
 ## Pending Changes
 
-- Publish the repository if GitHub API workflow succeeds.
-- Create GitHub issues and release after remote creation.
-- Use `tools/static-server.ps1` for browser review because direct `file://` navigation is blocked by the in-app browser.
+- Optional: publish the profile README draft from `docs/GITHUB_PROFILE_README.md` to a special `jubjub-cpu` profile repository if Gabe wants it public.
+- Optional: split the strongest products into standalone repositories after recruiter review.
 
 ## Next Executable Step
 
-Initialize the Git repository, commit the validated source, create the GitHub repository, push, and create release/issues.
+Review the live portfolio and decide whether to publish the profile README draft.

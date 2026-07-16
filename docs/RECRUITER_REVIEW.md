@@ -43,9 +43,9 @@ A reviewer should be able to determine:
 - [x] Central roadmap, state, blockers, decisions, and scorecard files created.
 - [x] Validation script run.
 - [x] Screenshots captured.
-- [ ] Remote repository published.
-- [ ] GitHub issues created.
-- [ ] Release created.
+- [x] Remote repository published.
+- [x] GitHub issues created.
+- [x] Release created.
 
 ## Validation Evidence
 
@@ -53,3 +53,4 @@ A reviewer should be able to determine:
 - Browser rendering passed for the central portfolio, ReviewFlow, DocuTrace, FrameForge, and PilotMap in fresh tabs.
 - Interaction checks passed for all five primary workflows.
 - No browser console errors were observed during the final interaction pass.
+- GitHub Pages live check returned HTTP 200.

@@ -61,7 +61,19 @@ Current screenshots captured from the implemented local app:
 
 ## Live Demo
 
-No paid hosting is required. Open this local file:
+Live portfolio:
+
+[https://jubjub-cpu.github.io/gabe-ai-product-portfolio/](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/)
+
+Repository:
+
+[https://github.com/jubjub-cpu/gabe-ai-product-portfolio](https://github.com/jubjub-cpu/gabe-ai-product-portfolio)
+
+Release:
+
+[v1.0.0 - Published AI product portfolio](https://github.com/jubjub-cpu/gabe-ai-product-portfolio/releases/tag/v1.0.0)
+
+Local fallback:
 
 ```text
 C:\Users\gabeb\Downloads\gabe-ai-product-portfolio\index.html
@@ -163,7 +175,11 @@ Latest local validation:
 
 ## Deployment
 
-This repository can be deployed to GitHub Pages, Netlify, Cloudflare Pages, or any static host. The recruiter-review path does not require a backend or paid API.
+This repository is deployed to GitHub Pages:
+
+[https://jubjub-cpu.github.io/gabe-ai-product-portfolio/](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/)
+
+The recruiter-review path does not require a backend or paid API.
 
 ## Design Decisions
 

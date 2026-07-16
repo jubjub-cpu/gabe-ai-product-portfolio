@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-The first five-project AI Digital Product Developer portfolio is complete as a local static release. It includes five runnable synthetic-data product demos, central portfolio documentation, a capability matrix, case studies, validation checks, screenshots, and next-project prompts.
+The first five-project AI Digital Product Developer portfolio is complete as a published static release. It includes five runnable synthetic-data product demos, central portfolio documentation, a capability matrix, case studies, validation checks, screenshots, closed milestone issues, a GitHub release, and next-project prompts.
 
 ## Gabe's Portfolio Positioning
 
@@ -12,11 +12,11 @@ Gabe is positioned as an AI Digital Product Developer who uses AI-assisted devel
 
 | Name | Demo | Business Problem | Target User | AI Capability | Technology | Test Status | Release Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| SignalOps Triage | `projects/signalops-triage/index.html` | Inconsistent field-service incident triage. | Operations coordinators | Classification, severity scoring, dispatch recommendation. | Static HTML/CSS/JS | Passed validation and browser interaction | Local release |
-| ReviewFlow Agent | `projects/reviewflow-agent/index.html` | Manual request handling lacks repeatability. | Admin and operations teams | Agent-style workflow planning and draft output. | Static HTML/CSS/JS | Passed validation and browser interaction | Local release |
-| DocuTrace Desk | `projects/doctrace-desk/index.html` | Document review needs source evidence. | Analysts and coordinators | Search, extraction, citations, risk flags. | Static HTML/CSS/JS | Passed validation and browser interaction | Local release |
-| FrameForge QA | `projects/frameforge-qa/index.html` | Creative handoffs are scattered. | Creators and small agencies | Creative QA, captions, shot lists, revision tracking. | Static HTML/CSS/JS | Passed validation and browser interaction | Local release |
-| PilotMap AI | `projects/pilotmap-ai/index.html` | Businesses need responsible AI opportunity prioritization. | SMB owners and transformation leads | Suitability scoring, risk review, pilot roadmap. | Static HTML/CSS/JS | Passed validation and browser interaction | Local release |
+| SignalOps Triage | [Demo](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/signalops-triage/) | Inconsistent field-service incident triage. | Operations coordinators | Classification, severity scoring, dispatch recommendation. | Static HTML/CSS/JS | Passed validation and browser interaction | Published |
+| ReviewFlow Agent | [Demo](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/reviewflow-agent/) | Manual request handling lacks repeatability. | Admin and operations teams | Agent-style workflow planning and draft output. | Static HTML/CSS/JS | Passed validation and browser interaction | Published |
+| DocuTrace Desk | [Demo](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/doctrace-desk/) | Document review needs source evidence. | Analysts and coordinators | Search, extraction, citations, risk flags. | Static HTML/CSS/JS | Passed validation and browser interaction | Published |
+| FrameForge QA | [Demo](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/frameforge-qa/) | Creative handoffs are scattered. | Creators and small agencies | Creative QA, captions, shot lists, revision tracking. | Static HTML/CSS/JS | Passed validation and browser interaction | Published |
+| PilotMap AI | [Demo](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/pilotmap-ai/) | Businesses need responsible AI opportunity prioritization. | SMB owners and transformation leads | Suitability scoring, risk review, pilot roadmap. | Static HTML/CSS/JS | Passed validation and browser interaction | Published |
 
 ## Capability Matrix
 
@@ -44,7 +44,13 @@ A profile README draft is available at `docs/GITHUB_PROFILE_README.md`.
 
 ## Deployment Summary
 
-The app is static-host ready. A local server is included at `tools/static-server.ps1`. GitHub Pages is the recommended free deployment path after repository publishing.
+The app is deployed on GitHub Pages:
+
+[https://jubjub-cpu.github.io/gabe-ai-product-portfolio/](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/)
+
+Release:
+
+[https://github.com/jubjub-cpu/gabe-ai-product-portfolio/releases/tag/v1.0.0](https://github.com/jubjub-cpu/gabe-ai-product-portfolio/releases/tag/v1.0.0)
 
 ## Privacy and Security Summary
 
@@ -62,4 +68,3 @@ See `NEXT_5_PROJECTS.md`.
 ## Suggested Next Career Step
 
 Use this portfolio to apply for AI product, workflow automation, and operations-focused prototype roles while continuing to build one standalone, deployable project from the strongest demo.
-
