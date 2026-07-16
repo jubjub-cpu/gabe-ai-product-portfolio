@@ -24,7 +24,11 @@ See `PORTFOLIO_SCORECARD.md` and the live matrix on `index.html`.
 
 ## GitHub Profile Improvements
 
-A profile README draft is available at `docs/GITHUB_PROFILE_README.md`.
+Gabe's GitHub profile README repository was created at:
+
+[https://github.com/jubjub-cpu/jubjub-cpu](https://github.com/jubjub-cpu/jubjub-cpu)
+
+The profile README links to the live portfolio and truthfully describes Gabe's AI-assisted product-development positioning.
 
 ## Recommended Pinned Repositories
 
@@ -58,8 +62,8 @@ All product data is fictional or synthetic. No real customer records, payment-ca
 
 ## Remaining Manual Actions
 
-- Confirm whether Gabe wants the public GitHub profile README published in a special `jubjub-cpu` profile repository.
-- Enable or confirm the preferred public static hosting target if GitHub Pages setup is not available through the current API path.
+- Pin `gabe-ai-product-portfolio` on the GitHub profile manually. The available GitHub GraphQL schema did not expose a repository-pinning mutation in this environment.
+- Optionally split the strongest demos into standalone repositories after recruiter review.
 
 ## Next Five Projects
 

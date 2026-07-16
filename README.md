@@ -69,6 +69,10 @@ Repository:
 
 [https://github.com/jubjub-cpu/gabe-ai-product-portfolio](https://github.com/jubjub-cpu/gabe-ai-product-portfolio)
 
+GitHub profile:
+
+[https://github.com/jubjub-cpu](https://github.com/jubjub-cpu)
+
 Release:
 
 [v1.0.0 - Published AI product portfolio](https://github.com/jubjub-cpu/gabe-ai-product-portfolio/releases/tag/v1.0.0)

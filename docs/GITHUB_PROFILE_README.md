@@ -6,6 +6,9 @@ My current focus is AI-assisted development, prompt engineering, workflow design
 
 ## Featured Portfolio
 
+- **AI Digital Product Developer Portfolio:** https://jubjub-cpu.github.io/gabe-ai-product-portfolio/
+- **Repository:** https://github.com/jubjub-cpu/gabe-ai-product-portfolio
+
 | Project | What It Demonstrates |
 | --- | --- |
 | SignalOps Triage | AI-assisted field-service incident triage with human-approved dispatch recommendations. |
@@ -31,4 +34,3 @@ I am continuing to strengthen full-stack implementation fundamentals, testing, d
 ## AI-Assisted Development Statement
 
 My portfolio is intentionally AI-assisted. I direct product strategy, workflow design, prompt design, testing, iteration, and visual refinement while using AI tools for implementation support. I do not claim traditional software engineering employment history or production business results that have not been demonstrated.
-

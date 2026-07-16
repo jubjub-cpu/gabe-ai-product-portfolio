@@ -14,7 +14,7 @@ GitHub issues #1 through #15 were created and closed for kickoff, midpoint, and 
 
 ## Last Completed Action
 
-Created the central portfolio structure, five static demos, docs, validation script, screenshot evidence, local browser smoke checks, public GitHub repository, closed milestone issues, GitHub Pages deployment, and final v1.0.0 release preparation.
+Created the central portfolio structure, five static demos, docs, validation script, screenshot evidence, local browser smoke checks, public GitHub repository, closed milestone issues, GitHub Pages deployment, final v1.0.0 release, and public GitHub profile README repository.
 
 ## Tests Last Run
 
@@ -39,9 +39,9 @@ None known after validation and browser smoke checks.
 
 ## Pending Changes
 
-- Optional: publish the profile README draft from `docs/GITHUB_PROFILE_README.md` to a special `jubjub-cpu` profile repository if Gabe wants it public.
+- Optional: manually pin `gabe-ai-product-portfolio` on Gabe's GitHub profile.
 - Optional: split the strongest products into standalone repositories after recruiter review.
 
 ## Next Executable Step
 
-Review the live portfolio and decide whether to publish the profile README draft.
+Review the live portfolio and manually pin the portfolio repository if desired.
