@@ -148,7 +148,7 @@ Validation script checks the static page and documentation.
 
 ### Gabe's Contribution
 
-Document workflow design, responsible citation requirement, and recruiter-facing product explanation.
+Document workflow design, responsible citation requirements, and evidence-first interaction design.
 
 ## FrameForge QA
 
@@ -170,7 +170,7 @@ Inconsistent visual standards, unclear revision notes, and weak repurposing plan
 
 ### Product Hypothesis
 
-A media QA assistant can combine Gabe's visual judgment with AI-assisted structure.
+A media QA assistant can combine visual judgment with a consistent inspection structure.
 
 ### Proposed Workflow
 
@@ -249,4 +249,3 @@ Validation script plus manual reviewer check.
 ### Gabe's Contribution
 
 Business workflow framing, responsible AI scoping, product narrative, and validation criteria.
-

@@ -1,12 +1,12 @@
 # Gabe - AI Digital Product Developer Portfolio
 
-This portfolio features ten complete, local-first AI digital products: five matured foundation products and five distinct Phase Two releases. Together they show workflow design, prompt-shaped reasoning, formal evaluation, event reliability, real browser media processing, telemetry monitoring, privacy-preserving text processing, human review, synthetic data, and recruiter-friendly product documentation.
+This portfolio features ten complete, local-first AI digital products spanning workflow design, formal evaluation, event reliability, browser media processing, telemetry monitoring, privacy-preserving text processing, and human review.
 
 ## Overview
 
-Gabe is positioning as an AI Digital Product Developer. The work is represented honestly: Gabe directs product strategy, workflow design, prompt thinking, testing, iteration, and visual refinement while using AI-assisted coding tools for implementation.
+I design practical AI products that turn complex business workflows into clear, interactive tools. Every project is public, runnable, documented, and built around an explicit user decision.
 
-The portfolio does not claim traditional software engineering employment, production customer usage, paid deployments, measured savings, or live AI autonomy.
+The demos use synthetic data and deterministic browser logic. They are product prototypes rather than production systems.
 
 ## Featured Products
 
@@ -25,7 +25,7 @@ The portfolio does not claim traditional software engineering employment, produc
 
 ## Business Problem
 
-Many businesses are interested in AI but struggle to translate messy workflows into useful, reviewable products. This portfolio focuses on operations, workflow automation, document review, creative media, and AI opportunity design because those areas make Gabe's product thinking visible without inventing unsupported credentials.
+Many teams are interested in AI but struggle to translate messy workflows into useful, reviewable products. This portfolio focuses on concrete decisions, visible evidence, and interfaces that make complex work easier to understand.
 
 ## Target Users
 
@@ -33,14 +33,14 @@ The products are designed for operations coordinators, AI quality teams, integra
 
 ## Product Approach
 
-Each demo uses deterministic browser logic to simulate AI-style workflow support. This keeps the recruiter-review experience free, safe, and repeatable while still showing where AI adds value and where a human remains in control.
+Each demo uses deterministic browser logic to model decision support. This keeps the experience free, safe, and repeatable while showing where automation adds value and where a human remains in control.
 
 ## Main Features
 
 - Ten released product demos with synthetic data.
 - Central portfolio page with project cards and capability matrix.
 - Human-in-the-loop review points in every product.
-- Recruiter-facing documentation, roadmap, scorecard, state tracking, blocker tracking, and case studies.
+- Product documentation, case studies, validation evidence, and release history.
 - Validation script for structure, privacy markers, and required files.
 
 ## Product Walkthrough
@@ -48,9 +48,9 @@ Each demo uses deterministic browser logic to simulate AI-style workflow support
 Open `index.html` in a browser, then choose any product from the top navigation or project grid. Each product has a complete primary workflow:
 
 1. Select or enter a synthetic input.
-2. Run a deterministic AI-style analysis.
+2. Run the product analysis.
 3. Review the recommendation, draft, citation, revision, or score.
-4. Approve, reject, or inspect human-control notes where relevant.
+4. Approve, reject, or inspect the supporting evidence.
 
 ## Screenshots
 
@@ -180,9 +180,7 @@ Standalone CivicCase Redact:
 
 Local fallback:
 
-```text
-C:\Users\gabeb\Downloads\gabe-ai-product-portfolio\index.html
-```
+Open `index.html` directly in a browser.
 
 ## AI Capability
 
@@ -218,8 +216,6 @@ projects/
   pilotmap-ai/index.html
 docs/
   CASE_STUDIES.md
-  PORTFOLIO_STRATEGY.md
-  RECRUITER_REVIEW.md
   screenshots/
 tests/
   portfolio-validation.ps1
@@ -252,7 +248,7 @@ No installation is required for direct file review. A local static server is als
 Optional local server:
 
 ```powershell
-Set-Location 'C:\Users\gabeb\Downloads\gabe-ai-product-portfolio'
+Set-Location 'path\to\gabe-ai-product-portfolio'
 powershell -ExecutionPolicy Bypass -File .\tools\static-server.ps1 -Port 4173
 ```
 
@@ -271,7 +267,7 @@ No environment variables are required. `.env.example` exists only to show where 
 Run:
 
 ```powershell
-Set-Location 'C:\Users\gabeb\Downloads\gabe-ai-product-portfolio'
+Set-Location 'path\to\gabe-ai-product-portfolio'
 powershell -ExecutionPolicy Bypass -File .\tests\portfolio-validation.ps1
 ```
 
@@ -299,12 +295,12 @@ This repository is deployed to GitHub Pages:
 
 [https://jubjub-cpu.github.io/gabe-ai-product-portfolio/](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/)
 
-The recruiter-review path does not require a backend or paid API.
+The live review path does not require a backend or paid API.
 
 ## Design Decisions
 
 - A single static portfolio repository was chosen for the first release because it is easiest to inspect, easiest to run, and does not require a Node.js build toolchain.
-- Deterministic AI-style logic was chosen to avoid paid API requirements and to keep privacy claims truthful.
+- Deterministic logic keeps the demos repeatable and removes paid API requirements.
 - Synthetic examples were used for every product category.
 
 ## Known Limitations
@@ -316,9 +312,5 @@ The recruiter-review path does not require a backend or paid API.
 ## Future Improvements
 
 - Add optional bring-your-own-key AI integrations.
-- Maintain deployed evidence and use the curated six-repository pin recommendation in `docs/PORTFOLIO_STRATEGY.md`.
+- Continue strengthening the strongest workflows with deeper integrations and evaluation data.
 - Add live API-backed variants only when privacy, cost, and security boundaries are clear.
-
-## AI-Assisted Development
-
-Gabe used AI-assisted development to turn product briefs into functioning static demos, documentation, validation checks, and a portfolio narrative. Gabe's truthful role is product direction, workflow thinking, prompt engineering, testing, iteration, and visual refinement.

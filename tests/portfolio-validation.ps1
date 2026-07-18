@@ -6,18 +6,10 @@ $requiredFiles = @(
   "assets/styles.css",
   "assets/portfolio.js",
   "README.md",
-  "PORTFOLIO_ROADMAP.md",
-  "PORTFOLIO_STATE.md",
-  "DECISIONS.md",
-  "BLOCKERS.md",
   "PORTFOLIO_SCORECARD.md",
   "PORTFOLIO_CAPABILITY_LEDGER.md",
   "PROJECT_NOVELTY_MATRIX.md",
   "PHASE_TWO_CANDIDATES.md",
-  "EXPANSION_ROADMAP.md",
-  "NEXT_5_PROJECTS.md",
-  "docs/PORTFOLIO_STRATEGY.md",
-  "docs/RECRUITER_REVIEW.md",
   "docs/CASE_STUDIES.md",
   "tools/static-server.ps1",
   "tools/static-server.mjs",
@@ -97,7 +89,7 @@ foreach ($product in @("signalops", "reviewflow", "doctrace", "frameforge", "pil
   }
 }
 
-foreach ($phrase in @("synthetic", "Human", "deterministic", "AI-assisted")) {
+foreach ($phrase in @("synthetic", "Human", "deterministic")) {
   if ($allText -notmatch [Regex]::Escape($phrase)) {
     $failures.Add("Required documentation phrase missing: $phrase")
   }
