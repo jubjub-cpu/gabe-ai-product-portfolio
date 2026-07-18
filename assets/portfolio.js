@@ -87,14 +87,17 @@
     pilotmap: {
       name: "PilotMap AI",
       shortName: "PilotMap",
-      subtitle: "Responsible AI opportunity design",
+      subtitle: "Archived scoring concept; QueueCast replacement available",
       path: "projects/pilotmap-ai/index.html",
+      standaloneDemo: "https://jubjub-cpu.github.io/queuecast-planner/",
+      standaloneRepo: "https://github.com/jubjub-cpu/queuecast-planner",
+      standaloneRelease: "https://github.com/jubjub-cpu/queuecast-planner/releases/tag/v1.0.0",
       accent: "green",
-      problem: "Businesses often see AI hype but lack a safe way to prioritize practical, reviewable pilot opportunities.",
-      user: "SMB owners, operators, and transformation leads",
-      ai: "Scores workflow suitability, data readiness, human-oversight needs, risk, and pilot recommendations from a workflow intake.",
-      oversight: "Scores are illustrative and require business validation before investment decisions.",
-      features: ["Workflow intake", "Suitability scoring", "Risk review", "Pilot roadmap"],
+      problem: "Service teams need transparent demand uncertainty and capacity tradeoffs before adopting a staffing scenario.",
+      user: "Workforce planners and service operations leads",
+      ai: "The QueueCast replacement exposes trend, residual uncertainty, five scenario assumptions, capacity risk, required staffing, and a quantified brief.",
+      oversight: "No worker schedule or employment action is created; a workforce planner adopts or rejects each scenario.",
+      features: ["Demand forecast", "Uncertainty band", "Capacity simulation", "Human planning gate"],
       capabilities: ["Prompt engineering", "AI workflow design", "Business-process automation", "Human-in-the-loop review", "Data visualization", "Security awareness", "Product documentation"]
     }
   };

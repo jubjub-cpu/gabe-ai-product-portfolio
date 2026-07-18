@@ -16,7 +16,7 @@ The portfolio does not claim traditional software engineering employment, produc
 | ReviewFlow Agent | Procurement teams need consistent, approval-sensitive handling for vendor exceptions. | Structured extraction, classification, policy checks, staged planning, two human gates, decision history. | [Suite demo](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/reviewflow-agent/) / [Standalone](https://jubjub-cpu.github.io/reviewflow-agent/) |
 | DocuTrace Desk | Reviewers need document answers with source evidence. | Retrieval, structured extraction, citations, version comparison, human verification. | [Suite demo](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/doctrace-desk/) / [Standalone](https://jubjub-cpu.github.io/doctrace-desk/) |
 | FrameForge Inspect | Creative teams need a repeatable first pass for still-image delivery defects. | Actual Canvas pixel metrics, clipping and contrast checks, regional overlays, baseline comparison, human delivery gate. | [Archived suite concept](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/frameforge-qa/) / [Standalone](https://jubjub-cpu.github.io/frameforge-inspect/) |
-| PilotMap AI | Businesses need a safe way to prioritize AI opportunities. | Suitability scoring, risk assessment, data readiness, pilot roadmap. | `projects/pilotmap-ai/index.html` |
+| QueueCast Planner | Service teams need visible demand uncertainty and capacity tradeoffs before staffing decisions. | Explainable trend, uncertainty band, five-assumption simulation, weekly risk, staffing brief, human planning gate. | [Archived PilotMap concept](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/pilotmap-ai/) / [Standalone](https://jubjub-cpu.github.io/queuecast-planner/) |
 
 ## Business Problem
 
@@ -69,6 +69,10 @@ Current screenshots captured from the implemented local app:
 
 ![Standalone FrameForge mobile](docs/screenshots/frameforge-standalone-mobile.png)
 
+![Standalone QueueCast desktop](docs/screenshots/queuecast-standalone-desktop.png)
+
+![Standalone QueueCast mobile](docs/screenshots/queuecast-standalone-mobile.png)
+
 ![Mobile portfolio](docs/screenshots/portfolio-mobile.png)
 
 ## Live Demo
@@ -112,6 +116,12 @@ Standalone FrameForge Inspect:
 - [Live demo](https://jubjub-cpu.github.io/frameforge-inspect/)
 - [Repository](https://github.com/jubjub-cpu/frameforge-inspect)
 - [v1.0.0 release](https://github.com/jubjub-cpu/frameforge-inspect/releases/tag/v1.0.0)
+
+Standalone QueueCast Planner:
+
+- [Live demo](https://jubjub-cpu.github.io/queuecast-planner/)
+- [Repository](https://github.com/jubjub-cpu/queuecast-planner)
+- [v1.0.0 release](https://github.com/jubjub-cpu/queuecast-planner/releases/tag/v1.0.0)
 
 Local fallback:
 
@@ -213,7 +223,7 @@ Latest local validation:
 - Mobile check: central portfolio rendered with five project cards at 390 px width.
 - Browser console errors: none observed.
 
-The repeatable browser integration check is available at `tests/portfolio-browser-smoke.mjs`. It verifies the five-card desktop and mobile layouts and the standalone DocuTrace, ReviewFlow, and FrameForge live, repository, and release links.
+The repeatable browser integration check verifies the five-card desktop and mobile layouts plus standalone DocuTrace, ReviewFlow, FrameForge, and QueueCast live, repository, and release links.
 
 ## Deployment
 
@@ -238,7 +248,7 @@ The recruiter-review path does not require a backend or paid API.
 ## Future Improvements
 
 - Add optional bring-your-own-key AI integrations.
-- Replace PilotMap's standalone slot with QueueCast Planner for forecasting and capacity simulation.
+- Build the five selected Phase Two products in `PHASE_TWO_CANDIDATES.md`.
 - Add live API-backed variants only when privacy, cost, and security boundaries are clear.
 
 ## AI-Assisted Development

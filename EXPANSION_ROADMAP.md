@@ -8,13 +8,13 @@
 | 2 | DocuTrace Desk | Strong evidence-first concept; embedded implementation was too narrow | Rebuild | Complete | https://github.com/jubjub-cpu/doctrace-desk | https://jubjub-cpu.github.io/doctrace-desk/ | v1.0.0 released; issues 1-3 closed | Optional Actions workflow scope unavailable | Maintain and feature |
 | 3 | ReviewFlow Agent | Valuable orchestration concept; embedded workflow was generic | Rebuild | Complete | https://github.com/jubjub-cpu/reviewflow-agent | https://jubjub-cpu.github.io/reviewflow-agent/ | v1.0.0 released; issues 1-3 closed | Optional Actions workflow scope unavailable | Maintain and feature |
 | 4 | FrameForge QA | Creative problem was useful; embedded app did not process media | Rebuilt substantially as FrameForge Inspect | Complete | https://github.com/jubjub-cpu/frameforge-inspect | https://jubjub-cpu.github.io/frameforge-inspect/ | v1.0.0 released; issues 1-3 closed | Optional Actions workflow scope unavailable | Maintain and feature; preserve embedded original as archive |
-| 5 | PilotMap AI | Generic weighted scoring is repetitive and weak | Replace with QueueCast Planner; preserve embedded demo in archive | Queued | Planned: `jubjub-cpu/queuecast-planner` | Planned: GitHub Pages | Not started | None | Build forecasting and capacity simulation workflow |
+| 5 | PilotMap AI | Generic weighted scoring was repetitive and weak | Replaced with QueueCast Planner; embedded demo preserved as archive | Complete | https://github.com/jubjub-cpu/queuecast-planner | https://jubjub-cpu.github.io/queuecast-planner/ | v1.0.0 released; issues 1-3 closed | Optional Actions workflow scope unavailable | Maintain and feature |
 
-Phase One is 4 of 5 standalone foundation projects complete.
+Phase One is complete: 5 of 5 strong standalone foundation projects exist.
 
 ## Phase Two: Net-New Expansion Wave
 
-Status: candidate generation pending completion of Phase One. At least ten candidates will be scored before five are selected.
+Status: twelve candidates scored and five selected in `PHASE_TWO_CANDIDATES.md`. EvalDeck Studio is first.
 
 The selection must collectively include a developer-facing product, a local-first privacy product, formal AI-output evaluation, at least three industries, three interfaces, and three primary data types. No candidate is approved merely because it appeared in the earlier `NEXT_5_PROJECTS.md` list.
 
@@ -23,4 +23,4 @@ The selection must collectively include a developer-facing product, a local-firs
 - Featured target: six to eight strongest and most varied products.
 - Additional projects: complete releases that add useful evidence but duplicate a featured signal.
 - Lab/archive: embedded originals, replaced concepts, and experiments.
-- Current manual pin order: `gabe-ai-product-portfolio`, `signalops-triage`, `doctrace-desk`, `reviewflow-agent`, `frameforge-inspect`.
+- Current manual pin order: `gabe-ai-product-portfolio`, `signalops-triage`, `doctrace-desk`, `reviewflow-agent`, `frameforge-inspect`, `queuecast-planner`.

@@ -16,6 +16,8 @@ My current focus is AI-assisted development, prompt engineering, workflow design
 - **ReviewFlow Repository:** https://github.com/jubjub-cpu/reviewflow-agent
 - **Standalone FrameForge Inspect:** https://jubjub-cpu.github.io/frameforge-inspect/
 - **FrameForge Repository:** https://github.com/jubjub-cpu/frameforge-inspect
+- **Standalone QueueCast:** https://jubjub-cpu.github.io/queuecast-planner/
+- **QueueCast Repository:** https://github.com/jubjub-cpu/queuecast-planner
 
 | Project | What It Demonstrates |
 | --- | --- |
@@ -23,7 +25,7 @@ My current focus is AI-assisted development, prompt engineering, workflow design
 | ReviewFlow Agent | Standalone vendor-exception orchestration with extraction, visible policy checks, blocked evidence, editable drafting, two human approval gates, and deployed browser tests. |
 | DocuTrace Desk | Standalone local-first document review with cited retrieval, structured extraction, version comparison, human verification, and deployed browser tests. |
 | FrameForge Inspect | Standalone local-first Canvas image inspection with measured pixel metrics, regional overlays, baseline comparison, local file boundaries, and a human delivery gate. |
-| PilotMap AI | Responsible AI opportunity scoring, risk review, and pilot planning. |
+| QueueCast Planner | Explainable demand forecasting, residual uncertainty, five-assumption capacity simulation, weekly risk, and a human planning gate. |
 
 ## AI Patterns
 
@@ -36,6 +38,7 @@ My current focus is AI-assisted development, prompt engineering, workflow design
 - Creative media handoff planning
 - Browser image processing and visual QA
 - Responsible AI opportunity assessment
+- Forecasting, uncertainty, and capacity simulation
 
 ## Current Learning Focus
 

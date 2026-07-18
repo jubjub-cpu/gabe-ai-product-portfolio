@@ -2,7 +2,7 @@
 
 Status key: **Strong** = implemented and directly testable; **Partial** = visible but narrow; **Mentioned** = documented without meaningful implementation; **Missing** = not demonstrated.
 
-| Capability | SignalOps standalone | DocuTrace standalone | ReviewFlow standalone | FrameForge standalone | PilotMap embedded | Portfolio status |
+| Capability | SignalOps standalone | DocuTrace standalone | ReviewFlow standalone | FrameForge standalone | QueueCast standalone | Portfolio status |
 | --- | --- | --- | --- | --- | --- | --- |
 | Prompt engineering | Partial | Partial | Partial | Partial | Partial | Partial |
 | Classification | Strong | Missing | Strong | Missing | Partial | Strong |
@@ -15,7 +15,7 @@ Status key: **Strong** = implemented and directly testable; **Partial** = visibl
 | Computer vision | Missing | Missing | Missing | Strong | Missing | Strong |
 | Audio processing | Missing | Missing | Missing | Missing | Missing | Missing |
 | Semantic search | Missing | Mentioned | Missing | Missing | Missing | Mentioned |
-| Forecasting | Missing | Missing | Missing | Missing | Missing | Missing |
+| Forecasting | Missing | Missing | Missing | Missing | Strong | Strong |
 | Anomaly detection | Partial | Missing | Missing | Missing | Missing | Partial |
 | Data visualization | Strong | Partial | Partial | Partial | Strong | Strong |
 | Local-first processing | Strong | Strong | Strong | Strong | Strong | Strong |
@@ -37,6 +37,6 @@ Status key: **Strong** = implemented and directly testable; **Partial** = visibl
 | DocuTrace Desk | Rebuilt | Standalone v1.0.0 with retrieval, cited answers, extraction, version comparison, local processing, human verification, and deployed browser tests |
 | ReviewFlow Agent | Rebuilt | Standalone v1.0.0 with extracted facts, visible policy checks, blocked evidence, staged execution, two human gates, event history, export, and deployed tests |
 | FrameForge Inspect | Rebuilt substantially | Standalone v1.0.0 with actual Canvas pixel metrics, generated PNG fixtures, regional overlays, local file processing, comparison, human decision, export, and deployed tests |
-| PilotMap AI | Replace; preserve embedded original as archive | QueueCast Planner will add forecasting, scenario simulation, uncertainty, and stronger visualization |
+| QueueCast Planner | Replaced PilotMap | Standalone v1.0.0 with trend forecasting, residual uncertainty, five scenario assumptions, weekly capacity risk, Canvas visualization, human adoption, export, and deployed tests |
 
 The Phase Two wave must add formal evaluation, developer tooling, API design, audio, background automation, and privacy-preserving processing.

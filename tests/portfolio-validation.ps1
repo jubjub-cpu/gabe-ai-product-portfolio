@@ -13,6 +13,7 @@ $requiredFiles = @(
   "PORTFOLIO_SCORECARD.md",
   "PORTFOLIO_CAPABILITY_LEDGER.md",
   "PROJECT_NOVELTY_MATRIX.md",
+  "PHASE_TWO_CANDIDATES.md",
   "EXPANSION_ROADMAP.md",
   "NEXT_5_PROJECTS.md",
   "docs/PORTFOLIO_STRATEGY.md",
@@ -32,7 +33,9 @@ $standaloneEvidence = @(
   "docs/screenshots/reviewflow-standalone-desktop.png",
   "docs/screenshots/reviewflow-standalone-mobile.png",
   "docs/screenshots/frameforge-standalone-desktop.png",
-  "docs/screenshots/frameforge-standalone-mobile.png"
+  "docs/screenshots/frameforge-standalone-mobile.png",
+  "docs/screenshots/queuecast-standalone-desktop.png",
+  "docs/screenshots/queuecast-standalone-mobile.png"
 )
 
 $productPages = @(
@@ -100,7 +103,10 @@ foreach ($url in @(
   "https://github.com/jubjub-cpu/reviewflow-agent/releases/tag/v1.0.0",
   "https://jubjub-cpu.github.io/frameforge-inspect/",
   "https://github.com/jubjub-cpu/frameforge-inspect",
-  "https://github.com/jubjub-cpu/frameforge-inspect/releases/tag/v1.0.0"
+  "https://github.com/jubjub-cpu/frameforge-inspect/releases/tag/v1.0.0",
+  "https://jubjub-cpu.github.io/queuecast-planner/",
+  "https://github.com/jubjub-cpu/queuecast-planner",
+  "https://github.com/jubjub-cpu/queuecast-planner/releases/tag/v1.0.0"
 )) {
   if ($allText -notmatch [Regex]::Escape($url)) {
     $failures.Add("Standalone project URL missing: $url")

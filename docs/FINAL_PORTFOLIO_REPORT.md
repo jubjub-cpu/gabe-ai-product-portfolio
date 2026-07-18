@@ -16,7 +16,7 @@ Gabe is positioned as an AI Digital Product Developer who uses AI-assisted devel
 | ReviewFlow Agent | [Suite demo](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/reviewflow-agent/) / [Standalone demo](https://jubjub-cpu.github.io/reviewflow-agent/) | Vendor exceptions need consistent policy handling. | Procurement operations managers | Extraction, classification, policy checks, staged planning, two human gates, event history. | Static HTML/CSS/JS | Logic, repository, local browser, and deployed browser checks passed | Standalone v1.0.0 published |
 | DocuTrace Desk | [Suite demo](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/doctrace-desk/) / [Standalone demo](https://jubjub-cpu.github.io/doctrace-desk/) | Document review needs source evidence. | Procurement and operations reviewers | Retrieval, cited answers, extraction, version comparison, human verification. | Static HTML/CSS/JS | Logic, repository, local browser, and deployed browser checks passed | Standalone v1.0.0 published |
 | FrameForge Inspect | [Archived suite concept](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/frameforge-qa/) / [Standalone demo](https://jubjub-cpu.github.io/frameforge-inspect/) | Still-image delivery defects need a repeatable local first pass. | Content QA leads and creators | Canvas pixel metrics, clipping and contrast checks, regional overlays, baseline comparison, human decision. | Static HTML/CSS/JS and Canvas | Logic, repository, fixture, local browser, and deployed browser checks passed | Standalone v1.0.0 published |
-| PilotMap AI | [Demo](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/pilotmap-ai/) | Businesses need responsible AI opportunity prioritization. | SMB owners and transformation leads | Suitability scoring, risk review, pilot roadmap. | Static HTML/CSS/JS | Passed validation and browser interaction | Published |
+| QueueCast Planner | [Archived PilotMap concept](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/pilotmap-ai/) / [Standalone demo](https://jubjub-cpu.github.io/queuecast-planner/) | Service teams need uncertainty-aware capacity scenarios. | Workforce planners | Trend forecast, residual uncertainty, five-assumption simulation, weekly risk, staffing brief, human decision. | Static HTML/CSS/JS and Canvas | Logic, repository, local browser, and deployed browser checks passed | Standalone v1.0.0 published |
 
 ## Capability Matrix
 
@@ -37,6 +37,7 @@ The profile README links to the live portfolio and truthfully describes Gabe's A
 3. `doctrace-desk`
 4. `reviewflow-agent`
 5. `frameforge-inspect`
+6. `queuecast-planner`
 
 ## Testing Summary
 
@@ -88,6 +89,10 @@ Standalone FrameForge Inspect release:
 
 [https://github.com/jubjub-cpu/frameforge-inspect/releases/tag/v1.0.0](https://github.com/jubjub-cpu/frameforge-inspect/releases/tag/v1.0.0)
 
+Standalone QueueCast Planner deployment: https://jubjub-cpu.github.io/queuecast-planner/
+
+Standalone QueueCast Planner release: https://github.com/jubjub-cpu/queuecast-planner/releases/tag/v1.0.0
+
 ## Privacy and Security Summary
 
 All product data is fictional or synthetic. No real customer records, payment-card records, credentials, private communications, employee data, or production logs are included. The validation script scans for common secret patterns.
@@ -96,7 +101,7 @@ All product data is fictional or synthetic. No real customer records, payment-ca
 
 - Pin `gabe-ai-product-portfolio` on the GitHub profile manually. The available GitHub GraphQL schema did not expose a repository-pinning mutation in this environment.
 - Pin `signalops-triage` manually as the strongest standalone operations-intelligence project.
-- Build QueueCast Planner as the final standalone foundation replacement.
+- Build the five selected Phase Two products in `PHASE_TWO_CANDIDATES.md`.
 
 ## Next Five Projects
 

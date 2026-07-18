@@ -8,6 +8,7 @@ Scores use a 0-5 scale and reflect verified evidence. Total possible score is 55
 | DocuTrace Desk, standalone | 5 | 5 | 5 | 4 | 5 | 5 | 5 | 4 | 5 | 5 | 5 | 53 |
 | ReviewFlow Agent, standalone | 5 | 5 | 5 | 4 | 5 | 5 | 5 | 4 | 5 | 5 | 5 | 53 |
 | FrameForge Inspect, standalone | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 4 | 5 | 5 | 5 | 54 |
+| QueueCast Planner, standalone | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 55 |
 | DocuTrace Desk, embedded archive | 4 | 4 | 3 | 3 | 2 | 3 | 3 | 4 | 4 | 3 | 4 | 37 |
 | ReviewFlow Agent, embedded | 3 | 3 | 3 | 2 | 2 | 3 | 3 | 4 | 4 | 3 | 3 | 33 |
 | FrameForge QA, embedded | 4 | 3 | 2 | 2 | 2 | 3 | 3 | 4 | 4 | 3 | 3 | 33 |
@@ -19,4 +20,4 @@ Scores use a 0-5 scale and reflect verified evidence. Total possible score is 55
 - SignalOps remains the strongest operations-intelligence proof point.
 - ReviewFlow now provides the strongest orchestration proof through visible policy checks, blocked state, editable drafting, two separate human gates, and an event log.
 - FrameForge now provides the portfolio's strongest client-side media-processing evidence through actual Canvas pixels, transparent metrics, region overlays, local file boundaries, and deployed workflow tests.
-- PilotMap is retained as an embedded archive and replaced in the standalone foundation.
+- QueueCast replaces PilotMap with the portfolio's first forecasting, uncertainty, scenario simulation, and quantitative capacity-planning evidence.

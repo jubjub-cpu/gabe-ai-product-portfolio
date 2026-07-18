@@ -34,3 +34,4 @@ When repositories are available, pin:
 3. `doctrace-desk`
 4. `reviewflow-agent`
 5. `frameforge-inspect`
+6. `queuecast-planner`
