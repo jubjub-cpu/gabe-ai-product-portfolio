@@ -39,14 +39,17 @@
     reviewflow: {
       name: "ReviewFlow Agent",
       shortName: "ReviewFlow",
-      subtitle: "Human-reviewed workflow automation",
+      subtitle: "Vendor exception orchestration with two human gates",
       path: "projects/reviewflow-agent/index.html",
+      standaloneDemo: "https://jubjub-cpu.github.io/reviewflow-agent/",
+      standaloneRepo: "https://github.com/jubjub-cpu/reviewflow-agent",
+      standaloneRelease: "https://github.com/jubjub-cpu/reviewflow-agent/releases/tag/v1.0.0",
       accent: "amber",
-      problem: "Small teams manually turn messy vendor requests into repeatable checklists, emails, and approval records.",
-      user: "Operations managers and admin teams",
-      ai: "Turns a business request into classification, plan, tool-like checks, a draft response, and a reviewable final output.",
-      oversight: "Every generated action is routed through approve or reject before finalization.",
-      features: ["Input intake", "Agent steps", "Draft output", "Activity history"],
+      problem: "Procurement teams handle policy-sensitive vendor exceptions inconsistently and risk acting before required evidence is complete.",
+      user: "Procurement operations managers",
+      ai: "Extracts request facts, classifies the exception, runs visible policy checks, proposes a staged plan, and drafts a response without transmitting it.",
+      oversight: "A policy owner approves the exception plan, then a second human approves the editable outbound response.",
+      features: ["Policy checks", "Blocked evidence state", "Two approval gates", "Decision log"],
       capabilities: ["Prompt engineering", "AI workflow design", "Agent-style orchestration", "Business-process automation", "Human-in-the-loop review", "Testing", "Product documentation"]
     },
     doctrace: {

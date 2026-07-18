@@ -6,11 +6,11 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | SignalOps Triage | Specific, complete, distinct operations workflow | Keep | Complete | https://github.com/jubjub-cpu/signalops-triage | https://jubjub-cpu.github.io/signalops-triage/ | v1.0.0 released; issues 1-3 closed | None | Maintain |
 | 2 | DocuTrace Desk | Strong evidence-first concept; embedded implementation was too narrow | Rebuild | Complete | https://github.com/jubjub-cpu/doctrace-desk | https://jubjub-cpu.github.io/doctrace-desk/ | v1.0.0 released; issues 1-3 closed | Optional Actions workflow scope unavailable | Maintain and feature |
-| 3 | ReviewFlow Agent | Valuable orchestration concept; current workflow is generic | Rebuild | In progress next | Planned: `jubjub-cpu/reviewflow-agent` | Planned: GitHub Pages | Kickoff next | None | Create repository and vendor-exception kickoff issue |
+| 3 | ReviewFlow Agent | Valuable orchestration concept; embedded workflow was generic | Rebuild | Complete | https://github.com/jubjub-cpu/reviewflow-agent | https://jubjub-cpu.github.io/reviewflow-agent/ | v1.0.0 released; issues 1-3 closed | Optional Actions workflow scope unavailable | Maintain and feature |
 | 4 | FrameForge QA | Creative problem is useful; current app does not process media | Rebuild substantially as FrameForge Inspect | Queued | Planned: `jubjub-cpu/frameforge-inspect` | Planned: GitHub Pages | Not started | None | Add browser pixel analysis and fixture tests |
 | 5 | PilotMap AI | Generic weighted scoring is repetitive and weak | Replace with QueueCast Planner; preserve embedded demo in archive | Queued | Planned: `jubjub-cpu/queuecast-planner` | Planned: GitHub Pages | Not started | None | Build forecasting and capacity simulation workflow |
 
-Phase One is 2 of 5 standalone foundation projects complete.
+Phase One is 3 of 5 standalone foundation projects complete.
 
 ## Phase Two: Net-New Expansion Wave
 
@@ -23,4 +23,4 @@ The selection must collectively include a developer-facing product, a local-firs
 - Featured target: six to eight strongest and most varied products.
 - Additional projects: complete releases that add useful evidence but duplicate a featured signal.
 - Lab/archive: embedded originals, replaced concepts, and experiments.
-- Current manual pin order: `gabe-ai-product-portfolio`, `signalops-triage`, `doctrace-desk`.
+- Current manual pin order: `gabe-ai-product-portfolio`, `signalops-triage`, `doctrace-desk`, `reviewflow-agent`.

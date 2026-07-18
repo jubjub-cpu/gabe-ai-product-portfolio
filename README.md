@@ -13,7 +13,7 @@ The portfolio does not claim traditional software engineering employment, produc
 | Project | Business Problem | AI Capability | Demo |
 | --- | --- | --- | --- |
 | SignalOps Triage | Field-service teams need consistent incident triage and dispatch recommendations. | Classification, severity scoring, repeated-failure detection, human approval. | [Suite demo](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/signalops-triage/) / [Standalone](https://jubjub-cpu.github.io/signalops-triage/) |
-| ReviewFlow Agent | Admin teams need repeatable review workflows for messy requests. | Agent-style planning, tool-like checks, draft output, approval history. | `projects/reviewflow-agent/index.html` |
+| ReviewFlow Agent | Procurement teams need consistent, approval-sensitive handling for vendor exceptions. | Structured extraction, classification, policy checks, staged planning, two human gates, decision history. | [Suite demo](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/reviewflow-agent/) / [Standalone](https://jubjub-cpu.github.io/reviewflow-agent/) |
 | DocuTrace Desk | Reviewers need document answers with source evidence. | Retrieval, structured extraction, citations, version comparison, human verification. | [Suite demo](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/doctrace-desk/) / [Standalone](https://jubjub-cpu.github.io/doctrace-desk/) |
 | FrameForge QA | Creative teams need cleaner briefs, revision notes, and handoffs. | Creative brief generation, visual QA, shot lists, captions, metadata. | `projects/frameforge-qa/index.html` |
 | PilotMap AI | Businesses need a safe way to prioritize AI opportunities. | Suitability scoring, risk assessment, data readiness, pilot roadmap. | `projects/pilotmap-ai/index.html` |
@@ -61,6 +61,10 @@ Current screenshots captured from the implemented local app:
 
 ![Standalone DocuTrace mobile](docs/screenshots/doctrace-standalone-mobile.png)
 
+![Standalone ReviewFlow desktop](docs/screenshots/reviewflow-standalone-desktop.png)
+
+![Standalone ReviewFlow mobile](docs/screenshots/reviewflow-standalone-mobile.png)
+
 ![Mobile portfolio](docs/screenshots/portfolio-mobile.png)
 
 ## Live Demo
@@ -92,6 +96,12 @@ Standalone DocuTrace:
 - [Live demo](https://jubjub-cpu.github.io/doctrace-desk/)
 - [Repository](https://github.com/jubjub-cpu/doctrace-desk)
 - [v1.0.0 release](https://github.com/jubjub-cpu/doctrace-desk/releases/tag/v1.0.0)
+
+Standalone ReviewFlow:
+
+- [Live demo](https://jubjub-cpu.github.io/reviewflow-agent/)
+- [Repository](https://github.com/jubjub-cpu/reviewflow-agent)
+- [v1.0.0 release](https://github.com/jubjub-cpu/reviewflow-agent/releases/tag/v1.0.0)
 
 Local fallback:
 
@@ -193,7 +203,7 @@ Latest local validation:
 - Mobile check: central portfolio rendered with five project cards at 390 px width.
 - Browser console errors: none observed.
 
-The repeatable browser integration check is available at `tests/portfolio-browser-smoke.mjs`. It verifies the five-card desktop and mobile layouts and the standalone DocuTrace live, repository, and release links.
+The repeatable browser integration check is available at `tests/portfolio-browser-smoke.mjs`. It verifies the five-card desktop and mobile layouts and the standalone DocuTrace and ReviewFlow live, repository, and release links.
 
 ## Deployment
 
@@ -218,7 +228,7 @@ The recruiter-review path does not require a backend or paid API.
 ## Future Improvements
 
 - Add optional bring-your-own-key AI integrations.
-- Rebuild ReviewFlow as the next standalone foundation project.
+- Rebuild FrameForge as FrameForge Inspect with real browser image analysis.
 - Rebuild FrameForge with real browser image analysis.
 - Preserve PilotMap as an archive and replace its foundation slot with QueueCast Planner.
 - Add live API-backed variants only when privacy, cost, and security boundaries are clear.

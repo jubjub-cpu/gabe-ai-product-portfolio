@@ -32,5 +32,5 @@ When repositories are available, pin:
 1. `gabe-ai-product-portfolio`
 2. `signalops-triage`
 3. `doctrace-desk`
-4. Future standalone ReviewFlow repository
+4. `reviewflow-agent`
 5. `Sporeborne`, only if made public after privacy and licensing review
