@@ -18,6 +18,7 @@ Status key: **Strong** = implemented and directly testable; **Partial** = visibl
 | Forecasting | Missing | Missing | Missing | Missing | Strong | Strong |
 | Anomaly detection | Partial | Missing | Missing | Missing | Missing | Strong via ColdChain |
 | Monitoring and observability | Partial | Missing | Partial | Missing | Partial | Strong via ColdChain |
+| Privacy-preserving text processing | Partial | Partial | Partial | Missing | Missing | Strong via CivicCase |
 | Data visualization | Strong | Partial | Partial | Partial | Strong | Strong |
 | Local-first processing | Strong | Strong | Strong | Strong | Strong | Strong |
 | Browser-based processing | Strong | Strong | Strong | Strong | Strong | Strong |
@@ -40,7 +41,7 @@ Status key: **Strong** = implemented and directly testable; **Partial** = visibl
 | FrameForge Inspect | Rebuilt substantially | Standalone v1.0.0 with actual Canvas pixel metrics, generated PNG fixtures, regional overlays, local file processing, comparison, human decision, export, and deployed tests |
 | QueueCast Planner | Replaced PilotMap | Standalone v1.0.0 with trend forecasting, residual uncertainty, five scenario assumptions, weekly capacity risk, Canvas visualization, human adoption, export, and deployed tests |
 
-The remaining Phase Two release must add privacy-preserving text processing and reversible redaction review; evaluation, developer tooling, API/event systems, audio, anomaly detection, and monitoring gaps are now covered.
+Phase Two is complete. Evaluation, developer tooling, API/event systems, audio, anomaly detection, monitoring, and privacy-preserving text processing all have strong released evidence.
 
 ## Phase Two Evidence
 
@@ -50,3 +51,4 @@ The remaining Phase Two release must add privacy-preserving text processing and 
 | FlowReplay Console | Versioned webhook contracts, response classification, retries and backoff, deterministic failure injection, idempotency, dead-letter recovery, replay audit, local JSON artifacts | Standalone v1.0.0 with engine, repository, local browser, deployed browser, Canvas, privacy, accessibility, screenshot, issue, and release evidence |
 | VoiceGauge Local | Real Web Audio decoding, generated WAV fixtures, PCM peak/RMS/clipping/silence/quiet-floor/pause metrics, Canvas overlays, baseline comparison, local import, human delivery gate | Standalone v1.0.0 with audio engine, fixture generation, repository, local browser, deployed browser, content-type, privacy, accessibility, screenshot, issue, and release evidence |
 | ColdChain Sentinel | Deterministic multivariate telemetry, persistence-aware excursions, clear hysteresis, visible spike suppression, cadence gaps, battery/signal/door evidence, Canvas timeline, policy tuning, human incident gate | Standalone v1.0.0 with engine, 188 readings, repository, local browser, deployed browser, export, privacy, accessibility, screenshot, issue, and release evidence |
+| CivicCase Redact | Offset-preserving direct-identifier rules, repeated-name context, reversible keep/redact decisions, manual exact-phrase spans, local import, protected preview, source fingerprint, value-free manifest, human release gate | Standalone v1.0.0 with engine, exact fixture counts, repository, local browser, deployed browser, JSON/text export, privacy, accessibility, screenshot, issue, and release evidence |

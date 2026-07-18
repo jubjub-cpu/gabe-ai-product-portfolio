@@ -12,6 +12,7 @@
     "Audio processing",
     "Anomaly detection",
     "Monitoring and observability",
+    "Privacy-preserving text processing",
     "Business-process automation",
     "Human-in-the-loop review",
     "Data visualization",
@@ -170,6 +171,22 @@
       oversight: "No shipment is disposed automatically; a human operator must provide written evidence before acknowledgement or escalation.",
       features: ["Telemetry timeline", "Anomaly persistence", "Sensor health", "Human incident gate"],
       capabilities: ["AI workflow design", "Anomaly detection", "Monitoring and observability", "Human-in-the-loop review", "Data visualization", "Testing", "Accessibility", "Security awareness", "Developer tooling", "Product documentation", "Visual design"]
+    },
+    civiccase: {
+      name: "CivicCase Redact",
+      shortName: "CivicCase",
+      subtitle: "Reversible local-first case-note privacy review",
+      path: "https://jubjub-cpu.github.io/civiccase-redact/",
+      pathLabel: "Open live demo",
+      standaloneRepo: "https://github.com/jubjub-cpu/civiccase-redact",
+      standaloneRelease: "https://github.com/jubjub-cpu/civiccase-redact/releases/tag/v1.0.0",
+      accent: "green",
+      problem: "Case-note reviewers need to find direct identifiers, resolve false positives, add missed sensitive spans, and prove human review before a protected copy is released.",
+      user: "Public-service operations teams, privacy reviewers, records teams, and trust-focused product teams",
+      ai: "Maps seven identifier categories to exact offsets, expands repeated-name context, exposes confidence and provenance, and creates a value-free release manifest.",
+      oversight: "Every suggested span must be marked redact or keep, and a written human release decision is required before export.",
+      features: ["Offset spans", "Reversible review", "Manual redaction", "Value-free manifest"],
+      capabilities: ["AI workflow design", "Structured extraction", "Privacy-preserving text processing", "Human-in-the-loop review", "Testing", "Accessibility", "Security awareness", "Developer tooling", "Product documentation", "Visual design"]
     }
   };
 

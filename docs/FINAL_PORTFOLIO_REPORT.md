@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-The five-project foundation is complete and the portfolio has expanded to nine released products with EvalDeck Studio, FlowReplay Console, VoiceGauge Local, and ColdChain Sentinel, the first four Phase Two releases. The published work includes runnable synthetic-data demos, central documentation, a capability matrix, case studies, validation checks, screenshots, closed milestone issues, and versioned GitHub releases.
+The autonomous build is complete: five matured foundation projects and five distinct Phase Two products are released as ten public, runnable products. EvalDeck Studio, FlowReplay Console, VoiceGauge Local, ColdChain Sentinel, and CivicCase Redact close the selected gaps in evaluation, developer infrastructure, audio, monitoring, anomaly detection, and privacy-preserving text review. Every standalone has documentation, validation checks, screenshots, closed delivery issues, and a versioned GitHub release.
 
 ## Gabe's Portfolio Positioning
 
@@ -21,6 +21,7 @@ Gabe is positioned as an AI Digital Product Developer who uses AI-assisted devel
 | FlowReplay Console | [Standalone demo](https://jubjub-cpu.github.io/flowreplay-console/) | Webhook failures need visible contract, retry, duplicate, and recovery evidence. | API product engineers and integration developers | Versioned contract preflight, retry/backoff, failure injection, idempotent no-ops, dead-letter recovery, human replay approval. | Static HTML/CSS/JS and Canvas | Engine, import/export, repository, local browser, and deployed browser checks passed | Standalone v1.0.0 published |
 | VoiceGauge Local | [Standalone demo](https://jubjub-cpu.github.io/voicegauge-local/) | Audio teams need a private first pass for clipping, silence, level, and background signal. | Content QA leads, producers, and creators | Real Web Audio decoding, PCM metrics, waveform findings, threshold policy, baseline comparison, local import, human handoff decision. | Static HTML/CSS/JS, Web Audio, and Canvas | Engine, generated fixtures, import/export, repository, local browser, and deployed browser checks passed | Standalone v1.0.0 published |
 | ColdChain Sentinel | [Standalone demo](https://jubjub-cpu.github.io/coldchain-sentinel/) | Cold-chain teams need to separate persistent excursions from spikes and unhealthy sensor evidence. | Logistics operations and quality leads | Multivariate telemetry, persistence, clear hysteresis, spike suppression, cadence, battery, signal, door evidence, and human disposition. | Static HTML/CSS/JS and Canvas | Engine, 188 readings, export, repository, local browser, and deployed browser checks passed | Standalone v1.0.0 published |
+| CivicCase Redact | [Standalone demo](https://jubjub-cpu.github.io/civiccase-redact/) | Case-note teams need reversible direct-identifier review before protected release. | Privacy reviewers and records teams | Seven identifier types, exact offsets, repeated-name context, reversible decisions, manual redaction, and value-free artifacts. | Static HTML/CSS/JS | Engine, exact fixtures, import/export, repository, local browser, and deployed browser checks passed | Standalone v1.0.0 published |
 
 ## Capability Matrix
 
@@ -39,15 +40,15 @@ The profile README links to the live portfolio and truthfully describes Gabe's A
 1. `gabe-ai-product-portfolio`
 2. `evaldeck-studio`
 3. `flowreplay-console`
-4. `coldchain-sentinel`
-5. `voicegauge-local`
-6. `doctrace-desk`
+4. `civiccase-redact`
+5. `coldchain-sentinel`
+6. `frameforge-inspect`
 
 ## Testing Summary
 
 - `PORTFOLIO VALIDATION PASSED`
 - Browser render checks passed.
-- Interaction checks passed for all five suite workflows plus EvalDeck's regression, FlowReplay's event-recovery, VoiceGauge's local audio, and ColdChain's telemetry incident workflows.
+- Interaction checks passed for all five suite workflows plus EvalDeck's regression, FlowReplay's event recovery, VoiceGauge's local audio, ColdChain's telemetry incidents, and CivicCase's reversible privacy review.
 - Mobile central portfolio check passed at 390 px.
 - No browser console errors observed.
 
@@ -59,7 +60,7 @@ The app is deployed on GitHub Pages:
 
 Release:
 
-[https://github.com/jubjub-cpu/gabe-ai-product-portfolio/releases/tag/v1.0.0](https://github.com/jubjub-cpu/gabe-ai-product-portfolio/releases/tag/v1.0.0)
+[https://github.com/jubjub-cpu/gabe-ai-product-portfolio/releases/tag/v2.0.0](https://github.com/jubjub-cpu/gabe-ai-product-portfolio/releases/tag/v2.0.0)
 
 Standalone SignalOps deployment:
 
@@ -113,20 +114,22 @@ Standalone ColdChain Sentinel deployment: https://jubjub-cpu.github.io/coldchain
 
 Standalone ColdChain Sentinel release: https://github.com/jubjub-cpu/coldchain-sentinel/releases/tag/v1.0.0
 
+Standalone CivicCase Redact deployment: https://jubjub-cpu.github.io/civiccase-redact/
+
+Standalone CivicCase Redact release: https://github.com/jubjub-cpu/civiccase-redact/releases/tag/v1.0.0
+
 ## Privacy and Security Summary
 
 All product data is fictional or synthetic. No real customer records, payment-card records, credentials, private communications, employee data, or production logs are included. The validation script scans for common secret patterns.
 
 ## Remaining Manual Actions
 
-- Pin `gabe-ai-product-portfolio` on the GitHub profile manually. The available GitHub GraphQL schema did not expose a repository-pinning mutation in this environment.
 - Apply the six-repository recommendation in `docs/PORTFOLIO_STRATEGY.md` manually; repository pinning is not exposed by the available API.
-- Build the final selected Phase Two product in `PHASE_TWO_CANDIDATES.md`.
 
-## Next Projects
+## Historical Planning
 
-See `NEXT_5_PROJECTS.md`.
+`NEXT_5_PROJECTS.md` preserves the original ideation record. `PHASE_TWO_CANDIDATES.md` is the authoritative scored selection and shows all five chosen products complete at v1.0.0.
 
 ## Suggested Next Career Step
 
-Use the central portfolio plus EvalDeck, FlowReplay, ColdChain, VoiceGauge, and DocuTrace to apply for AI product, evaluation, developer tooling, monitoring, media intelligence, workflow automation, and document intelligence roles while completing Phase Two.
+Use the central portfolio plus the curated pins to apply for AI product, evaluation, developer tooling, privacy, monitoring, media intelligence, workflow automation, and document intelligence roles. The ten-product build no longer depends on a future project to substantiate its positioning.

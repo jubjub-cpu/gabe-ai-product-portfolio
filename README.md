@@ -1,6 +1,6 @@
 # Gabe - AI Digital Product Developer Portfolio
 
-This portfolio features nine complete, local-first AI digital products that show practical workflow design, prompt-shaped reasoning, formal evaluation, event reliability, real browser media processing, telemetry monitoring, human review, synthetic data, and recruiter-friendly product documentation.
+This portfolio features ten complete, local-first AI digital products: five matured foundation products and five distinct Phase Two releases. Together they show workflow design, prompt-shaped reasoning, formal evaluation, event reliability, real browser media processing, telemetry monitoring, privacy-preserving text processing, human review, synthetic data, and recruiter-friendly product documentation.
 
 ## Overview
 
@@ -21,6 +21,7 @@ The portfolio does not claim traditional software engineering employment, produc
 | FlowReplay Console | Integration teams need to distinguish contract drift, transient failures, duplicates, and dead-letter recovery before replaying webhooks. | Versioned contracts, response classification, retry backoff, failure injection, idempotent no-ops, reasoned replay approval, JSON evidence. | [Standalone](https://jubjub-cpu.github.io/flowreplay-console/) |
 | VoiceGauge Local | Audio teams need a private first pass for clipping, level, silence, and background signal. | Real Web Audio decoding, six PCM metrics, timed Canvas findings, baseline comparison, local upload, threshold policy, human handoff gate. | [Standalone](https://jubjub-cpu.github.io/voicegauge-local/) |
 | ColdChain Sentinel | Cold-chain operators need to distinguish persistent excursions from noisy spikes and unhealthy sensor evidence. | Multivariate telemetry, persistence, clear hysteresis, spike suppression, sensor-gap detection, policy tuning, and a human incident gate. | [Standalone](https://jubjub-cpu.github.io/coldchain-sentinel/) |
+| CivicCase Redact | Case-note reviewers need reversible direct-identifier review before protected text is released. | Seven identifier types, exact offsets, repeated-name context, reversible decisions, manual redaction, value-free manifest, and a human release gate. | [Standalone](https://jubjub-cpu.github.io/civiccase-redact/) |
 
 ## Business Problem
 
@@ -28,7 +29,7 @@ Many businesses are interested in AI but struggle to translate messy workflows i
 
 ## Target Users
 
-The products are designed for operations coordinators, field-service teams, small business owners, administrative teams, analysts, creators, and hiring managers reviewing practical AI product potential.
+The products are designed for operations coordinators, AI quality teams, integration developers, document reviewers, workforce planners, creators, media producers, logistics teams, privacy reviewers, and hiring managers reviewing practical AI product potential.
 
 ## Product Approach
 
@@ -36,7 +37,7 @@ Each demo uses deterministic browser logic to simulate AI-style workflow support
 
 ## Main Features
 
-- Nine released product demos with synthetic data.
+- Ten released product demos with synthetic data.
 - Central portfolio page with project cards and capability matrix.
 - Human-in-the-loop review points in every product.
 - Recruiter-facing documentation, roadmap, scorecard, state tracking, blocker tracking, and case studies.
@@ -93,6 +94,10 @@ Current screenshots captured from the implemented local app:
 
 ![Standalone ColdChain mobile](docs/screenshots/coldchain-standalone-mobile.png)
 
+![Standalone CivicCase desktop](docs/screenshots/civiccase-standalone-desktop.png)
+
+![Standalone CivicCase mobile](docs/screenshots/civiccase-standalone-mobile.png)
+
 ![Mobile portfolio](docs/screenshots/portfolio-mobile.png)
 
 ## Live Demo
@@ -111,7 +116,7 @@ GitHub profile:
 
 Release:
 
-[v1.0.0 - Published AI product portfolio](https://github.com/jubjub-cpu/gabe-ai-product-portfolio/releases/tag/v1.0.0)
+[v2.0.0 - Complete ten-product AI portfolio](https://github.com/jubjub-cpu/gabe-ai-product-portfolio/releases/tag/v2.0.0)
 
 Standalone SignalOps:
 
@@ -167,6 +172,12 @@ Standalone ColdChain Sentinel:
 - [Repository](https://github.com/jubjub-cpu/coldchain-sentinel)
 - [v1.0.0 release](https://github.com/jubjub-cpu/coldchain-sentinel/releases/tag/v1.0.0)
 
+Standalone CivicCase Redact:
+
+- [Live demo](https://jubjub-cpu.github.io/civiccase-redact/)
+- [Repository](https://github.com/jubjub-cpu/civiccase-redact)
+- [v1.0.0 release](https://github.com/jubjub-cpu/civiccase-redact/releases/tag/v1.0.0)
+
 Local fallback:
 
 ```text
@@ -186,6 +197,7 @@ The demos show AI product patterns without pretending a paid model is running:
 - API contracts, event retries, idempotency, failure injection, and dead-letter recovery.
 - Web Audio decoding, PCM signal analysis, waveform overlays, and local audio privacy.
 - Multivariate telemetry monitoring, persistence-aware anomaly detection, clear hysteresis, and sensor-health evidence.
+- Offset-preserving direct-identifier detection, reversible privacy review, manual redaction, and value-free release artifacts.
 
 ## Human Oversight
 
@@ -266,12 +278,12 @@ powershell -ExecutionPolicy Bypass -File .\tests\portfolio-validation.ps1
 Latest local validation:
 
 - `PORTFOLIO VALIDATION PASSED`
-- Browser smoke test: all five suite workflows plus the EvalDeck, FlowReplay, VoiceGauge, and ColdChain integrations rendered.
+- Browser smoke test: all five suite workflows plus the EvalDeck, FlowReplay, VoiceGauge, ColdChain, and CivicCase integrations rendered.
 - Interaction test: SignalOps approval, ReviewFlow approval, DocuTrace citations, FrameForge revision review, and PilotMap scoring all responded.
-- Mobile check: central portfolio rendered with nine project cards at 390 px width.
+- Mobile check: central portfolio rendered with ten project cards at 390 px width.
 - Browser console errors: none observed.
 
-The repeatable browser integration check verifies the nine-card desktop and mobile layouts plus the standalone foundation, EvalDeck, FlowReplay, VoiceGauge, and ColdChain public links.
+The repeatable browser integration check verifies the ten-card desktop and mobile layouts plus every standalone foundation and Phase Two public link.
 
 ## Deployment
 
@@ -296,7 +308,7 @@ The recruiter-review path does not require a backend or paid API.
 ## Future Improvements
 
 - Add optional bring-your-own-key AI integrations.
-- Build the final selected Phase Two product in `PHASE_TWO_CANDIDATES.md`.
+- Maintain deployed evidence and use the curated six-repository pin recommendation in `docs/PORTFOLIO_STRATEGY.md`.
 - Add live API-backed variants only when privacy, cost, and security boundaries are clear.
 
 ## AI-Assisted Development

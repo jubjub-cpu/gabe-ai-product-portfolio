@@ -1,4 +1,6 @@
-# Next Five Projects
+# Historical Next Five Projects
+
+This file preserves the original ideation record. It is superseded by `PHASE_TWO_CANDIDATES.md`, where twelve candidates were scored and five distinct products were selected, built, validated, and released.
 
 ## 1. RouteBrief AI
 
@@ -409,4 +411,3 @@ Medium.
 ### Standalone Codex Prompt
 
 Build IntakeGuard as a responsible AI intake checker using fictional use cases. Implement use-case intake, data sensitivity classification, risk score, human-oversight checklist, guardrail recommendations, exportable summary, README, case study, validation script, and deployment notes. Do not provide legal advice or claim compliance certification. Use synthetic data only and complete after validation.
-

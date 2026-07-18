@@ -26,6 +26,8 @@ My current focus is AI-assisted development, prompt engineering, workflow design
 - **VoiceGauge Repository:** https://github.com/jubjub-cpu/voicegauge-local
 - **Standalone ColdChain:** https://jubjub-cpu.github.io/coldchain-sentinel/
 - **ColdChain Repository:** https://github.com/jubjub-cpu/coldchain-sentinel
+- **Standalone CivicCase:** https://jubjub-cpu.github.io/civiccase-redact/
+- **CivicCase Repository:** https://github.com/jubjub-cpu/civiccase-redact
 
 | Project | What It Demonstrates |
 | --- | --- |
@@ -38,6 +40,7 @@ My current focus is AI-assisted development, prompt engineering, workflow design
 | FlowReplay Console | Webhook reliability tooling with versioned contracts, retry/backoff simulation, failure injection, idempotent no-ops, dead-letter recovery, and a human replay gate. |
 | VoiceGauge Local | Privacy-first Web Audio QA with generated WAV fixtures, six real PCM metrics, waveform findings, baseline comparison, local import, and a human handoff gate. |
 | ColdChain Sentinel | Synthetic multivariate telemetry monitoring with persistence, clear hysteresis, spike suppression, sensor-health findings, a Canvas timeline, and a human incident gate. |
+| CivicCase Redact | Local-first case-note privacy review with seven identifier types, exact offsets, reversible span decisions, manual redaction, value-free exports, and a human release gate. |
 
 ## AI Patterns
 
@@ -56,6 +59,7 @@ My current focus is AI-assisted development, prompt engineering, workflow design
 - API contracts, event-driven retries, idempotency, and dead-letter recovery
 - Web Audio, local PCM analysis, waveform visualization, and privacy-first media processing
 - Multivariate telemetry, persistence-aware anomaly detection, clear hysteresis, and sensor-health monitoring
+- Offset-preserving identifier spans, reversible privacy review, manual redaction, and value-free release artifacts
 
 ## Current Learning Focus
 

@@ -223,6 +223,10 @@ textarea {
   gap: 0.85rem;
 }
 
+.project-card:last-child:nth-child(3n + 1) {
+  grid-column: 2;
+}
+
 .project-card,
 .workflow-card,
 .doc-card,
@@ -568,6 +572,10 @@ th {
 @media (max-width: 1040px) {
   .project-grid {
     grid-template-columns: repeat(2, minmax(220px, 1fr));
+  }
+
+  .project-card:last-child:nth-child(3n + 1) {
+    grid-column: auto;
   }
 
   .product-layout,

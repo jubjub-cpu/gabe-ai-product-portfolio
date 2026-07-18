@@ -14,13 +14,13 @@ Phase One is complete: 5 of 5 strong standalone foundation projects exist.
 
 ## Phase Two: Net-New Expansion Wave
 
-Status: 4 of 5 complete. EvalDeck Studio, FlowReplay Console, VoiceGauge Local, and ColdChain Sentinel are released at v1.0.0; CivicCase Redact is next.
+Status: 5 of 5 complete. EvalDeck Studio, FlowReplay Console, VoiceGauge Local, ColdChain Sentinel, and CivicCase Redact are released at v1.0.0 with local and deployed validation.
 
 The selection must collectively include a developer-facing product, a local-first privacy product, formal AI-output evaluation, at least three industries, three interfaces, and three primary data types. No candidate is approved merely because it appeared in the earlier `NEXT_5_PROJECTS.md` list.
 
 ## Portfolio Curation
 
-- Featured target: six to eight strongest and most varied products.
+- Central product set: all ten releases, preserving the five-product foundation and five-product expansion narrative.
 - Additional projects: complete releases that add useful evidence but duplicate a featured signal.
 - Lab/archive: embedded originals, replaced concepts, and experiments.
-- Current manual pin order: `gabe-ai-product-portfolio`, `signalops-triage`, `doctrace-desk`, `reviewflow-agent`, `frameforge-inspect`, `queuecast-planner`.
+- Current manual pin order: `gabe-ai-product-portfolio`, `evaldeck-studio`, `flowreplay-console`, `civiccase-redact`, `coldchain-sentinel`, `frameforge-inspect`.

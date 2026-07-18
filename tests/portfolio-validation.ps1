@@ -44,7 +44,9 @@ $standaloneEvidence = @(
   "docs/screenshots/voicegauge-standalone-desktop.png",
   "docs/screenshots/voicegauge-standalone-mobile.png",
   "docs/screenshots/coldchain-standalone-desktop.png",
-  "docs/screenshots/coldchain-standalone-mobile.png"
+  "docs/screenshots/coldchain-standalone-mobile.png",
+  "docs/screenshots/civiccase-standalone-desktop.png",
+  "docs/screenshots/civiccase-standalone-mobile.png"
 )
 
 $productPages = @(
@@ -102,6 +104,7 @@ foreach ($phrase in @("synthetic", "Human", "deterministic", "AI-assisted")) {
 }
 
 foreach ($url in @(
+  "https://github.com/jubjub-cpu/gabe-ai-product-portfolio/releases/tag/v2.0.0",
   "https://jubjub-cpu.github.io/signalops-triage/",
   "https://github.com/jubjub-cpu/signalops-triage",
   "https://jubjub-cpu.github.io/doctrace-desk/",
@@ -127,7 +130,10 @@ foreach ($url in @(
   "https://github.com/jubjub-cpu/voicegauge-local/releases/tag/v1.0.0",
   "https://jubjub-cpu.github.io/coldchain-sentinel/",
   "https://github.com/jubjub-cpu/coldchain-sentinel",
-  "https://github.com/jubjub-cpu/coldchain-sentinel/releases/tag/v1.0.0"
+  "https://github.com/jubjub-cpu/coldchain-sentinel/releases/tag/v1.0.0",
+  "https://jubjub-cpu.github.io/civiccase-redact/",
+  "https://github.com/jubjub-cpu/civiccase-redact",
+  "https://github.com/jubjub-cpu/civiccase-redact/releases/tag/v1.0.0"
 )) {
   if ($allText -notmatch [Regex]::Escape($url)) {
     $failures.Add("Standalone project URL missing: $url")
