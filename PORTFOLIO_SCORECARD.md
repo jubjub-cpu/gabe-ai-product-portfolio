@@ -7,6 +7,7 @@ Scores use a 0-5 scale and reflect verified evidence. Total possible score is 55
 | SignalOps Triage, standalone | 5 | 4 | 5 | 4 | 4 | 4 | 4 | 4 | 5 | 5 | 5 | 49 |
 | DocuTrace Desk, standalone | 5 | 5 | 5 | 4 | 5 | 5 | 5 | 4 | 5 | 5 | 5 | 53 |
 | ReviewFlow Agent, standalone | 5 | 5 | 5 | 4 | 5 | 5 | 5 | 4 | 5 | 5 | 5 | 53 |
+| FrameForge Inspect, standalone | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 4 | 5 | 5 | 5 | 54 |
 | DocuTrace Desk, embedded archive | 4 | 4 | 3 | 3 | 2 | 3 | 3 | 4 | 4 | 3 | 4 | 37 |
 | ReviewFlow Agent, embedded | 3 | 3 | 3 | 2 | 2 | 3 | 3 | 4 | 4 | 3 | 3 | 33 |
 | FrameForge QA, embedded | 4 | 3 | 2 | 2 | 2 | 3 | 3 | 4 | 4 | 3 | 3 | 33 |
@@ -17,5 +18,5 @@ Scores use a 0-5 scale and reflect verified evidence. Total possible score is 55
 - DocuTrace now leads the verified standalone projects because it combines a specific business workflow, cited evidence, structured output, failure states, human verification, repeatable browser tests, and deployed validation.
 - SignalOps remains the strongest operations-intelligence proof point.
 - ReviewFlow now provides the strongest orchestration proof through visible policy checks, blocked state, editable drafting, two separate human gates, and an event log.
-- FrameForge must perform real image analysis before claiming multimodal strength.
+- FrameForge now provides the portfolio's strongest client-side media-processing evidence through actual Canvas pixels, transparent metrics, region overlays, local file boundaries, and deployed workflow tests.
 - PilotMap is retained as an embedded archive and replaced in the standalone foundation.

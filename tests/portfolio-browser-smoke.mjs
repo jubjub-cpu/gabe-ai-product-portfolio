@@ -51,6 +51,10 @@ try {
   assert.equal(await reviewFlowCard.count(), 1, "ReviewFlow card should render once");
   assert.equal(await reviewFlowCard.getByRole("link", { name: "Standalone live" }).getAttribute("href"), "https://jubjub-cpu.github.io/reviewflow-agent/");
   assert.equal(await reviewFlowCard.getByRole("link", { name: "Repo" }).getAttribute("href"), "https://github.com/jubjub-cpu/reviewflow-agent");
+  const frameForgeCard = page.locator(".project-card").filter({ hasText: "FrameForge QA" });
+  assert.equal(await frameForgeCard.count(), 1, "FrameForge card should render once");
+  assert.equal(await frameForgeCard.getByRole("link", { name: "Standalone live" }).getAttribute("href"), "https://jubjub-cpu.github.io/frameforge-inspect/");
+  assert.equal(await frameForgeCard.getByRole("link", { name: "Repo" }).getAttribute("href"), "https://github.com/jubjub-cpu/frameforge-inspect");
   assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth), false, "Desktop portfolio should not overflow");
 
   await page.goto(`${baseUrl}projects/doctrace-desk/`, { waitUntil: "networkidle" });
@@ -62,6 +66,11 @@ try {
   assert.equal(await page.getByRole("link", { name: "Standalone live" }).getAttribute("href"), "https://jubjub-cpu.github.io/reviewflow-agent/");
   assert.equal(await page.getByRole("link", { name: "Repo" }).getAttribute("href"), "https://github.com/jubjub-cpu/reviewflow-agent");
   assert.equal(await page.getByRole("link", { name: "Release" }).getAttribute("href"), "https://github.com/jubjub-cpu/reviewflow-agent/releases/tag/v1.0.0");
+
+  await page.goto(`${baseUrl}projects/frameforge-qa/`, { waitUntil: "networkidle" });
+  assert.equal(await page.getByRole("link", { name: "Standalone live" }).getAttribute("href"), "https://jubjub-cpu.github.io/frameforge-inspect/");
+  assert.equal(await page.getByRole("link", { name: "Repo" }).getAttribute("href"), "https://github.com/jubjub-cpu/frameforge-inspect");
+  assert.equal(await page.getByRole("link", { name: "Release" }).getAttribute("href"), "https://github.com/jubjub-cpu/frameforge-inspect/releases/tag/v1.0.0");
   assert.deepEqual(consoleErrors, [], "Desktop portfolio should have no console errors");
   assert.deepEqual(failedRequests, [], "Desktop portfolio should have no failed requests");
   await desktop.close();
@@ -74,7 +83,7 @@ try {
   await mobile.close();
 
   console.log("PORTFOLIO BROWSER TESTS PASSED");
-  console.log(JSON.stringify({ target: deployedBaseUrl ? "deployed" : "local", cards: 5, docuTraceLinks: 3, reviewFlowLinks: 3, desktopOverflow: false, mobileOverflow: false, consoleErrors: 0, failedRequests: 0 }));
+  console.log(JSON.stringify({ target: deployedBaseUrl ? "deployed" : "local", cards: 5, docuTraceLinks: 3, reviewFlowLinks: 3, frameForgeLinks: 3, desktopOverflow: false, mobileOverflow: false, consoleErrors: 0, failedRequests: 0 }));
 } finally {
   if (browser) await browser.close();
   if (server) server.kill();

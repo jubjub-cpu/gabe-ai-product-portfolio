@@ -14,13 +14,15 @@ My current focus is AI-assisted development, prompt engineering, workflow design
 - **DocuTrace Repository:** https://github.com/jubjub-cpu/doctrace-desk
 - **Standalone ReviewFlow:** https://jubjub-cpu.github.io/reviewflow-agent/
 - **ReviewFlow Repository:** https://github.com/jubjub-cpu/reviewflow-agent
+- **Standalone FrameForge Inspect:** https://jubjub-cpu.github.io/frameforge-inspect/
+- **FrameForge Repository:** https://github.com/jubjub-cpu/frameforge-inspect
 
 | Project | What It Demonstrates |
 | --- | --- |
 | SignalOps Triage | AI-assisted field-service incident triage with human-approved dispatch recommendations, now available as a standalone repo and live demo. |
 | ReviewFlow Agent | Standalone vendor-exception orchestration with extraction, visible policy checks, blocked evidence, editable drafting, two human approval gates, and deployed browser tests. |
 | DocuTrace Desk | Standalone local-first document review with cited retrieval, structured extraction, version comparison, human verification, and deployed browser tests. |
-| FrameForge QA | Creative media review, revision tracking, captions, and shot-list generation. |
+| FrameForge Inspect | Standalone local-first Canvas image inspection with measured pixel metrics, regional overlays, baseline comparison, local file boundaries, and a human delivery gate. |
 | PilotMap AI | Responsible AI opportunity scoring, risk review, and pilot planning. |
 
 ## AI Patterns
@@ -32,6 +34,7 @@ My current focus is AI-assisted development, prompt engineering, workflow design
 - Operations triage
 - Rules-plus-AI workflow orchestration
 - Creative media handoff planning
+- Browser image processing and visual QA
 - Responsible AI opportunity assessment
 
 ## Current Learning Focus

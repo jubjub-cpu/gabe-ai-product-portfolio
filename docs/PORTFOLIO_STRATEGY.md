@@ -33,4 +33,4 @@ When repositories are available, pin:
 2. `signalops-triage`
 3. `doctrace-desk`
 4. `reviewflow-agent`
-5. `Sporeborne`, only if made public after privacy and licensing review
+5. `frameforge-inspect`

@@ -71,14 +71,17 @@
     frameforge: {
       name: "FrameForge QA",
       shortName: "FrameForge",
-      subtitle: "Creative media review assistant",
+      subtitle: "Archived handoff concept; standalone pixel inspector available",
       path: "projects/frameforge-qa/index.html",
+      standaloneDemo: "https://jubjub-cpu.github.io/frameforge-inspect/",
+      standaloneRepo: "https://github.com/jubjub-cpu/frameforge-inspect",
+      standaloneRelease: "https://github.com/jubjub-cpu/frameforge-inspect/releases/tag/v1.0.0",
       accent: "coral",
-      problem: "Photo and video projects often stall when briefs, revision notes, captions, and asset handoff details are scattered.",
+      problem: "Creative teams need an honest first pass for clipping, contrast, detail, and copy-zone risks before still-image delivery.",
       user: "Creators, small agencies, and content teams",
-      ai: "Turns creative goals into shot lists, visual QA notes, revision checklists, captions, and metadata suggestions.",
-      oversight: "The creator keeps final control over visual taste, edits, and publishing choices.",
-      features: ["Creative brief", "Visual QA", "Shot list", "Revision tracker"],
+      ai: "The standalone rebuild analyzes actual browser Canvas pixels, calculates transparent image metrics, maps regional findings, and compares a baseline.",
+      oversight: "Metrics never approve delivery; the creator explicitly approves or requests revision.",
+      features: ["Canvas pixel metrics", "Regional overlays", "Local image path", "Human delivery gate"],
       capabilities: ["Prompt engineering", "AI workflow design", "Multimodal processing", "Human-in-the-loop review", "Visual design", "Product documentation", "Accessibility"]
     },
     pilotmap: {

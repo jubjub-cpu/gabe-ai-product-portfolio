@@ -2,7 +2,7 @@
 
 Status key: **Strong** = implemented and directly testable; **Partial** = visible but narrow; **Mentioned** = documented without meaningful implementation; **Missing** = not demonstrated.
 
-| Capability | SignalOps standalone | DocuTrace standalone | ReviewFlow standalone | FrameForge embedded | PilotMap embedded | Portfolio status |
+| Capability | SignalOps standalone | DocuTrace standalone | ReviewFlow standalone | FrameForge standalone | PilotMap embedded | Portfolio status |
 | --- | --- | --- | --- | --- | --- | --- |
 | Prompt engineering | Partial | Partial | Partial | Partial | Partial | Partial |
 | Classification | Strong | Missing | Strong | Missing | Partial | Strong |
@@ -11,8 +11,8 @@ Status key: **Strong** = implemented and directly testable; **Partial** = visibl
 | Cited question answering | Missing | Strong | Missing | Missing | Missing | Strong |
 | Recommendation systems | Strong | Partial | Partial | Partial | Partial | Strong |
 | Agent-style orchestration | Partial | Missing | Strong | Missing | Missing | Strong |
-| Human approval | Strong | Strong | Strong | Partial | Partial | Strong |
-| Computer vision | Missing | Missing | Missing | Mentioned | Missing | Missing |
+| Human approval | Strong | Strong | Strong | Strong | Partial | Strong |
+| Computer vision | Missing | Missing | Missing | Strong | Missing | Strong |
 | Audio processing | Missing | Missing | Missing | Missing | Missing | Missing |
 | Semantic search | Missing | Mentioned | Missing | Missing | Missing | Mentioned |
 | Forecasting | Missing | Missing | Missing | Missing | Missing | Missing |
@@ -23,11 +23,11 @@ Status key: **Strong** = implemented and directly testable; **Partial** = visibl
 | API design | Missing | Missing | Missing | Missing | Missing | Missing |
 | Event-driven automation | Missing | Missing | Strong | Missing | Missing | Strong |
 | Evaluation systems | Missing | Missing | Missing | Missing | Missing | Missing |
-| Accessibility | Strong | Strong | Strong | Partial | Partial | Strong |
-| Security | Partial | Strong | Strong | Partial | Partial | Strong |
-| Testing | Strong | Strong | Strong | Partial | Partial | Strong |
-| Deployment | Strong | Strong | Strong | Partial | Partial | Strong |
-| Product documentation | Strong | Strong | Strong | Partial | Partial | Strong |
+| Accessibility | Strong | Strong | Strong | Strong | Partial | Strong |
+| Security | Partial | Strong | Strong | Strong | Partial | Strong |
+| Testing | Strong | Strong | Strong | Strong | Partial | Strong |
+| Deployment | Strong | Strong | Strong | Strong | Partial | Strong |
+| Product documentation | Strong | Strong | Strong | Strong | Partial | Strong |
 
 ## Foundation Decisions
 
@@ -36,7 +36,7 @@ Status key: **Strong** = implemented and directly testable; **Partial** = visibl
 | SignalOps Triage | Keep | Standalone v1.0.0 with classification, anomaly cues, recommendations, approval, tests, screenshots, and deployment |
 | DocuTrace Desk | Rebuilt | Standalone v1.0.0 with retrieval, cited answers, extraction, version comparison, local processing, human verification, and deployed browser tests |
 | ReviewFlow Agent | Rebuilt | Standalone v1.0.0 with extracted facts, visible policy checks, blocked evidence, staged execution, two human gates, event history, export, and deployed tests |
-| FrameForge QA | Rebuild substantially | Embedded creative concept must add actual browser image analysis and fixture-based tests |
+| FrameForge Inspect | Rebuilt substantially | Standalone v1.0.0 with actual Canvas pixel metrics, generated PNG fixtures, regional overlays, local file processing, comparison, human decision, export, and deployed tests |
 | PilotMap AI | Replace; preserve embedded original as archive | QueueCast Planner will add forecasting, scenario simulation, uncertainty, and stronger visualization |
 
 The Phase Two wave must add formal evaluation, developer tooling, API design, audio, background automation, and privacy-preserving processing.

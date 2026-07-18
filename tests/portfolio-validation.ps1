@@ -30,7 +30,9 @@ $standaloneEvidence = @(
   "docs/screenshots/doctrace-standalone-desktop.png",
   "docs/screenshots/doctrace-standalone-mobile.png",
   "docs/screenshots/reviewflow-standalone-desktop.png",
-  "docs/screenshots/reviewflow-standalone-mobile.png"
+  "docs/screenshots/reviewflow-standalone-mobile.png",
+  "docs/screenshots/frameforge-standalone-desktop.png",
+  "docs/screenshots/frameforge-standalone-mobile.png"
 )
 
 $productPages = @(
@@ -95,7 +97,10 @@ foreach ($url in @(
   "https://github.com/jubjub-cpu/doctrace-desk/releases/tag/v1.0.0",
   "https://jubjub-cpu.github.io/reviewflow-agent/",
   "https://github.com/jubjub-cpu/reviewflow-agent",
-  "https://github.com/jubjub-cpu/reviewflow-agent/releases/tag/v1.0.0"
+  "https://github.com/jubjub-cpu/reviewflow-agent/releases/tag/v1.0.0",
+  "https://jubjub-cpu.github.io/frameforge-inspect/",
+  "https://github.com/jubjub-cpu/frameforge-inspect",
+  "https://github.com/jubjub-cpu/frameforge-inspect/releases/tag/v1.0.0"
 )) {
   if ($allText -notmatch [Regex]::Escape($url)) {
     $failures.Add("Standalone project URL missing: $url")
