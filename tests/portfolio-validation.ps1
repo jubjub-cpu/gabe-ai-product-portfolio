@@ -11,14 +11,24 @@ $requiredFiles = @(
   "DECISIONS.md",
   "BLOCKERS.md",
   "PORTFOLIO_SCORECARD.md",
+  "PORTFOLIO_CAPABILITY_LEDGER.md",
+  "PROJECT_NOVELTY_MATRIX.md",
+  "EXPANSION_ROADMAP.md",
   "NEXT_5_PROJECTS.md",
   "docs/PORTFOLIO_STRATEGY.md",
   "docs/RECRUITER_REVIEW.md",
   "docs/CASE_STUDIES.md",
   "tools/static-server.ps1",
+  "tools/static-server.mjs",
+  "tests/portfolio-browser-smoke.mjs",
   ".env.example",
   ".gitignore",
   "LICENSE"
+)
+
+$standaloneEvidence = @(
+  "docs/screenshots/doctrace-standalone-desktop.png",
+  "docs/screenshots/doctrace-standalone-mobile.png"
 )
 
 $productPages = @(
@@ -31,7 +41,7 @@ $productPages = @(
 
 $failures = New-Object System.Collections.Generic.List[string]
 
-foreach ($file in $requiredFiles + $productPages) {
+foreach ($file in $requiredFiles + $productPages + $standaloneEvidence) {
   $path = Join-Path $root $file
   if (-not (Test-Path -LiteralPath $path)) {
     $failures.Add("Missing required file: $file")
@@ -72,6 +82,18 @@ foreach ($product in @("signalops", "reviewflow", "doctrace", "frameforge", "pil
 foreach ($phrase in @("synthetic", "Human", "deterministic", "AI-assisted")) {
   if ($allText -notmatch [Regex]::Escape($phrase)) {
     $failures.Add("Required documentation phrase missing: $phrase")
+  }
+}
+
+foreach ($url in @(
+  "https://jubjub-cpu.github.io/signalops-triage/",
+  "https://github.com/jubjub-cpu/signalops-triage",
+  "https://jubjub-cpu.github.io/doctrace-desk/",
+  "https://github.com/jubjub-cpu/doctrace-desk",
+  "https://github.com/jubjub-cpu/doctrace-desk/releases/tag/v1.0.0"
+)) {
+  if ($allText -notmatch [Regex]::Escape($url)) {
+    $failures.Add("Standalone project URL missing: $url")
   }
 }
 

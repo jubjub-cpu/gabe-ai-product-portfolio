@@ -10,12 +10,14 @@ My current focus is AI-assisted development, prompt engineering, workflow design
 - **Repository:** https://github.com/jubjub-cpu/gabe-ai-product-portfolio
 - **Standalone SignalOps:** https://jubjub-cpu.github.io/signalops-triage/
 - **SignalOps Repository:** https://github.com/jubjub-cpu/signalops-triage
+- **Standalone DocuTrace:** https://jubjub-cpu.github.io/doctrace-desk/
+- **DocuTrace Repository:** https://github.com/jubjub-cpu/doctrace-desk
 
 | Project | What It Demonstrates |
 | --- | --- |
 | SignalOps Triage | AI-assisted field-service incident triage with human-approved dispatch recommendations, now available as a standalone repo and live demo. |
 | ReviewFlow Agent | Agent-style workflow automation with visible planning, draft output, and approval history. |
-| DocuTrace Desk | Document intelligence with structured extraction, search, risk flags, and citations. |
+| DocuTrace Desk | Standalone local-first document review with cited retrieval, structured extraction, version comparison, human verification, and deployed browser tests. |
 | FrameForge QA | Creative media review, revision tracking, captions, and shot-list generation. |
 | PilotMap AI | Responsible AI opportunity scoring, risk review, and pilot planning. |
 

@@ -14,7 +14,7 @@ The portfolio does not claim traditional software engineering employment, produc
 | --- | --- | --- | --- |
 | SignalOps Triage | Field-service teams need consistent incident triage and dispatch recommendations. | Classification, severity scoring, repeated-failure detection, human approval. | [Suite demo](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/signalops-triage/) / [Standalone](https://jubjub-cpu.github.io/signalops-triage/) |
 | ReviewFlow Agent | Admin teams need repeatable review workflows for messy requests. | Agent-style planning, tool-like checks, draft output, approval history. | `projects/reviewflow-agent/index.html` |
-| DocuTrace Desk | Reviewers need document answers with source evidence. | Search, extraction, citations, risk flags. | `projects/doctrace-desk/index.html` |
+| DocuTrace Desk | Reviewers need document answers with source evidence. | Retrieval, structured extraction, citations, version comparison, human verification. | [Suite demo](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/doctrace-desk/) / [Standalone](https://jubjub-cpu.github.io/doctrace-desk/) |
 | FrameForge QA | Creative teams need cleaner briefs, revision notes, and handoffs. | Creative brief generation, visual QA, shot lists, captions, metadata. | `projects/frameforge-qa/index.html` |
 | PilotMap AI | Businesses need a safe way to prioritize AI opportunities. | Suitability scoring, risk assessment, data readiness, pilot roadmap. | `projects/pilotmap-ai/index.html` |
 
@@ -57,6 +57,10 @@ Current screenshots captured from the implemented local app:
 
 ![DocuTrace Desk](docs/screenshots/doctrace-desk.png)
 
+![Standalone DocuTrace desktop](docs/screenshots/doctrace-standalone-desktop.png)
+
+![Standalone DocuTrace mobile](docs/screenshots/doctrace-standalone-mobile.png)
+
 ![Mobile portfolio](docs/screenshots/portfolio-mobile.png)
 
 ## Live Demo
@@ -82,6 +86,12 @@ Standalone SignalOps:
 - [Live demo](https://jubjub-cpu.github.io/signalops-triage/)
 - [Repository](https://github.com/jubjub-cpu/signalops-triage)
 - [v1.0.0 release](https://github.com/jubjub-cpu/signalops-triage/releases/tag/v1.0.0)
+
+Standalone DocuTrace:
+
+- [Live demo](https://jubjub-cpu.github.io/doctrace-desk/)
+- [Repository](https://github.com/jubjub-cpu/doctrace-desk)
+- [v1.0.0 release](https://github.com/jubjub-cpu/doctrace-desk/releases/tag/v1.0.0)
 
 Local fallback:
 
@@ -183,6 +193,8 @@ Latest local validation:
 - Mobile check: central portfolio rendered with five project cards at 390 px width.
 - Browser console errors: none observed.
 
+The repeatable browser integration check is available at `tests/portfolio-browser-smoke.mjs`. It verifies the five-card desktop and mobile layouts and the standalone DocuTrace live, repository, and release links.
+
 ## Deployment
 
 This repository is deployed to GitHub Pages:
@@ -206,8 +218,9 @@ The recruiter-review path does not require a backend or paid API.
 ## Future Improvements
 
 - Add optional bring-your-own-key AI integrations.
-- Split the next strongest products into individual repositories after recruiter review.
-- Add Playwright or browser-based visual regression checks if Node.js becomes available.
+- Rebuild ReviewFlow as the next standalone foundation project.
+- Rebuild FrameForge with real browser image analysis.
+- Preserve PilotMap as an archive and replace its foundation slot with QueueCast Planner.
 - Add live API-backed variants only when privacy, cost, and security boundaries are clear.
 
 ## AI-Assisted Development

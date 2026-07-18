@@ -14,7 +14,7 @@ Gabe is positioned as an AI Digital Product Developer who uses AI-assisted devel
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | SignalOps Triage | [Suite demo](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/signalops-triage/) / [Standalone demo](https://jubjub-cpu.github.io/signalops-triage/) | Inconsistent field-service incident triage. | Operations coordinators | Classification, severity scoring, dispatch recommendation. | Static HTML/CSS/JS | Passed validation and browser interaction | Published |
 | ReviewFlow Agent | [Demo](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/reviewflow-agent/) | Manual request handling lacks repeatability. | Admin and operations teams | Agent-style workflow planning and draft output. | Static HTML/CSS/JS | Passed validation and browser interaction | Published |
-| DocuTrace Desk | [Demo](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/doctrace-desk/) | Document review needs source evidence. | Analysts and coordinators | Search, extraction, citations, risk flags. | Static HTML/CSS/JS | Passed validation and browser interaction | Published |
+| DocuTrace Desk | [Suite demo](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/doctrace-desk/) / [Standalone demo](https://jubjub-cpu.github.io/doctrace-desk/) | Document review needs source evidence. | Procurement and operations reviewers | Retrieval, cited answers, extraction, version comparison, human verification. | Static HTML/CSS/JS | Logic, repository, local browser, and deployed browser checks passed | Standalone v1.0.0 published |
 | FrameForge QA | [Demo](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/frameforge-qa/) | Creative handoffs are scattered. | Creators and small agencies | Creative QA, captions, shot lists, revision tracking. | Static HTML/CSS/JS | Passed validation and browser interaction | Published |
 | PilotMap AI | [Demo](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/pilotmap-ai/) | Businesses need responsible AI opportunity prioritization. | SMB owners and transformation leads | Suitability scoring, risk review, pilot roadmap. | Static HTML/CSS/JS | Passed validation and browser interaction | Published |
 
@@ -34,8 +34,8 @@ The profile README links to the live portfolio and truthfully describes Gabe's A
 
 1. `gabe-ai-product-portfolio`
 2. `signalops-triage`
-3. Future standalone DocuTrace repo
-4. Future standalone PilotMap repo
+3. `doctrace-desk`
+4. Future standalone ReviewFlow repo
 5. `Sporeborne`, only if made public after privacy and licensing review
 
 ## Testing Summary
@@ -64,6 +64,14 @@ Standalone SignalOps release:
 
 [https://github.com/jubjub-cpu/signalops-triage/releases/tag/v1.0.0](https://github.com/jubjub-cpu/signalops-triage/releases/tag/v1.0.0)
 
+Standalone DocuTrace deployment:
+
+[https://jubjub-cpu.github.io/doctrace-desk/](https://jubjub-cpu.github.io/doctrace-desk/)
+
+Standalone DocuTrace release:
+
+[https://github.com/jubjub-cpu/doctrace-desk/releases/tag/v1.0.0](https://github.com/jubjub-cpu/doctrace-desk/releases/tag/v1.0.0)
+
 ## Privacy and Security Summary
 
 All product data is fictional or synthetic. No real customer records, payment-card records, credentials, private communications, employee data, or production logs are included. The validation script scans for common secret patterns.
@@ -72,7 +80,7 @@ All product data is fictional or synthetic. No real customer records, payment-ca
 
 - Pin `gabe-ai-product-portfolio` on the GitHub profile manually. The available GitHub GraphQL schema did not expose a repository-pinning mutation in this environment.
 - Pin `signalops-triage` manually as the strongest standalone operations-intelligence project.
-- Optionally split DocuTrace or PilotMap into standalone repositories after recruiter review.
+- Rebuild ReviewFlow as the next standalone foundation project.
 
 ## Next Five Projects
 
