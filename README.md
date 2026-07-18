@@ -283,9 +283,11 @@ Latest local validation:
 Latest deployed audit:
 
 - Central ten-card browser workflow passed with no desktop/mobile overflow, console errors, or failed requests.
+- Full deployed axe-core audit passed across the central portfolio and all ten standalone sites: 22 desktop/mobile checks with zero violations.
 - All ten live demos, repositories, and current release pages returned HTTP 200.
 - All ten standalone repositories are public and have zero open issues.
 - Eight standalone v1.0.1 patches passed deployed browser and desktop/mobile axe-core audits; DocuTrace and FrameForge remain healthy at v1.0.0.
+- The central v2.0.1 release and GitHub profile returned HTTP 200.
 - The profile includes the complete product set and excludes the private contact email.
 
 The repeatable browser integration check verifies the ten-card desktop and mobile layouts plus every standalone foundation and Phase Two public link.

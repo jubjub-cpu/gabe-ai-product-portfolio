@@ -51,8 +51,9 @@ The profile README links to the live portfolio and presents the complete ten-pro
 - Interaction checks passed for all five suite workflows plus EvalDeck's regression, FlowReplay's event recovery, VoiceGauge's local audio, ColdChain's telemetry incidents, and CivicCase's reversible privacy review.
 - Mobile central portfolio check passed at 390 px.
 - No browser console errors observed.
-- Twenty-two local axe-core checks passed across the central portfolio and all ten standalone sites with zero violations.
+- Twenty-two local and deployed axe-core checks passed across the central portfolio and all ten standalone sites with zero violations.
 - Eight standalone patch deployments passed desktop/mobile axe-core and complete deployed browser workflows; DocuTrace and FrameForge remain healthy at v1.0.0.
+- The central v2.0.1 deployment passed its complete browser integration workflow with zero console errors, failed requests, or desktop/mobile overflow.
 - All ten standalone repositories are public with zero open issues; the profile contains the complete product set and no private contact email.
 
 ## Deployment Summary
