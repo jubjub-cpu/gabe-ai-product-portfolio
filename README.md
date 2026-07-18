@@ -116,13 +116,13 @@ GitHub profile:
 
 Release:
 
-[v2.0.0 - Complete ten-product AI portfolio](https://github.com/jubjub-cpu/gabe-ai-product-portfolio/releases/tag/v2.0.0)
+[v2.0.1 - Accessibility and release hardening](https://github.com/jubjub-cpu/gabe-ai-product-portfolio/releases/tag/v2.0.1)
 
 Standalone SignalOps:
 
 - [Live demo](https://jubjub-cpu.github.io/signalops-triage/)
 - [Repository](https://github.com/jubjub-cpu/signalops-triage)
-- [v1.0.0 release](https://github.com/jubjub-cpu/signalops-triage/releases/tag/v1.0.0)
+- [v1.0.1 release](https://github.com/jubjub-cpu/signalops-triage/releases/tag/v1.0.1)
 
 Standalone DocuTrace:
 
@@ -134,7 +134,7 @@ Standalone ReviewFlow:
 
 - [Live demo](https://jubjub-cpu.github.io/reviewflow-agent/)
 - [Repository](https://github.com/jubjub-cpu/reviewflow-agent)
-- [v1.0.0 release](https://github.com/jubjub-cpu/reviewflow-agent/releases/tag/v1.0.0)
+- [v1.0.1 release](https://github.com/jubjub-cpu/reviewflow-agent/releases/tag/v1.0.1)
 
 Standalone FrameForge Inspect:
 
@@ -146,37 +146,37 @@ Standalone QueueCast Planner:
 
 - [Live demo](https://jubjub-cpu.github.io/queuecast-planner/)
 - [Repository](https://github.com/jubjub-cpu/queuecast-planner)
-- [v1.0.0 release](https://github.com/jubjub-cpu/queuecast-planner/releases/tag/v1.0.0)
+- [v1.0.1 release](https://github.com/jubjub-cpu/queuecast-planner/releases/tag/v1.0.1)
 
 Standalone EvalDeck Studio:
 
 - [Live demo](https://jubjub-cpu.github.io/evaldeck-studio/)
 - [Repository](https://github.com/jubjub-cpu/evaldeck-studio)
-- [v1.0.0 release](https://github.com/jubjub-cpu/evaldeck-studio/releases/tag/v1.0.0)
+- [v1.0.1 release](https://github.com/jubjub-cpu/evaldeck-studio/releases/tag/v1.0.1)
 
 Standalone FlowReplay Console:
 
 - [Live demo](https://jubjub-cpu.github.io/flowreplay-console/)
 - [Repository](https://github.com/jubjub-cpu/flowreplay-console)
-- [v1.0.0 release](https://github.com/jubjub-cpu/flowreplay-console/releases/tag/v1.0.0)
+- [v1.0.1 release](https://github.com/jubjub-cpu/flowreplay-console/releases/tag/v1.0.1)
 
 Standalone VoiceGauge Local:
 
 - [Live demo](https://jubjub-cpu.github.io/voicegauge-local/)
 - [Repository](https://github.com/jubjub-cpu/voicegauge-local)
-- [v1.0.0 release](https://github.com/jubjub-cpu/voicegauge-local/releases/tag/v1.0.0)
+- [v1.0.1 release](https://github.com/jubjub-cpu/voicegauge-local/releases/tag/v1.0.1)
 
 Standalone ColdChain Sentinel:
 
 - [Live demo](https://jubjub-cpu.github.io/coldchain-sentinel/)
 - [Repository](https://github.com/jubjub-cpu/coldchain-sentinel)
-- [v1.0.0 release](https://github.com/jubjub-cpu/coldchain-sentinel/releases/tag/v1.0.0)
+- [v1.0.1 release](https://github.com/jubjub-cpu/coldchain-sentinel/releases/tag/v1.0.1)
 
 Standalone CivicCase Redact:
 
 - [Live demo](https://jubjub-cpu.github.io/civiccase-redact/)
 - [Repository](https://github.com/jubjub-cpu/civiccase-redact)
-- [v1.0.0 release](https://github.com/jubjub-cpu/civiccase-redact/releases/tag/v1.0.0)
+- [v1.0.1 release](https://github.com/jubjub-cpu/civiccase-redact/releases/tag/v1.0.1)
 
 Local fallback:
 
@@ -278,13 +278,14 @@ Latest local validation:
 - Interaction test: SignalOps approval, ReviewFlow approval, DocuTrace citations, FrameForge revision review, and PilotMap scoring all responded.
 - Mobile check: central portfolio rendered with ten project cards at 390 px width.
 - Browser console errors: none observed.
+- Local axe-core audit: 22 desktop/mobile checks passed across the central portfolio and all ten standalone sites with zero violations.
 
 Latest deployed audit:
 
 - Central ten-card browser workflow passed with no desktop/mobile overflow, console errors, or failed requests.
-- All ten live demos, repositories, and v1.0.0 release pages returned HTTP 200.
+- All ten live demos, repositories, and current release pages returned HTTP 200.
 - All ten standalone repositories are public and have zero open issues.
-- The central v2.0.0 release and GitHub profile returned HTTP 200.
+- Eight standalone v1.0.1 patches passed deployed browser and desktop/mobile axe-core audits; DocuTrace and FrameForge remain healthy at v1.0.0.
 - The profile includes the complete product set and excludes the private contact email.
 
 The repeatable browser integration check verifies the ten-card desktop and mobile layouts plus every standalone foundation and Phase Two public link.

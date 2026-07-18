@@ -35,7 +35,7 @@
       path: "projects/signalops-triage/index.html",
       standaloneDemo: "https://jubjub-cpu.github.io/signalops-triage/",
       standaloneRepo: "https://github.com/jubjub-cpu/signalops-triage",
-      standaloneRelease: "https://github.com/jubjub-cpu/signalops-triage/releases/tag/v1.0.0",
+      standaloneRelease: "https://github.com/jubjub-cpu/signalops-triage/releases/tag/v1.0.1",
       accent: "teal",
       problem: "ATM, kiosk, and equipment teams lose time when incident notes are inconsistent and dispatch priority is unclear.",
       user: "Operations coordinators and field-service leads",
@@ -51,7 +51,7 @@
       path: "projects/reviewflow-agent/index.html",
       standaloneDemo: "https://jubjub-cpu.github.io/reviewflow-agent/",
       standaloneRepo: "https://github.com/jubjub-cpu/reviewflow-agent",
-      standaloneRelease: "https://github.com/jubjub-cpu/reviewflow-agent/releases/tag/v1.0.0",
+      standaloneRelease: "https://github.com/jubjub-cpu/reviewflow-agent/releases/tag/v1.0.1",
       accent: "amber",
       problem: "Procurement teams handle policy-sensitive vendor exceptions inconsistently and risk acting before required evidence is complete.",
       user: "Procurement operations managers",
@@ -99,7 +99,7 @@
       path: "projects/pilotmap-ai/index.html",
       standaloneDemo: "https://jubjub-cpu.github.io/queuecast-planner/",
       standaloneRepo: "https://github.com/jubjub-cpu/queuecast-planner",
-      standaloneRelease: "https://github.com/jubjub-cpu/queuecast-planner/releases/tag/v1.0.0",
+      standaloneRelease: "https://github.com/jubjub-cpu/queuecast-planner/releases/tag/v1.0.1",
       accent: "green",
       problem: "Service teams need transparent demand uncertainty and capacity tradeoffs before adopting a staffing scenario.",
       user: "Workforce planners and service operations leads",
@@ -115,7 +115,7 @@
       path: "https://jubjub-cpu.github.io/evaldeck-studio/",
       pathLabel: "Open live demo",
       standaloneRepo: "https://github.com/jubjub-cpu/evaldeck-studio",
-      standaloneRelease: "https://github.com/jubjub-cpu/evaldeck-studio/releases/tag/v1.0.0",
+      standaloneRelease: "https://github.com/jubjub-cpu/evaldeck-studio/releases/tag/v1.0.1",
       accent: "violet",
       problem: "AI product teams need repeatable evidence that prompt or model changes do not hide safety, grounding, format, or slice regressions.",
       user: "AI product engineers, prompt engineers, evaluation specialists, and QA leads",
@@ -131,7 +131,7 @@
       path: "https://jubjub-cpu.github.io/flowreplay-console/",
       pathLabel: "Open live demo",
       standaloneRepo: "https://github.com/jubjub-cpu/flowreplay-console",
-      standaloneRelease: "https://github.com/jubjub-cpu/flowreplay-console/releases/tag/v1.0.0",
+      standaloneRelease: "https://github.com/jubjub-cpu/flowreplay-console/releases/tag/v1.0.1",
       accent: "amber",
       problem: "Integration teams need to separate contract drift, transient failures, duplicate events, and dead-letter recovery before replaying a webhook.",
       user: "API product engineers, integration developers, platform teams, and technical support engineers",
@@ -147,7 +147,7 @@
       path: "https://jubjub-cpu.github.io/voicegauge-local/",
       pathLabel: "Open live demo",
       standaloneRepo: "https://github.com/jubjub-cpu/voicegauge-local",
-      standaloneRelease: "https://github.com/jubjub-cpu/voicegauge-local/releases/tag/v1.0.0",
+      standaloneRelease: "https://github.com/jubjub-cpu/voicegauge-local/releases/tag/v1.0.1",
       accent: "coral",
       problem: "Audio teams need an immediate first pass for clipping, level, silence, and background signal without uploading sensitive recordings.",
       user: "Content operations teams, media producers, contact-center QA leads, accessibility teams, and creators",
@@ -163,7 +163,7 @@
       path: "https://jubjub-cpu.github.io/coldchain-sentinel/",
       pathLabel: "Open live demo",
       standaloneRepo: "https://github.com/jubjub-cpu/coldchain-sentinel",
-      standaloneRelease: "https://github.com/jubjub-cpu/coldchain-sentinel/releases/tag/v1.0.0",
+      standaloneRelease: "https://github.com/jubjub-cpu/coldchain-sentinel/releases/tag/v1.0.1",
       accent: "teal",
       problem: "Cold-chain operators need to distinguish persistent cargo-condition incidents from noisy spikes while seeing when sensor evidence itself is unhealthy.",
       user: "Cold-chain operations leads, logistics coordinators, quality teams, and monitoring product teams",
@@ -179,7 +179,7 @@
       path: "https://jubjub-cpu.github.io/civiccase-redact/",
       pathLabel: "Open live demo",
       standaloneRepo: "https://github.com/jubjub-cpu/civiccase-redact",
-      standaloneRelease: "https://github.com/jubjub-cpu/civiccase-redact/releases/tag/v1.0.0",
+      standaloneRelease: "https://github.com/jubjub-cpu/civiccase-redact/releases/tag/v1.0.1",
       accent: "green",
       problem: "Case-note reviewers need to find direct identifiers, resolve false positives, add missed sensitive spans, and prove human review before a protected copy is released.",
       user: "Public-service operations teams, privacy reviewers, records teams, and trust-focused product teams",
@@ -361,7 +361,7 @@
           ${capabilityRows.map((row) => `
             <tr>
               <td>${row}</td>
-              ${Object.values(products).map((product) => `<td>${product.capabilities.includes(row) ? '<span class="status-dot" aria-label="Covered"></span>' : ''}</td>`).join("")}
+              ${Object.values(products).map((product) => `<td>${product.capabilities.includes(row) ? '<span class="status-dot" role="img" aria-label="Covered"></span>' : ''}</td>`).join("")}
             </tr>
           `).join("")}
         </tbody>

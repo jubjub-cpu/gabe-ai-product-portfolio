@@ -12,16 +12,16 @@ Gabe is positioned as an AI Digital Product Developer focused on product thinkin
 
 | Name | Demo | Business Problem | Target User | AI Capability | Technology | Test Status | Release Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| SignalOps Triage | [Suite demo](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/signalops-triage/) / [Standalone demo](https://jubjub-cpu.github.io/signalops-triage/) | Inconsistent field-service incident triage. | Operations coordinators | Classification, severity scoring, dispatch recommendation. | Static HTML/CSS/JS | Passed validation and browser interaction | Published |
-| ReviewFlow Agent | [Suite demo](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/reviewflow-agent/) / [Standalone demo](https://jubjub-cpu.github.io/reviewflow-agent/) | Vendor exceptions need consistent policy handling. | Procurement operations managers | Extraction, classification, policy checks, staged planning, two human gates, event history. | Static HTML/CSS/JS | Logic, repository, local browser, and deployed browser checks passed | Standalone v1.0.0 published |
+| SignalOps Triage | [Suite demo](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/signalops-triage/) / [Standalone demo](https://jubjub-cpu.github.io/signalops-triage/) | Inconsistent field-service incident triage. | Operations coordinators | Classification, severity scoring, dispatch recommendation. | Static HTML/CSS/JS | Repository, local/deployed browser, and accessibility checks passed | Standalone v1.0.1 published |
+| ReviewFlow Agent | [Suite demo](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/reviewflow-agent/) / [Standalone demo](https://jubjub-cpu.github.io/reviewflow-agent/) | Vendor exceptions need consistent policy handling. | Procurement operations managers | Extraction, classification, policy checks, staged planning, two human gates, event history. | Static HTML/CSS/JS | Logic, repository, local/deployed browser, and accessibility checks passed | Standalone v1.0.1 published |
 | DocuTrace Desk | [Suite demo](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/doctrace-desk/) / [Standalone demo](https://jubjub-cpu.github.io/doctrace-desk/) | Document review needs source evidence. | Procurement and operations reviewers | Retrieval, cited answers, extraction, version comparison, human verification. | Static HTML/CSS/JS | Logic, repository, local browser, and deployed browser checks passed | Standalone v1.0.0 published |
 | FrameForge Inspect | [Archived suite concept](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/frameforge-qa/) / [Standalone demo](https://jubjub-cpu.github.io/frameforge-inspect/) | Still-image delivery defects need a repeatable local first pass. | Content QA leads and creators | Canvas pixel metrics, clipping and contrast checks, regional overlays, baseline comparison, human decision. | Static HTML/CSS/JS and Canvas | Logic, repository, fixture, local browser, and deployed browser checks passed | Standalone v1.0.0 published |
-| QueueCast Planner | [Archived PilotMap concept](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/pilotmap-ai/) / [Standalone demo](https://jubjub-cpu.github.io/queuecast-planner/) | Service teams need uncertainty-aware capacity scenarios. | Workforce planners | Trend forecast, residual uncertainty, five-assumption simulation, weekly risk, staffing brief, human decision. | Static HTML/CSS/JS and Canvas | Logic, repository, local browser, and deployed browser checks passed | Standalone v1.0.0 published |
-| EvalDeck Studio | [Standalone demo](https://jubjub-cpu.github.io/evaldeck-studio/) | AI product changes need repeatable quality and safety evidence before release. | AI product engineers and QA leads | Pairwise rubric scoring, slice regressions, reference disagreement, configurable gates, reasoned overrides, portable artifacts. | Static HTML/CSS/JS and Canvas | Logic, import/export, repository, local browser, and deployed browser checks passed | Standalone v1.0.0 published |
-| FlowReplay Console | [Standalone demo](https://jubjub-cpu.github.io/flowreplay-console/) | Webhook failures need visible contract, retry, duplicate, and recovery evidence. | API product engineers and integration developers | Versioned contract preflight, retry/backoff, failure injection, idempotent no-ops, dead-letter recovery, human replay approval. | Static HTML/CSS/JS and Canvas | Engine, import/export, repository, local browser, and deployed browser checks passed | Standalone v1.0.0 published |
-| VoiceGauge Local | [Standalone demo](https://jubjub-cpu.github.io/voicegauge-local/) | Audio teams need a private first pass for clipping, silence, level, and background signal. | Content QA leads, producers, and creators | Real Web Audio decoding, PCM metrics, waveform findings, threshold policy, baseline comparison, local import, human handoff decision. | Static HTML/CSS/JS, Web Audio, and Canvas | Engine, generated fixtures, import/export, repository, local browser, and deployed browser checks passed | Standalone v1.0.0 published |
-| ColdChain Sentinel | [Standalone demo](https://jubjub-cpu.github.io/coldchain-sentinel/) | Cold-chain teams need to separate persistent excursions from spikes and unhealthy sensor evidence. | Logistics operations and quality leads | Multivariate telemetry, persistence, clear hysteresis, spike suppression, cadence, battery, signal, door evidence, and human disposition. | Static HTML/CSS/JS and Canvas | Engine, 188 readings, export, repository, local browser, and deployed browser checks passed | Standalone v1.0.0 published |
-| CivicCase Redact | [Standalone demo](https://jubjub-cpu.github.io/civiccase-redact/) | Case-note teams need reversible direct-identifier review before protected release. | Privacy reviewers and records teams | Seven identifier types, exact offsets, repeated-name context, reversible decisions, manual redaction, and value-free artifacts. | Static HTML/CSS/JS | Engine, exact fixtures, import/export, repository, local browser, and deployed browser checks passed | Standalone v1.0.0 published |
+| QueueCast Planner | [Archived PilotMap concept](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/pilotmap-ai/) / [Standalone demo](https://jubjub-cpu.github.io/queuecast-planner/) | Service teams need uncertainty-aware capacity scenarios. | Workforce planners | Trend forecast, residual uncertainty, five-assumption simulation, weekly risk, staffing brief, human decision. | Static HTML/CSS/JS and Canvas | Logic, repository, local/deployed browser, and accessibility checks passed | Standalone v1.0.1 published |
+| EvalDeck Studio | [Standalone demo](https://jubjub-cpu.github.io/evaldeck-studio/) | AI product changes need repeatable quality and safety evidence before release. | AI product engineers and QA leads | Pairwise rubric scoring, slice regressions, reference disagreement, configurable gates, reasoned overrides, portable artifacts. | Static HTML/CSS/JS and Canvas | Logic, import/export, local/deployed browser, and accessibility checks passed | Standalone v1.0.1 published |
+| FlowReplay Console | [Standalone demo](https://jubjub-cpu.github.io/flowreplay-console/) | Webhook failures need visible contract, retry, duplicate, and recovery evidence. | API product engineers and integration developers | Versioned contract preflight, retry/backoff, failure injection, idempotent no-ops, dead-letter recovery, human replay approval. | Static HTML/CSS/JS and Canvas | Engine, import/export, local/deployed browser, and accessibility checks passed | Standalone v1.0.1 published |
+| VoiceGauge Local | [Standalone demo](https://jubjub-cpu.github.io/voicegauge-local/) | Audio teams need a private first pass for clipping, silence, level, and background signal. | Content QA leads, producers, and creators | Real Web Audio decoding, PCM metrics, waveform findings, threshold policy, baseline comparison, local import, human handoff decision. | Static HTML/CSS/JS, Web Audio, and Canvas | Engine, generated fixtures, local/deployed browser, and accessibility checks passed | Standalone v1.0.1 published |
+| ColdChain Sentinel | [Standalone demo](https://jubjub-cpu.github.io/coldchain-sentinel/) | Cold-chain teams need to separate persistent excursions from spikes and unhealthy sensor evidence. | Logistics operations and quality leads | Multivariate telemetry, persistence, clear hysteresis, spike suppression, cadence, battery, signal, door evidence, and human disposition. | Static HTML/CSS/JS and Canvas | Engine, 188 readings, local/deployed browser, and accessibility checks passed | Standalone v1.0.1 published |
+| CivicCase Redact | [Standalone demo](https://jubjub-cpu.github.io/civiccase-redact/) | Case-note teams need reversible direct-identifier review before protected release. | Privacy reviewers and records teams | Seven identifier types, exact offsets, repeated-name context, reversible decisions, manual redaction, and value-free artifacts. | Static HTML/CSS/JS | Engine, exact fixtures, local/deployed browser, and accessibility checks passed | Standalone v1.0.1 published |
 
 ## Capability Matrix
 
@@ -51,7 +51,8 @@ The profile README links to the live portfolio and presents the complete ten-pro
 - Interaction checks passed for all five suite workflows plus EvalDeck's regression, FlowReplay's event recovery, VoiceGauge's local audio, ColdChain's telemetry incidents, and CivicCase's reversible privacy review.
 - Mobile central portfolio check passed at 390 px.
 - No browser console errors observed.
-- Final endpoint audit passed for all ten live demos, ten repositories, ten v1.0.0 releases, the central v2.0.0 release, and the GitHub profile.
+- Twenty-two local axe-core checks passed across the central portfolio and all ten standalone sites with zero violations.
+- Eight standalone patch deployments passed desktop/mobile axe-core and complete deployed browser workflows; DocuTrace and FrameForge remain healthy at v1.0.0.
 - All ten standalone repositories are public with zero open issues; the profile contains the complete product set and no private contact email.
 
 ## Deployment Summary
@@ -62,7 +63,7 @@ The app is deployed on GitHub Pages:
 
 Release:
 
-[https://github.com/jubjub-cpu/gabe-ai-product-portfolio/releases/tag/v2.0.0](https://github.com/jubjub-cpu/gabe-ai-product-portfolio/releases/tag/v2.0.0)
+[https://github.com/jubjub-cpu/gabe-ai-product-portfolio/releases/tag/v2.0.1](https://github.com/jubjub-cpu/gabe-ai-product-portfolio/releases/tag/v2.0.1)
 
 Standalone SignalOps deployment:
 
@@ -70,7 +71,7 @@ Standalone SignalOps deployment:
 
 Standalone SignalOps release:
 
-[https://github.com/jubjub-cpu/signalops-triage/releases/tag/v1.0.0](https://github.com/jubjub-cpu/signalops-triage/releases/tag/v1.0.0)
+[https://github.com/jubjub-cpu/signalops-triage/releases/tag/v1.0.1](https://github.com/jubjub-cpu/signalops-triage/releases/tag/v1.0.1)
 
 Standalone DocuTrace deployment:
 
@@ -86,7 +87,7 @@ Standalone ReviewFlow deployment:
 
 Standalone ReviewFlow release:
 
-[https://github.com/jubjub-cpu/reviewflow-agent/releases/tag/v1.0.0](https://github.com/jubjub-cpu/reviewflow-agent/releases/tag/v1.0.0)
+[https://github.com/jubjub-cpu/reviewflow-agent/releases/tag/v1.0.1](https://github.com/jubjub-cpu/reviewflow-agent/releases/tag/v1.0.1)
 
 Standalone FrameForge Inspect deployment:
 
@@ -98,27 +99,27 @@ Standalone FrameForge Inspect release:
 
 Standalone QueueCast Planner deployment: https://jubjub-cpu.github.io/queuecast-planner/
 
-Standalone QueueCast Planner release: https://github.com/jubjub-cpu/queuecast-planner/releases/tag/v1.0.0
+Standalone QueueCast Planner release: https://github.com/jubjub-cpu/queuecast-planner/releases/tag/v1.0.1
 
 Standalone EvalDeck Studio deployment: https://jubjub-cpu.github.io/evaldeck-studio/
 
-Standalone EvalDeck Studio release: https://github.com/jubjub-cpu/evaldeck-studio/releases/tag/v1.0.0
+Standalone EvalDeck Studio release: https://github.com/jubjub-cpu/evaldeck-studio/releases/tag/v1.0.1
 
 Standalone FlowReplay Console deployment: https://jubjub-cpu.github.io/flowreplay-console/
 
-Standalone FlowReplay Console release: https://github.com/jubjub-cpu/flowreplay-console/releases/tag/v1.0.0
+Standalone FlowReplay Console release: https://github.com/jubjub-cpu/flowreplay-console/releases/tag/v1.0.1
 
 Standalone VoiceGauge Local deployment: https://jubjub-cpu.github.io/voicegauge-local/
 
-Standalone VoiceGauge Local release: https://github.com/jubjub-cpu/voicegauge-local/releases/tag/v1.0.0
+Standalone VoiceGauge Local release: https://github.com/jubjub-cpu/voicegauge-local/releases/tag/v1.0.1
 
 Standalone ColdChain Sentinel deployment: https://jubjub-cpu.github.io/coldchain-sentinel/
 
-Standalone ColdChain Sentinel release: https://github.com/jubjub-cpu/coldchain-sentinel/releases/tag/v1.0.0
+Standalone ColdChain Sentinel release: https://github.com/jubjub-cpu/coldchain-sentinel/releases/tag/v1.0.1
 
 Standalone CivicCase Redact deployment: https://jubjub-cpu.github.io/civiccase-redact/
 
-Standalone CivicCase Redact release: https://github.com/jubjub-cpu/civiccase-redact/releases/tag/v1.0.0
+Standalone CivicCase Redact release: https://github.com/jubjub-cpu/civiccase-redact/releases/tag/v1.0.1
 
 ## Privacy and Security Summary
 

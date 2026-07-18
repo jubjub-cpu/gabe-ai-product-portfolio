@@ -83,7 +83,7 @@ try {
   await page.goto(`${baseUrl}projects/reviewflow-agent/`, { waitUntil: "networkidle" });
   assert.equal(await page.getByRole("link", { name: "Standalone live" }).getAttribute("href"), "https://jubjub-cpu.github.io/reviewflow-agent/");
   assert.equal(await page.getByRole("link", { name: "Repo" }).getAttribute("href"), "https://github.com/jubjub-cpu/reviewflow-agent");
-  assert.equal(await page.getByRole("link", { name: "Release" }).getAttribute("href"), "https://github.com/jubjub-cpu/reviewflow-agent/releases/tag/v1.0.0");
+  assert.equal(await page.getByRole("link", { name: "Release" }).getAttribute("href"), "https://github.com/jubjub-cpu/reviewflow-agent/releases/tag/v1.0.1");
 
   await page.goto(`${baseUrl}projects/frameforge-qa/`, { waitUntil: "networkidle" });
   assert.equal(await page.getByRole("link", { name: "Standalone live" }).getAttribute("href"), "https://jubjub-cpu.github.io/frameforge-inspect/");
@@ -93,7 +93,7 @@ try {
   await page.goto(`${baseUrl}projects/pilotmap-ai/`, { waitUntil: "networkidle" });
   assert.equal(await page.getByRole("link", { name: "Standalone live" }).getAttribute("href"), "https://jubjub-cpu.github.io/queuecast-planner/");
   assert.equal(await page.getByRole("link", { name: "Repo" }).getAttribute("href"), "https://github.com/jubjub-cpu/queuecast-planner");
-  assert.equal(await page.getByRole("link", { name: "Release" }).getAttribute("href"), "https://github.com/jubjub-cpu/queuecast-planner/releases/tag/v1.0.0");
+  assert.equal(await page.getByRole("link", { name: "Release" }).getAttribute("href"), "https://github.com/jubjub-cpu/queuecast-planner/releases/tag/v1.0.1");
   assert.deepEqual(consoleErrors, [], "Desktop portfolio should have no console errors");
   assert.deepEqual(failedRequests, [], "Desktop portfolio should have no failed requests");
   await desktop.close();
