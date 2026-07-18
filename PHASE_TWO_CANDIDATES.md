@@ -5,7 +5,7 @@ Scoring dimensions are business clarity, novelty versus the foundation, missing-
 | Candidate | Domain | Primary data | Interface | Key new evidence | Clarity | Novelty | Gap | Build | Employer | Scope | Total | Decision |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
 | EvalDeck Studio | AI quality engineering | JSONL prompts and outputs | Evaluation table and diff | Rubrics, pairwise evaluation, regression suites | 5 | 5 | 5 | 5 | 5 | 5 | 30 | Complete: v1.0.0 |
-| FlowReplay Console | Developer infrastructure | Webhook events and API schemas | Event timeline and contract console | API design, replay, idempotency, failure injection | 5 | 5 | 5 | 4 | 5 | 5 | 29 | Select 2 |
+| FlowReplay Console | Developer infrastructure | Webhook events and API schemas | Event timeline and contract console | API design, replay, idempotency, failure injection | 5 | 5 | 5 | 4 | 5 | 5 | 29 | Complete: v1.0.0 |
 | VoiceGauge Local | Customer-support QA | Local audio waveform | Waveform timeline | Audio processing, privacy, silence and clipping analysis | 5 | 5 | 5 | 4 | 5 | 5 | 29 | Select 3 |
 | ColdChain Sentinel | Logistics | Sensor telemetry | Monitoring board and route view | Multivariate anomaly detection and incident evidence | 5 | 5 | 4 | 5 | 5 | 5 | 29 | Select 4 |
 | CivicCase Redact | Public services | Case-note text spans | Split editor and review queue | Local-first privacy, PII rules, reversible review | 5 | 4 | 5 | 5 | 5 | 5 | 29 | Select 5 |

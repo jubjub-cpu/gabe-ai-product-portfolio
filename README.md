@@ -1,6 +1,6 @@
 # Gabe - AI Digital Product Developer Portfolio
 
-This portfolio features six complete, local-first AI digital products that show practical workflow design, prompt-shaped reasoning, formal evaluation, human review, synthetic data, and recruiter-friendly product documentation.
+This portfolio features seven complete, local-first AI digital products that show practical workflow design, prompt-shaped reasoning, formal evaluation, event reliability, human review, synthetic data, and recruiter-friendly product documentation.
 
 ## Overview
 
@@ -18,6 +18,7 @@ The portfolio does not claim traditional software engineering employment, produc
 | FrameForge Inspect | Creative teams need a repeatable first pass for still-image delivery defects. | Actual Canvas pixel metrics, clipping and contrast checks, regional overlays, baseline comparison, human delivery gate. | [Archived suite concept](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/frameforge-qa/) / [Standalone](https://jubjub-cpu.github.io/frameforge-inspect/) |
 | QueueCast Planner | Service teams need visible demand uncertainty and capacity tradeoffs before staffing decisions. | Explainable trend, uncertainty band, five-assumption simulation, weekly risk, staffing brief, human planning gate. | [Archived PilotMap concept](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/pilotmap-ai/) / [Standalone](https://jubjub-cpu.github.io/queuecast-planner/) |
 | EvalDeck Studio | AI product teams need repeatable evidence before prompt or model changes ship. | Four pairwise rubrics, slice regressions, reference disagreement, configurable gates, reasoned overrides, JSONL/JSON/CSV artifacts. | [Standalone](https://jubjub-cpu.github.io/evaldeck-studio/) |
+| FlowReplay Console | Integration teams need to distinguish contract drift, transient failures, duplicates, and dead-letter recovery before replaying webhooks. | Versioned contracts, response classification, retry backoff, failure injection, idempotent no-ops, reasoned replay approval, JSON evidence. | [Standalone](https://jubjub-cpu.github.io/flowreplay-console/) |
 
 ## Business Problem
 
@@ -33,7 +34,7 @@ Each demo uses deterministic browser logic to simulate AI-style workflow support
 
 ## Main Features
 
-- Six released product demos with synthetic data.
+- Seven released product demos with synthetic data.
 - Central portfolio page with project cards and capability matrix.
 - Human-in-the-loop review points in every product.
 - Recruiter-facing documentation, roadmap, scorecard, state tracking, blocker tracking, and case studies.
@@ -77,6 +78,10 @@ Current screenshots captured from the implemented local app:
 ![Standalone EvalDeck desktop](docs/screenshots/evaldeck-standalone-desktop.png)
 
 ![Standalone EvalDeck mobile](docs/screenshots/evaldeck-standalone-mobile.png)
+
+![Standalone FlowReplay desktop](docs/screenshots/flowreplay-standalone-desktop.png)
+
+![Standalone FlowReplay mobile](docs/screenshots/flowreplay-standalone-mobile.png)
 
 ![Mobile portfolio](docs/screenshots/portfolio-mobile.png)
 
@@ -134,6 +139,12 @@ Standalone EvalDeck Studio:
 - [Repository](https://github.com/jubjub-cpu/evaldeck-studio)
 - [v1.0.0 release](https://github.com/jubjub-cpu/evaldeck-studio/releases/tag/v1.0.0)
 
+Standalone FlowReplay Console:
+
+- [Live demo](https://jubjub-cpu.github.io/flowreplay-console/)
+- [Repository](https://github.com/jubjub-cpu/flowreplay-console)
+- [v1.0.0 release](https://github.com/jubjub-cpu/flowreplay-console/releases/tag/v1.0.0)
+
 Local fallback:
 
 ```text
@@ -150,6 +161,7 @@ The demos show AI product patterns without pretending a paid model is running:
 - Creative media QA and handoff drafting.
 - Responsible AI opportunity scoring.
 - Formal AI-output evaluation, regression analysis, and release gating.
+- API contracts, event retries, idempotency, failure injection, and dead-letter recovery.
 
 ## Human Oversight
 
@@ -230,12 +242,12 @@ powershell -ExecutionPolicy Bypass -File .\tests\portfolio-validation.ps1
 Latest local validation:
 
 - `PORTFOLIO VALIDATION PASSED`
-- Browser smoke test: all five suite workflows and the EvalDeck integration rendered.
+- Browser smoke test: all five suite workflows plus the EvalDeck and FlowReplay integrations rendered.
 - Interaction test: SignalOps approval, ReviewFlow approval, DocuTrace citations, FrameForge revision review, and PilotMap scoring all responded.
-- Mobile check: central portfolio rendered with six project cards at 390 px width.
+- Mobile check: central portfolio rendered with seven project cards at 390 px width.
 - Browser console errors: none observed.
 
-The repeatable browser integration check verifies the six-card desktop and mobile layouts plus the standalone foundation and EvalDeck public links.
+The repeatable browser integration check verifies the seven-card desktop and mobile layouts plus the standalone foundation, EvalDeck, and FlowReplay public links.
 
 ## Deployment
 
@@ -260,7 +272,7 @@ The recruiter-review path does not require a backend or paid API.
 ## Future Improvements
 
 - Add optional bring-your-own-key AI integrations.
-- Build the remaining four selected Phase Two products in `PHASE_TWO_CANDIDATES.md`.
+- Build the remaining three selected Phase Two products in `PHASE_TWO_CANDIDATES.md`.
 - Add live API-backed variants only when privacy, cost, and security boundaries are clear.
 
 ## AI-Assisted Development

@@ -14,7 +14,7 @@ Phase One is complete: 5 of 5 strong standalone foundation projects exist.
 
 ## Phase Two: Net-New Expansion Wave
 
-Status: 1 of 5 complete. EvalDeck Studio v1.0.0 is released; FlowReplay Console is next.
+Status: 2 of 5 complete. EvalDeck Studio and FlowReplay Console are released at v1.0.0; VoiceGauge Local is next.
 
 The selection must collectively include a developer-facing product, a local-first privacy product, formal AI-output evaluation, at least three industries, three interfaces, and three primary data types. No candidate is approved merely because it appeared in the earlier `NEXT_5_PROJECTS.md` list.
 

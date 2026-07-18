@@ -20,8 +20,8 @@ Status key: **Strong** = implemented and directly testable; **Partial** = visibl
 | Data visualization | Strong | Partial | Partial | Partial | Strong | Strong |
 | Local-first processing | Strong | Strong | Strong | Strong | Strong | Strong |
 | Browser-based processing | Strong | Strong | Strong | Strong | Strong | Strong |
-| API design | Missing | Missing | Missing | Missing | Missing | Missing |
-| Event-driven automation | Missing | Missing | Strong | Missing | Missing | Strong |
+| API design | Missing | Missing | Missing | Missing | Missing | Strong via FlowReplay |
+| Event-driven automation | Missing | Missing | Strong | Missing | Missing | Strong via FlowReplay |
 | Evaluation systems | Missing | Missing | Missing | Missing | Missing | Strong via EvalDeck |
 | Accessibility | Strong | Strong | Strong | Strong | Partial | Strong |
 | Security | Partial | Strong | Strong | Strong | Partial | Strong |
@@ -39,10 +39,11 @@ Status key: **Strong** = implemented and directly testable; **Partial** = visibl
 | FrameForge Inspect | Rebuilt substantially | Standalone v1.0.0 with actual Canvas pixel metrics, generated PNG fixtures, regional overlays, local file processing, comparison, human decision, export, and deployed tests |
 | QueueCast Planner | Replaced PilotMap | Standalone v1.0.0 with trend forecasting, residual uncertainty, five scenario assumptions, weekly capacity risk, Canvas visualization, human adoption, export, and deployed tests |
 
-The Phase Two wave must add formal evaluation, developer tooling, API design, audio, background automation, and privacy-preserving processing.
+The remaining Phase Two wave must add audio, anomaly detection, background monitoring, and privacy-preserving processing; evaluation, developer tooling, and API/event-system gaps are now covered.
 
 ## Phase Two Evidence
 
 | Project | New strong capabilities | Verified evidence |
 | --- | --- | --- |
 | EvalDeck Studio | Formal AI-output evaluation, developer tooling, pairwise regression, slice metrics, disagreement review, release gates, JSONL import, JSON/CSV artifacts | Standalone v1.0.0 with logic, repository, local browser, deployed browser, privacy, accessibility, screenshot, issue, and release evidence |
+| FlowReplay Console | Versioned webhook contracts, response classification, retries and backoff, deterministic failure injection, idempotency, dead-letter recovery, replay audit, local JSON artifacts | Standalone v1.0.0 with engine, repository, local browser, deployed browser, Canvas, privacy, accessibility, screenshot, issue, and release evidence |

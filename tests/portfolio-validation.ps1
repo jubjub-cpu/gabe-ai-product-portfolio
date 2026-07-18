@@ -38,7 +38,9 @@ $standaloneEvidence = @(
   "docs/screenshots/queuecast-standalone-desktop.png",
   "docs/screenshots/queuecast-standalone-mobile.png",
   "docs/screenshots/evaldeck-standalone-desktop.png",
-  "docs/screenshots/evaldeck-standalone-mobile.png"
+  "docs/screenshots/evaldeck-standalone-mobile.png",
+  "docs/screenshots/flowreplay-standalone-desktop.png",
+  "docs/screenshots/flowreplay-standalone-mobile.png"
 )
 
 $productPages = @(
@@ -112,7 +114,10 @@ foreach ($url in @(
   "https://github.com/jubjub-cpu/queuecast-planner/releases/tag/v1.0.0",
   "https://jubjub-cpu.github.io/evaldeck-studio/",
   "https://github.com/jubjub-cpu/evaldeck-studio",
-  "https://github.com/jubjub-cpu/evaldeck-studio/releases/tag/v1.0.0"
+  "https://github.com/jubjub-cpu/evaldeck-studio/releases/tag/v1.0.0",
+  "https://jubjub-cpu.github.io/flowreplay-console/",
+  "https://github.com/jubjub-cpu/flowreplay-console",
+  "https://github.com/jubjub-cpu/flowreplay-console/releases/tag/v1.0.0"
 )) {
   if ($allText -notmatch [Regex]::Escape($url)) {
     $failures.Add("Standalone project URL missing: $url")

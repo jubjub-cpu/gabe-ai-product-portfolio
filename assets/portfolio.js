@@ -17,6 +17,8 @@
     "Security awareness",
     "AI evaluation",
     "Developer tooling",
+    "API design",
+    "Event-driven systems",
     "Product documentation",
     "Visual design"
   ];
@@ -117,6 +119,22 @@
       oversight: "Raw scores remain visible; reasoned human overrides and the final release decision are recorded separately.",
       features: ["Pairwise rubrics", "Slice regression", "Release gates", "JSONL and CSV"],
       capabilities: ["Prompt engineering", "AI workflow design", "Human-in-the-loop review", "Data visualization", "Testing", "Accessibility", "Security awareness", "AI evaluation", "Developer tooling", "Product documentation"]
+    },
+    flowreplay: {
+      name: "FlowReplay Console",
+      shortName: "FlowReplay",
+      subtitle: "Webhook contracts, retries, idempotency, and recovery",
+      path: "https://jubjub-cpu.github.io/flowreplay-console/",
+      pathLabel: "Open live demo",
+      standaloneRepo: "https://github.com/jubjub-cpu/flowreplay-console",
+      standaloneRelease: "https://github.com/jubjub-cpu/flowreplay-console/releases/tag/v1.0.0",
+      accent: "amber",
+      problem: "Integration teams need to separate contract drift, transient failures, duplicate events, and dead-letter recovery before replaying a webhook.",
+      user: "API product engineers, integration developers, platform teams, and technical support engineers",
+      ai: "Models contract preflight, response classes, three backoff policies, five failure modes, idempotent no-ops, and terminal delivery outcomes with deterministic evidence.",
+      oversight: "No endpoint is contacted; a human must provide a recovery reason before the simulated replay is recorded.",
+      features: ["Contract preflight", "Retry backoff", "Idempotency", "Dead-letter recovery"],
+      capabilities: ["AI workflow design", "Human-in-the-loop review", "Data visualization", "Testing", "Accessibility", "Security awareness", "Developer tooling", "API design", "Event-driven systems", "Product documentation"]
     }
   };
 

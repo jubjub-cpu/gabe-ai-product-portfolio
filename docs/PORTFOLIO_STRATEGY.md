@@ -14,7 +14,7 @@ The completed five-product foundation covers the requested categories:
 4. Multimodal or creative media product: FrameForge QA.
 5. AI opportunity and workflow design: PilotMap AI.
 
-Phase Two expands the foundation with distinct standalone products. EvalDeck Studio is the first release, adding formal AI-output evaluation, regression analysis, developer tooling, and auditable release gates.
+Phase Two expands the foundation with distinct standalone products. EvalDeck Studio adds formal AI-output evaluation, regression analysis, and auditable release gates. FlowReplay Console adds API design, versioned contracts, event retries, failure injection, idempotency, and reasoned dead-letter recovery.
 
 ## Why Static First
 
@@ -33,7 +33,7 @@ When repositories are available, pin:
 
 1. `gabe-ai-product-portfolio`
 2. `evaldeck-studio`
-3. `signalops-triage`
+3. `flowreplay-console`
 4. `doctrace-desk`
 5. `frameforge-inspect`
 6. `queuecast-planner`
