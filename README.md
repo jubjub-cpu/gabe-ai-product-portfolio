@@ -1,6 +1,6 @@
 # Gabe - AI Digital Product Developer Portfolio
 
-This portfolio features eight complete, local-first AI digital products that show practical workflow design, prompt-shaped reasoning, formal evaluation, event reliability, real browser media processing, human review, synthetic data, and recruiter-friendly product documentation.
+This portfolio features nine complete, local-first AI digital products that show practical workflow design, prompt-shaped reasoning, formal evaluation, event reliability, real browser media processing, telemetry monitoring, human review, synthetic data, and recruiter-friendly product documentation.
 
 ## Overview
 
@@ -20,6 +20,7 @@ The portfolio does not claim traditional software engineering employment, produc
 | EvalDeck Studio | AI product teams need repeatable evidence before prompt or model changes ship. | Four pairwise rubrics, slice regressions, reference disagreement, configurable gates, reasoned overrides, JSONL/JSON/CSV artifacts. | [Standalone](https://jubjub-cpu.github.io/evaldeck-studio/) |
 | FlowReplay Console | Integration teams need to distinguish contract drift, transient failures, duplicates, and dead-letter recovery before replaying webhooks. | Versioned contracts, response classification, retry backoff, failure injection, idempotent no-ops, reasoned replay approval, JSON evidence. | [Standalone](https://jubjub-cpu.github.io/flowreplay-console/) |
 | VoiceGauge Local | Audio teams need a private first pass for clipping, level, silence, and background signal. | Real Web Audio decoding, six PCM metrics, timed Canvas findings, baseline comparison, local upload, threshold policy, human handoff gate. | [Standalone](https://jubjub-cpu.github.io/voicegauge-local/) |
+| ColdChain Sentinel | Cold-chain operators need to distinguish persistent excursions from noisy spikes and unhealthy sensor evidence. | Multivariate telemetry, persistence, clear hysteresis, spike suppression, sensor-gap detection, policy tuning, and a human incident gate. | [Standalone](https://jubjub-cpu.github.io/coldchain-sentinel/) |
 
 ## Business Problem
 
@@ -35,7 +36,7 @@ Each demo uses deterministic browser logic to simulate AI-style workflow support
 
 ## Main Features
 
-- Eight released product demos with synthetic data.
+- Nine released product demos with synthetic data.
 - Central portfolio page with project cards and capability matrix.
 - Human-in-the-loop review points in every product.
 - Recruiter-facing documentation, roadmap, scorecard, state tracking, blocker tracking, and case studies.
@@ -87,6 +88,10 @@ Current screenshots captured from the implemented local app:
 ![Standalone VoiceGauge desktop](docs/screenshots/voicegauge-standalone-desktop.png)
 
 ![Standalone VoiceGauge mobile](docs/screenshots/voicegauge-standalone-mobile.png)
+
+![Standalone ColdChain desktop](docs/screenshots/coldchain-standalone-desktop.png)
+
+![Standalone ColdChain mobile](docs/screenshots/coldchain-standalone-mobile.png)
 
 ![Mobile portfolio](docs/screenshots/portfolio-mobile.png)
 
@@ -156,6 +161,12 @@ Standalone VoiceGauge Local:
 - [Repository](https://github.com/jubjub-cpu/voicegauge-local)
 - [v1.0.0 release](https://github.com/jubjub-cpu/voicegauge-local/releases/tag/v1.0.0)
 
+Standalone ColdChain Sentinel:
+
+- [Live demo](https://jubjub-cpu.github.io/coldchain-sentinel/)
+- [Repository](https://github.com/jubjub-cpu/coldchain-sentinel)
+- [v1.0.0 release](https://github.com/jubjub-cpu/coldchain-sentinel/releases/tag/v1.0.0)
+
 Local fallback:
 
 ```text
@@ -174,6 +185,7 @@ The demos show AI product patterns without pretending a paid model is running:
 - Formal AI-output evaluation, regression analysis, and release gating.
 - API contracts, event retries, idempotency, failure injection, and dead-letter recovery.
 - Web Audio decoding, PCM signal analysis, waveform overlays, and local audio privacy.
+- Multivariate telemetry monitoring, persistence-aware anomaly detection, clear hysteresis, and sensor-health evidence.
 
 ## Human Oversight
 
@@ -254,12 +266,12 @@ powershell -ExecutionPolicy Bypass -File .\tests\portfolio-validation.ps1
 Latest local validation:
 
 - `PORTFOLIO VALIDATION PASSED`
-- Browser smoke test: all five suite workflows plus the EvalDeck, FlowReplay, and VoiceGauge integrations rendered.
+- Browser smoke test: all five suite workflows plus the EvalDeck, FlowReplay, VoiceGauge, and ColdChain integrations rendered.
 - Interaction test: SignalOps approval, ReviewFlow approval, DocuTrace citations, FrameForge revision review, and PilotMap scoring all responded.
-- Mobile check: central portfolio rendered with eight project cards at 390 px width.
+- Mobile check: central portfolio rendered with nine project cards at 390 px width.
 - Browser console errors: none observed.
 
-The repeatable browser integration check verifies the eight-card desktop and mobile layouts plus the standalone foundation, EvalDeck, FlowReplay, and VoiceGauge public links.
+The repeatable browser integration check verifies the nine-card desktop and mobile layouts plus the standalone foundation, EvalDeck, FlowReplay, VoiceGauge, and ColdChain public links.
 
 ## Deployment
 
@@ -284,7 +296,7 @@ The recruiter-review path does not require a backend or paid API.
 ## Future Improvements
 
 - Add optional bring-your-own-key AI integrations.
-- Build the remaining two selected Phase Two products in `PHASE_TWO_CANDIDATES.md`.
+- Build the final selected Phase Two product in `PHASE_TWO_CANDIDATES.md`.
 - Add live API-backed variants only when privacy, cost, and security boundaries are clear.
 
 ## AI-Assisted Development

@@ -14,7 +14,7 @@ The completed five-product foundation covers the requested categories:
 4. Multimodal or creative media product: FrameForge QA.
 5. AI opportunity and workflow design: PilotMap AI.
 
-Phase Two expands the foundation with distinct standalone products. EvalDeck Studio adds formal AI-output evaluation and release gates. FlowReplay Console adds API design, event retries, and idempotency. VoiceGauge Local adds real browser audio decoding, PCM analysis, visual signal evidence, and a strict local-file privacy boundary.
+Phase Two expands the foundation with distinct standalone products. EvalDeck Studio adds formal AI-output evaluation and release gates. FlowReplay Console adds API design, event retries, and idempotency. VoiceGauge Local adds real browser audio decoding, PCM analysis, visual signal evidence, and a strict local-file privacy boundary. ColdChain Sentinel adds multivariate telemetry, persistence-aware anomaly detection, clear hysteresis, and sensor-health monitoring.
 
 ## Why Static First
 
@@ -34,6 +34,6 @@ When repositories are available, pin:
 1. `gabe-ai-product-portfolio`
 2. `evaldeck-studio`
 3. `flowreplay-console`
-4. `voicegauge-local`
-5. `doctrace-desk`
-6. `frameforge-inspect`
+4. `coldchain-sentinel`
+5. `voicegauge-local`
+6. `doctrace-desk`

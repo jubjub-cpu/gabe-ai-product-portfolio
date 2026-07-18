@@ -10,6 +10,8 @@
     "Retrieval",
     "Multimodal processing",
     "Audio processing",
+    "Anomaly detection",
+    "Monitoring and observability",
     "Business-process automation",
     "Human-in-the-loop review",
     "Data visualization",
@@ -152,6 +154,22 @@
       oversight: "No transcription or identity inference runs; accepting audio with findings requires written human evidence.",
       features: ["Web Audio decode", "PCM metrics", "Waveform findings", "Local file boundary"],
       capabilities: ["Multimodal processing", "Audio processing", "Human-in-the-loop review", "Data visualization", "Testing", "Accessibility", "Security awareness", "Developer tooling", "Product documentation", "Visual design"]
+    },
+    coldchain: {
+      name: "ColdChain Sentinel",
+      shortName: "ColdChain",
+      subtitle: "Persistence-aware telemetry anomaly monitoring",
+      path: "https://jubjub-cpu.github.io/coldchain-sentinel/",
+      pathLabel: "Open live demo",
+      standaloneRepo: "https://github.com/jubjub-cpu/coldchain-sentinel",
+      standaloneRelease: "https://github.com/jubjub-cpu/coldchain-sentinel/releases/tag/v1.0.0",
+      accent: "teal",
+      problem: "Cold-chain operators need to distinguish persistent cargo-condition incidents from noisy spikes while seeing when sensor evidence itself is unhealthy.",
+      user: "Cold-chain operations leads, logistics coordinators, quality teams, and monitoring product teams",
+      ai: "Evaluates 188 deterministic multivariate readings with explicit persistence, clear hysteresis, spike suppression, cadence, battery, signal, and door-state rules.",
+      oversight: "No shipment is disposed automatically; a human operator must provide written evidence before acknowledgement or escalation.",
+      features: ["Telemetry timeline", "Anomaly persistence", "Sensor health", "Human incident gate"],
+      capabilities: ["AI workflow design", "Anomaly detection", "Monitoring and observability", "Human-in-the-loop review", "Data visualization", "Testing", "Accessibility", "Security awareness", "Developer tooling", "Product documentation", "Visual design"]
     }
   };
 

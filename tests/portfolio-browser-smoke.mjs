@@ -42,7 +42,7 @@ try {
   page.on("requestfailed", (request) => failedRequests.push(request.url()));
   await page.goto(baseUrl, { waitUntil: "networkidle" });
 
-  assert.equal(await page.locator(".project-card").count(), 8, "Eight central project cards should render");
+  assert.equal(await page.locator(".project-card").count(), 9, "Nine central project cards should render");
   const docuTraceCard = page.locator(".project-card").filter({ hasText: "DocuTrace Desk" });
   assert.equal(await docuTraceCard.count(), 1, "DocuTrace card should render once");
   assert.equal(await docuTraceCard.getByRole("link", { name: "Standalone live" }).getAttribute("href"), "https://jubjub-cpu.github.io/doctrace-desk/");
@@ -67,6 +67,9 @@ try {
   const voiceGaugeCard = page.locator(".project-card").filter({ hasText: "VoiceGauge Local" });
   assert.equal(await voiceGaugeCard.getByRole("link", { name: "Open live demo" }).getAttribute("href"), "https://jubjub-cpu.github.io/voicegauge-local/");
   assert.equal(await voiceGaugeCard.getByRole("link", { name: "Repo" }).getAttribute("href"), "https://github.com/jubjub-cpu/voicegauge-local");
+  const coldChainCard = page.locator(".project-card").filter({ hasText: "ColdChain Sentinel" });
+  assert.equal(await coldChainCard.getByRole("link", { name: "Open live demo" }).getAttribute("href"), "https://jubjub-cpu.github.io/coldchain-sentinel/");
+  assert.equal(await coldChainCard.getByRole("link", { name: "Repo" }).getAttribute("href"), "https://github.com/jubjub-cpu/coldchain-sentinel");
   assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth), false, "Desktop portfolio should not overflow");
 
   await page.goto(`${baseUrl}projects/doctrace-desk/`, { waitUntil: "networkidle" });
@@ -95,12 +98,12 @@ try {
   const mobile = await browser.newContext({ viewport: { width: 390, height: 844 } });
   const mobilePage = await mobile.newPage();
   await mobilePage.goto(baseUrl, { waitUntil: "networkidle" });
-  assert.equal(await mobilePage.locator(".project-card").count(), 8, "Eight project cards should render on mobile");
+  assert.equal(await mobilePage.locator(".project-card").count(), 9, "Nine project cards should render on mobile");
   assert.equal(await mobilePage.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth), false, "Mobile portfolio should not overflow");
   await mobile.close();
 
   console.log("PORTFOLIO BROWSER TESTS PASSED");
-  console.log(JSON.stringify({ target: deployedBaseUrl ? "deployed" : "local", cards: 8, docuTraceLinks: 3, reviewFlowLinks: 3, frameForgeLinks: 3, queueCastLinks: 3, evalDeckLinks: 2, flowReplayLinks: 2, voiceGaugeLinks: 2, desktopOverflow: false, mobileOverflow: false, consoleErrors: 0, failedRequests: 0 }));
+  console.log(JSON.stringify({ target: deployedBaseUrl ? "deployed" : "local", cards: 9, docuTraceLinks: 3, reviewFlowLinks: 3, frameForgeLinks: 3, queueCastLinks: 3, evalDeckLinks: 2, flowReplayLinks: 2, voiceGaugeLinks: 2, coldChainLinks: 2, desktopOverflow: false, mobileOverflow: false, consoleErrors: 0, failedRequests: 0 }));
 } finally {
   if (browser) await browser.close();
   if (server) server.kill();

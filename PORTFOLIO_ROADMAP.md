@@ -10,6 +10,7 @@
 | 6 | EvalDeck Studio | AI quality engineering | Prompt and model changes need repeatable regression evidence. | AI product engineers and QA leads | Standalone complete | [Standalone repository](https://github.com/jubjub-cpu/evaldeck-studio) | [Standalone demo](https://jubjub-cpu.github.io/evaldeck-studio/) | v1.0.0 | None | Feature and maintain |
 | 7 | FlowReplay Console | Developer infrastructure | Webhook failures need contract, retry, idempotency, and replay evidence. | API product engineers and integration developers | Standalone complete | [Standalone repository](https://github.com/jubjub-cpu/flowreplay-console) | [Standalone demo](https://jubjub-cpu.github.io/flowreplay-console/) | v1.0.0 | None | Feature and maintain |
 | 8 | VoiceGauge Local | Audio intelligence | Audio teams need local signal evidence before handoff. | Content QA leads, producers, and creators | Standalone complete | [Standalone repository](https://github.com/jubjub-cpu/voicegauge-local) | [Standalone demo](https://jubjub-cpu.github.io/voicegauge-local/) | v1.0.0 | None | Feature and maintain |
+| 9 | ColdChain Sentinel | Telemetry monitoring | Cold-chain teams need persistent anomaly and sensor-health evidence before incident disposition. | Logistics operations and quality leads | Standalone complete | [Standalone repository](https://github.com/jubjub-cpu/coldchain-sentinel) | [Standalone demo](https://jubjub-cpu.github.io/coldchain-sentinel/) | v1.0.0 | None | Feature and maintain |
 
 ## Inventory Classification
 

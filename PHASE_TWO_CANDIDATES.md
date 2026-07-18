@@ -7,7 +7,7 @@ Scoring dimensions are business clarity, novelty versus the foundation, missing-
 | EvalDeck Studio | AI quality engineering | JSONL prompts and outputs | Evaluation table and diff | Rubrics, pairwise evaluation, regression suites | 5 | 5 | 5 | 5 | 5 | 5 | 30 | Complete: v1.0.0 |
 | FlowReplay Console | Developer infrastructure | Webhook events and API schemas | Event timeline and contract console | API design, replay, idempotency, failure injection | 5 | 5 | 5 | 4 | 5 | 5 | 29 | Complete: v1.0.0 |
 | VoiceGauge Local | Customer-support QA | Local audio waveform | Waveform timeline | Audio processing, privacy, silence and clipping analysis | 5 | 5 | 5 | 4 | 5 | 5 | 29 | Complete: v1.0.0 |
-| ColdChain Sentinel | Logistics | Sensor telemetry | Monitoring board and route view | Multivariate anomaly detection and incident evidence | 5 | 5 | 4 | 5 | 5 | 5 | 29 | Select 4 |
+| ColdChain Sentinel | Logistics | Sensor telemetry | Monitoring board and route view | Multivariate anomaly detection and incident evidence | 5 | 5 | 4 | 5 | 5 | 5 | 29 | Complete: v1.0.0 |
 | CivicCase Redact | Public services | Case-note text spans | Split editor and review queue | Local-first privacy, PII rules, reversible review | 5 | 4 | 5 | 5 | 5 | 5 | 29 | Select 5 |
 | GrantGuard Evidence | Nonprofit compliance | Grant documents | Evidence checklist | Compliance extraction and citations | 4 | 2 | 2 | 5 | 4 | 5 | 22 | Reject: close to DocuTrace |
 | ShiftPilot Forecast | Retail staffing | Sales time series | Scenario planner | Forecasting and staffing | 5 | 1 | 1 | 5 | 4 | 4 | 20 | Reject: duplicates QueueCast |
@@ -30,5 +30,5 @@ Scoring dimensions are business clarity, novelty versus the foundation, missing-
 - Industries: AI quality engineering, developer infrastructure, customer support, logistics, and public services.
 - Interfaces: evaluation table/diff, event console, waveform timeline, monitoring board/route view, and split redaction editor.
 - Data: JSONL text pairs, event JSON, audio samples, multivariate telemetry, and case-note spans.
-- Gaps: developer tooling, API design, event automation, formal evaluation, audio, anomaly detection, and local-first privacy.
+- Remaining selected gap: local-first privacy-preserving text processing and reversible redaction review.
 - Closest-project rule: every selected product owns a different user, workflow, data type, interface, and primary technical claim.

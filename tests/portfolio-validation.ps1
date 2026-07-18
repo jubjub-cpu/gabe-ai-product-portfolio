@@ -42,7 +42,9 @@ $standaloneEvidence = @(
   "docs/screenshots/flowreplay-standalone-desktop.png",
   "docs/screenshots/flowreplay-standalone-mobile.png",
   "docs/screenshots/voicegauge-standalone-desktop.png",
-  "docs/screenshots/voicegauge-standalone-mobile.png"
+  "docs/screenshots/voicegauge-standalone-mobile.png",
+  "docs/screenshots/coldchain-standalone-desktop.png",
+  "docs/screenshots/coldchain-standalone-mobile.png"
 )
 
 $productPages = @(
@@ -122,7 +124,10 @@ foreach ($url in @(
   "https://github.com/jubjub-cpu/flowreplay-console/releases/tag/v1.0.0",
   "https://jubjub-cpu.github.io/voicegauge-local/",
   "https://github.com/jubjub-cpu/voicegauge-local",
-  "https://github.com/jubjub-cpu/voicegauge-local/releases/tag/v1.0.0"
+  "https://github.com/jubjub-cpu/voicegauge-local/releases/tag/v1.0.0",
+  "https://jubjub-cpu.github.io/coldchain-sentinel/",
+  "https://github.com/jubjub-cpu/coldchain-sentinel",
+  "https://github.com/jubjub-cpu/coldchain-sentinel/releases/tag/v1.0.0"
 )) {
   if ($allText -notmatch [Regex]::Escape($url)) {
     $failures.Add("Standalone project URL missing: $url")

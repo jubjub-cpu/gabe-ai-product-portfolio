@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-The five-project foundation is complete and the portfolio has expanded to eight released products with EvalDeck Studio, FlowReplay Console, and VoiceGauge Local, the first three Phase Two releases. The published work includes runnable synthetic-data demos, central documentation, a capability matrix, case studies, validation checks, screenshots, closed milestone issues, and versioned GitHub releases.
+The five-project foundation is complete and the portfolio has expanded to nine released products with EvalDeck Studio, FlowReplay Console, VoiceGauge Local, and ColdChain Sentinel, the first four Phase Two releases. The published work includes runnable synthetic-data demos, central documentation, a capability matrix, case studies, validation checks, screenshots, closed milestone issues, and versioned GitHub releases.
 
 ## Gabe's Portfolio Positioning
 
@@ -20,6 +20,7 @@ Gabe is positioned as an AI Digital Product Developer who uses AI-assisted devel
 | EvalDeck Studio | [Standalone demo](https://jubjub-cpu.github.io/evaldeck-studio/) | AI product changes need repeatable quality and safety evidence before release. | AI product engineers and QA leads | Pairwise rubric scoring, slice regressions, reference disagreement, configurable gates, reasoned overrides, portable artifacts. | Static HTML/CSS/JS and Canvas | Logic, import/export, repository, local browser, and deployed browser checks passed | Standalone v1.0.0 published |
 | FlowReplay Console | [Standalone demo](https://jubjub-cpu.github.io/flowreplay-console/) | Webhook failures need visible contract, retry, duplicate, and recovery evidence. | API product engineers and integration developers | Versioned contract preflight, retry/backoff, failure injection, idempotent no-ops, dead-letter recovery, human replay approval. | Static HTML/CSS/JS and Canvas | Engine, import/export, repository, local browser, and deployed browser checks passed | Standalone v1.0.0 published |
 | VoiceGauge Local | [Standalone demo](https://jubjub-cpu.github.io/voicegauge-local/) | Audio teams need a private first pass for clipping, silence, level, and background signal. | Content QA leads, producers, and creators | Real Web Audio decoding, PCM metrics, waveform findings, threshold policy, baseline comparison, local import, human handoff decision. | Static HTML/CSS/JS, Web Audio, and Canvas | Engine, generated fixtures, import/export, repository, local browser, and deployed browser checks passed | Standalone v1.0.0 published |
+| ColdChain Sentinel | [Standalone demo](https://jubjub-cpu.github.io/coldchain-sentinel/) | Cold-chain teams need to separate persistent excursions from spikes and unhealthy sensor evidence. | Logistics operations and quality leads | Multivariate telemetry, persistence, clear hysteresis, spike suppression, cadence, battery, signal, door evidence, and human disposition. | Static HTML/CSS/JS and Canvas | Engine, 188 readings, export, repository, local browser, and deployed browser checks passed | Standalone v1.0.0 published |
 
 ## Capability Matrix
 
@@ -38,15 +39,15 @@ The profile README links to the live portfolio and truthfully describes Gabe's A
 1. `gabe-ai-product-portfolio`
 2. `evaldeck-studio`
 3. `flowreplay-console`
-4. `voicegauge-local`
-5. `doctrace-desk`
-6. `frameforge-inspect`
+4. `coldchain-sentinel`
+5. `voicegauge-local`
+6. `doctrace-desk`
 
 ## Testing Summary
 
 - `PORTFOLIO VALIDATION PASSED`
 - Browser render checks passed.
-- Interaction checks passed for all five suite workflows plus EvalDeck's regression, FlowReplay's event-recovery, and VoiceGauge's local audio workflows.
+- Interaction checks passed for all five suite workflows plus EvalDeck's regression, FlowReplay's event-recovery, VoiceGauge's local audio, and ColdChain's telemetry incident workflows.
 - Mobile central portfolio check passed at 390 px.
 - No browser console errors observed.
 
@@ -108,6 +109,10 @@ Standalone VoiceGauge Local deployment: https://jubjub-cpu.github.io/voicegauge-
 
 Standalone VoiceGauge Local release: https://github.com/jubjub-cpu/voicegauge-local/releases/tag/v1.0.0
 
+Standalone ColdChain Sentinel deployment: https://jubjub-cpu.github.io/coldchain-sentinel/
+
+Standalone ColdChain Sentinel release: https://github.com/jubjub-cpu/coldchain-sentinel/releases/tag/v1.0.0
+
 ## Privacy and Security Summary
 
 All product data is fictional or synthetic. No real customer records, payment-card records, credentials, private communications, employee data, or production logs are included. The validation script scans for common secret patterns.
@@ -116,7 +121,7 @@ All product data is fictional or synthetic. No real customer records, payment-ca
 
 - Pin `gabe-ai-product-portfolio` on the GitHub profile manually. The available GitHub GraphQL schema did not expose a repository-pinning mutation in this environment.
 - Apply the six-repository recommendation in `docs/PORTFOLIO_STRATEGY.md` manually; repository pinning is not exposed by the available API.
-- Build the remaining two selected Phase Two products in `PHASE_TWO_CANDIDATES.md`.
+- Build the final selected Phase Two product in `PHASE_TWO_CANDIDATES.md`.
 
 ## Next Projects
 
@@ -124,4 +129,4 @@ See `NEXT_5_PROJECTS.md`.
 
 ## Suggested Next Career Step
 
-Use the central portfolio plus EvalDeck, FlowReplay, VoiceGauge, and DocuTrace to apply for AI product, evaluation, developer tooling, media intelligence, workflow automation, and document intelligence roles while continuing Phase Two.
+Use the central portfolio plus EvalDeck, FlowReplay, ColdChain, VoiceGauge, and DocuTrace to apply for AI product, evaluation, developer tooling, monitoring, media intelligence, workflow automation, and document intelligence roles while completing Phase Two.
