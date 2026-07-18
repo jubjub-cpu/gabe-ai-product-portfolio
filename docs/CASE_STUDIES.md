@@ -249,3 +249,56 @@ Validation script plus manual reviewer check.
 ### Gabe's Contribution
 
 Business workflow framing, responsible AI scoping, product narrative, and validation criteria.
+
+## TrustPath Studio
+
+### Problem
+
+AI product security evidence is often split between architecture diagrams, threat registers, control lists, and launch checklists. Reviewers need to see how those artifacts connect.
+
+### User
+
+Product security engineers, AI platform engineers, and technical product leads.
+
+### Existing Workflow
+
+Review a diagram, manually compare it with a threat spreadsheet, estimate mitigation strength, and record a separate launch decision.
+
+### Pain Points
+
+- Directed reachability is difficult to verify from static diagrams.
+- Threat scores can lose the exact architecture evidence behind them.
+- Control lists do not show residual-risk movement.
+- Launch decisions can be recorded before every threat is reviewed.
+
+### Product Hypothesis
+
+A graph-first workbench can make security review more inspectable by linking every modeled threat to a path, mitigation set, residual score, and explicit human gate.
+
+### Proposed Workflow
+
+Select a synthetic architecture, inspect its graph, trace prioritized attack paths, apply controls, compare residual risk, review every threat, and approve or block launch with written evidence.
+
+### Role of AI
+
+Deterministic misuse-case classification, attack-path prioritization, and control-effect simulation model an explainable AI security workflow without claiming predictive accuracy.
+
+### Human-Control Model
+
+Approval requires every threat reviewed, zero critical residual paths, and written evidence. Blocking also requires a complete reviewed record.
+
+### Technical Approach
+
+Static local-first JavaScript, a reusable graph/risk engine, Cytoscape.js Canvas rendering, versioned JSON fixtures, local import/export, and exact engine plus browser validation.
+
+### Data and Privacy
+
+All architectures, threats, and controls are fictional. Local JSON remains in browser memory. No endpoint probing, analytics, account, credential, or production architecture is used.
+
+### Validation
+
+Engine, repository, clean dependency, audit, graph-pixel, local/deployed browser, import/export, failure-state, privacy, desktop/mobile layout, and axe-core checks passed.
+
+### Gabe's Contribution
+
+AI product security framing, graph workflow design, transparent risk logic, control simulation, launch governance, visual product design, and complete release validation.

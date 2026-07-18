@@ -38,7 +38,9 @@ $standaloneEvidence = @(
   "docs/screenshots/coldchain-standalone-desktop.png",
   "docs/screenshots/coldchain-standalone-mobile.png",
   "docs/screenshots/civiccase-standalone-desktop.png",
-  "docs/screenshots/civiccase-standalone-mobile.png"
+  "docs/screenshots/civiccase-standalone-mobile.png",
+  "docs/screenshots/trustpath-standalone-desktop.png",
+  "docs/screenshots/trustpath-standalone-mobile.png"
 )
 
 $productPages = @(
@@ -83,7 +85,7 @@ foreach ($pattern in $secretPatterns) {
   }
 }
 
-foreach ($product in @("signalops", "reviewflow", "doctrace", "frameforge", "pilotmap")) {
+foreach ($product in @("signalops", "reviewflow", "doctrace", "frameforge", "pilotmap", "trustpath")) {
   if ($allText -notmatch $product) {
     $failures.Add("Product id not found in portfolio text: $product")
   }
@@ -96,7 +98,7 @@ foreach ($phrase in @("synthetic", "Human", "deterministic")) {
 }
 
 foreach ($url in @(
-  "https://github.com/jubjub-cpu/gabe-ai-product-portfolio/releases/tag/v2.0.1",
+  "https://github.com/jubjub-cpu/gabe-ai-product-portfolio/releases/tag/v2.1.0",
   "https://jubjub-cpu.github.io/signalops-triage/",
   "https://github.com/jubjub-cpu/signalops-triage",
   "https://github.com/jubjub-cpu/signalops-triage/releases/tag/v1.0.1",
@@ -126,7 +128,10 @@ foreach ($url in @(
   "https://github.com/jubjub-cpu/coldchain-sentinel/releases/tag/v1.0.1",
   "https://jubjub-cpu.github.io/civiccase-redact/",
   "https://github.com/jubjub-cpu/civiccase-redact",
-  "https://github.com/jubjub-cpu/civiccase-redact/releases/tag/v1.0.1"
+  "https://github.com/jubjub-cpu/civiccase-redact/releases/tag/v1.0.1",
+  "https://jubjub-cpu.github.io/trustpath-studio/",
+  "https://github.com/jubjub-cpu/trustpath-studio",
+  "https://github.com/jubjub-cpu/trustpath-studio/releases/tag/v1.0.0"
 )) {
   if ($allText -notmatch [Regex]::Escape($url)) {
     $failures.Add("Standalone project URL missing: $url")

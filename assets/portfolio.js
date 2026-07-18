@@ -16,9 +16,11 @@
     "Business-process automation",
     "Human-in-the-loop review",
     "Data visualization",
+    "Graph analytics",
     "Testing",
     "Accessibility",
     "Security awareness",
+    "AI security and threat modeling",
     "AI evaluation",
     "Developer tooling",
     "API design",
@@ -187,8 +189,26 @@
       oversight: "Every suggested span must be marked redact or keep, and a written human release decision is required before export.",
       features: ["Offset spans", "Reversible review", "Manual redaction", "Value-free manifest"],
       capabilities: ["AI workflow design", "Structured extraction", "Privacy-preserving text processing", "Human-in-the-loop review", "Testing", "Accessibility", "Security awareness", "Developer tooling", "Product documentation", "Visual design"]
+    },
+    trustpath: {
+      name: "TrustPath Studio",
+      shortName: "TrustPath",
+      subtitle: "Graph-based AI product security and launch review",
+      path: "https://jubjub-cpu.github.io/trustpath-studio/",
+      pathLabel: "Open live demo",
+      standaloneRepo: "https://github.com/jubjub-cpu/trustpath-studio",
+      standaloneRelease: "https://github.com/jubjub-cpu/trustpath-studio/releases/tag/v1.0.0",
+      accent: "teal",
+      problem: "AI product teams need to connect architecture components, reachable misuse paths, mitigating controls, and launch evidence in one reviewable workflow.",
+      user: "Product security engineers, AI platform engineers, and technical product leads",
+      ai: "Validates directed system graphs, traces attack paths, prioritizes modeled threats, and simulates control effects with transparent deterministic logic.",
+      oversight: "Every threat must be reviewed and a human must provide written evidence before approving or blocking launch.",
+      features: ["Architecture graph", "Attack paths", "Control simulation", "Human launch gate"],
+      capabilities: ["AI workflow design", "Human-in-the-loop review", "Data visualization", "Graph analytics", "Testing", "Accessibility", "Security awareness", "AI security and threat modeling", "Developer tooling", "Product documentation", "Visual design"]
     }
   };
+
+  const featuredProductIds = ["trustpath", "evaldeck", "flowreplay", "civiccase", "voicegauge", "coldchain", "doctrace"];
 
   const signalIncidents = [
     {
@@ -328,10 +348,11 @@
 
   function renderPortfolio() {
     const grid = qs("#project-grid");
+    const additionalGrid = qs("#additional-grid");
     const matrix = qs("#capability-matrix");
-    if (!grid || !matrix) return;
+    if (!grid || !additionalGrid || !matrix) return;
 
-    grid.innerHTML = Object.values(products).map((product) => `
+    const card = (product) => `
       <article class="project-card">
         ${visual(product.accent)}
         <div>
@@ -347,7 +368,9 @@
           ${product.standaloneRepo ? `<a class="button-link secondary" href="${product.standaloneRepo}">Repo</a>` : ""}
         </div>
       </article>
-    `).join("");
+    `;
+    grid.innerHTML = featuredProductIds.map((id) => card(products[id])).join("");
+    additionalGrid.innerHTML = Object.entries(products).filter(([id]) => !featuredProductIds.includes(id)).map(([, product]) => card(product)).join("");
 
     matrix.innerHTML = `
       <table>

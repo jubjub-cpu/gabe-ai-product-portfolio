@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-The portfolio includes five foundation projects and five distinct expansion products released as ten public, runnable experiences. EvalDeck Studio, FlowReplay Console, VoiceGauge Local, ColdChain Sentinel, and CivicCase Redact add evaluation, developer infrastructure, audio, monitoring, anomaly detection, and privacy-preserving text review. Every standalone has documentation, validation checks, screenshots, and a versioned GitHub release.
+The portfolio includes five foundation projects and six distinct expansion products released as eleven public, runnable experiences. EvalDeck Studio, FlowReplay Console, VoiceGauge Local, ColdChain Sentinel, CivicCase Redact, and TrustPath Studio add evaluation, developer infrastructure, audio, monitoring, anomaly detection, privacy engineering, graph analytics, and AI product security. Every standalone has documentation, validation checks, screenshots, and a versioned GitHub release.
 
 ## Gabe's Portfolio Positioning
 
@@ -22,6 +22,7 @@ Gabe is positioned as an AI Digital Product Developer focused on product thinkin
 | VoiceGauge Local | [Standalone demo](https://jubjub-cpu.github.io/voicegauge-local/) | Audio teams need a private first pass for clipping, silence, level, and background signal. | Content QA leads, producers, and creators | Real Web Audio decoding, PCM metrics, waveform findings, threshold policy, baseline comparison, local import, human handoff decision. | Static HTML/CSS/JS, Web Audio, and Canvas | Engine, generated fixtures, local/deployed browser, and accessibility checks passed | Standalone v1.0.1 published |
 | ColdChain Sentinel | [Standalone demo](https://jubjub-cpu.github.io/coldchain-sentinel/) | Cold-chain teams need to separate persistent excursions from spikes and unhealthy sensor evidence. | Logistics operations and quality leads | Multivariate telemetry, persistence, clear hysteresis, spike suppression, cadence, battery, signal, door evidence, and human disposition. | Static HTML/CSS/JS and Canvas | Engine, 188 readings, local/deployed browser, and accessibility checks passed | Standalone v1.0.1 published |
 | CivicCase Redact | [Standalone demo](https://jubjub-cpu.github.io/civiccase-redact/) | Case-note teams need reversible direct-identifier review before protected release. | Privacy reviewers and records teams | Seven identifier types, exact offsets, repeated-name context, reversible decisions, manual redaction, and value-free artifacts. | Static HTML/CSS/JS | Engine, exact fixtures, local/deployed browser, and accessibility checks passed | Standalone v1.0.1 published |
+| TrustPath Studio | [Standalone demo](https://jubjub-cpu.github.io/trustpath-studio/) | AI product teams need architecture, attack-path, control, and launch evidence in one security review. | Product security engineers, AI platform engineers, and technical product leads | Directed graph analysis, threat prioritization, control simulation, residual risk, and evidence-required launch governance. | Static HTML/CSS/JS and Cytoscape.js Canvas | Engine, graph paths, control simulation, local/deployed browser, graph-pixel, and accessibility checks passed | Standalone v1.0.0 published |
 
 ## Capability Matrix
 
@@ -33,28 +34,28 @@ Gabe's GitHub profile README repository was created at:
 
 [https://github.com/jubjub-cpu/jubjub-cpu](https://github.com/jubjub-cpu/jubjub-cpu)
 
-The profile README links to the live portfolio and presents the complete ten-product set.
+The profile README links to the live portfolio and presents a curated seven-product featured set from the complete eleven-product portfolio.
 
 ## Curated Pinned Repositories
 
 1. `gabe-ai-product-portfolio`
-2. `evaldeck-studio`
-3. `flowreplay-console`
-4. `civiccase-redact`
-5. `coldchain-sentinel`
-6. `frameforge-inspect`
+2. `trustpath-studio`
+3. `evaldeck-studio`
+4. `flowreplay-console`
+5. `civiccase-redact`
+6. `coldchain-sentinel`
 
 ## Testing Summary
 
 - `PORTFOLIO VALIDATION PASSED`
 - Browser render checks passed.
-- Interaction checks passed for all five suite workflows plus EvalDeck's regression, FlowReplay's event recovery, VoiceGauge's local audio, ColdChain's telemetry incidents, and CivicCase's reversible privacy review.
+- Interaction checks passed for all five suite workflows plus EvalDeck's regression, FlowReplay's event recovery, VoiceGauge's local audio, ColdChain's telemetry incidents, CivicCase's reversible privacy review, and TrustPath's security launch gate.
 - Mobile central portfolio check passed at 390 px.
 - No browser console errors observed.
-- Twenty-two local and deployed axe-core checks passed across the central portfolio and all ten standalone sites with zero violations.
+- Twenty-four local and deployed axe-core checks passed across the central portfolio and all eleven standalone sites with zero violations.
 - Eight standalone patch deployments passed desktop/mobile axe-core and complete deployed browser workflows; DocuTrace and FrameForge remain healthy at v1.0.0.
-- The central v2.0.1 deployment passed its complete browser integration workflow with zero console errors, failed requests, or desktop/mobile overflow.
-- All ten standalone repositories are public with zero open issues; the profile contains the complete product set and no private contact email.
+- The central v2.1.0 deployment passed its complete browser integration workflow with zero console errors, failed requests, or desktop/mobile overflow.
+- All eleven standalone repositories are public with zero open issues; the profile presents a curated featured set and current portfolio link.
 
 ## Deployment Summary
 
@@ -64,7 +65,7 @@ The app is deployed on GitHub Pages:
 
 Release:
 
-[https://github.com/jubjub-cpu/gabe-ai-product-portfolio/releases/tag/v2.0.1](https://github.com/jubjub-cpu/gabe-ai-product-portfolio/releases/tag/v2.0.1)
+[https://github.com/jubjub-cpu/gabe-ai-product-portfolio/releases/tag/v2.1.0](https://github.com/jubjub-cpu/gabe-ai-product-portfolio/releases/tag/v2.1.0)
 
 Standalone SignalOps deployment:
 
@@ -122,10 +123,14 @@ Standalone CivicCase Redact deployment: https://jubjub-cpu.github.io/civiccase-r
 
 Standalone CivicCase Redact release: https://github.com/jubjub-cpu/civiccase-redact/releases/tag/v1.0.1
 
+Standalone TrustPath Studio deployment: https://jubjub-cpu.github.io/trustpath-studio/
+
+Standalone TrustPath Studio release: https://github.com/jubjub-cpu/trustpath-studio/releases/tag/v1.0.0
+
 ## Privacy and Security Summary
 
 All product data is fictional or synthetic. No real customer records, payment-card records, credentials, private communications, employee data, or production logs are included. The validation script scans for common secret patterns.
 
 ## Portfolio Status
 
-The ten-product set is complete, the curated GitHub profile pins are applied, and the portfolio is ready for review.
+The eleven-product set is complete, the central portfolio foregrounds seven strongest workbenches, and the GitHub profile remains concise and ready for review.

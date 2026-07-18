@@ -1,6 +1,6 @@
 # Gabe - AI Digital Product Developer Portfolio
 
-This portfolio features ten complete, local-first AI digital products spanning workflow design, formal evaluation, event reliability, browser media processing, telemetry monitoring, privacy-preserving text processing, and human review.
+This portfolio features eleven complete, local-first AI digital products spanning workflow design, formal evaluation, event reliability, browser media processing, telemetry monitoring, privacy engineering, graph analytics, AI product security, and human review.
 
 ## Overview
 
@@ -22,6 +22,7 @@ The demos use synthetic data and deterministic browser logic. They are product p
 | VoiceGauge Local | Audio teams need a private first pass for clipping, level, silence, and background signal. | Real Web Audio decoding, six PCM metrics, timed Canvas findings, baseline comparison, local upload, threshold policy, human handoff gate. | [Standalone](https://jubjub-cpu.github.io/voicegauge-local/) |
 | ColdChain Sentinel | Cold-chain operators need to distinguish persistent excursions from noisy spikes and unhealthy sensor evidence. | Multivariate telemetry, persistence, clear hysteresis, spike suppression, sensor-gap detection, policy tuning, and a human incident gate. | [Standalone](https://jubjub-cpu.github.io/coldchain-sentinel/) |
 | CivicCase Redact | Case-note reviewers need reversible direct-identifier review before protected text is released. | Seven identifier types, exact offsets, repeated-name context, reversible decisions, manual redaction, value-free manifest, and a human release gate. | [Standalone](https://jubjub-cpu.github.io/civiccase-redact/) |
+| TrustPath Studio | AI product teams need architecture, attack-path, control, and launch evidence in one security review. | Directed graph analysis, transparent threat scoring, control simulation, residual risk, and an evidence-required human launch gate. | [Standalone](https://jubjub-cpu.github.io/trustpath-studio/) |
 
 ## Business Problem
 
@@ -29,7 +30,7 @@ Many teams are interested in AI but struggle to translate messy workflows into u
 
 ## Target Users
 
-The products are designed for operations coordinators, AI quality teams, integration developers, document reviewers, workforce planners, creators, media producers, logistics teams, privacy reviewers, and hiring managers reviewing practical AI product potential.
+The products are designed for operations coordinators, AI quality teams, integration developers, document reviewers, workforce planners, creators, media producers, logistics teams, privacy reviewers, product security engineers, and hiring managers reviewing practical AI product potential.
 
 ## Product Approach
 
@@ -37,7 +38,7 @@ Each demo uses deterministic browser logic to model decision support. This keeps
 
 ## Main Features
 
-- Ten released product demos with synthetic data.
+- Eleven released product demos with synthetic data.
 - Central portfolio page with project cards and capability matrix.
 - Human-in-the-loop review points in every product.
 - Product documentation, case studies, validation evidence, and release history.
@@ -98,6 +99,10 @@ Current screenshots captured from the implemented local app:
 
 ![Standalone CivicCase mobile](docs/screenshots/civiccase-standalone-mobile.png)
 
+![Standalone TrustPath desktop](docs/screenshots/trustpath-standalone-desktop.png)
+
+![Standalone TrustPath mobile](docs/screenshots/trustpath-standalone-mobile.png)
+
 ![Mobile portfolio](docs/screenshots/portfolio-mobile.png)
 
 ## Live Demo
@@ -116,7 +121,7 @@ GitHub profile:
 
 Release:
 
-[v2.0.1 - Accessibility and release hardening](https://github.com/jubjub-cpu/gabe-ai-product-portfolio/releases/tag/v2.0.1)
+[v2.1.0 - TrustPath security expansion](https://github.com/jubjub-cpu/gabe-ai-product-portfolio/releases/tag/v2.1.0)
 
 Standalone SignalOps:
 
@@ -178,6 +183,12 @@ Standalone CivicCase Redact:
 - [Repository](https://github.com/jubjub-cpu/civiccase-redact)
 - [v1.0.1 release](https://github.com/jubjub-cpu/civiccase-redact/releases/tag/v1.0.1)
 
+Standalone TrustPath Studio:
+
+- [Live demo](https://jubjub-cpu.github.io/trustpath-studio/)
+- [Repository](https://github.com/jubjub-cpu/trustpath-studio)
+- [v1.0.0 release](https://github.com/jubjub-cpu/trustpath-studio/releases/tag/v1.0.0)
+
 Local fallback:
 
 Open `index.html` directly in a browser.
@@ -196,6 +207,7 @@ The demos show AI product patterns without pretending a paid model is running:
 - Web Audio decoding, PCM signal analysis, waveform overlays, and local audio privacy.
 - Multivariate telemetry monitoring, persistence-aware anomaly detection, clear hysteresis, and sensor-health evidence.
 - Offset-preserving direct-identifier detection, reversible privacy review, manual redaction, and value-free release artifacts.
+- Directed architecture graphs, attack-path analysis, security-control simulation, and human launch governance.
 
 ## Human Oversight
 
@@ -274,23 +286,24 @@ powershell -ExecutionPolicy Bypass -File .\tests\portfolio-validation.ps1
 Latest local validation:
 
 - `PORTFOLIO VALIDATION PASSED`
-- Browser smoke test: all five suite workflows plus the EvalDeck, FlowReplay, VoiceGauge, ColdChain, and CivicCase integrations rendered.
+- Browser smoke test: all five suite workflows plus the EvalDeck, FlowReplay, VoiceGauge, ColdChain, CivicCase, and TrustPath integrations rendered.
 - Interaction test: SignalOps approval, ReviewFlow approval, DocuTrace citations, FrameForge revision review, and PilotMap scoring all responded.
-- Mobile check: central portfolio rendered with ten project cards at 390 px width.
+- Mobile check: central portfolio rendered with eleven project cards at 390 px width.
 - Browser console errors: none observed.
-- Local axe-core audit: 22 desktop/mobile checks passed across the central portfolio and all ten standalone sites with zero violations.
+- Local axe-core audit: 24 desktop/mobile checks passed across the central portfolio and all eleven standalone sites with zero violations.
 
 Latest deployed audit:
 
-- Central ten-card browser workflow passed with no desktop/mobile overflow, console errors, or failed requests.
-- Full deployed axe-core audit passed across the central portfolio and all ten standalone sites: 22 desktop/mobile checks with zero violations.
-- All ten live demos, repositories, and current release pages returned HTTP 200.
-- All ten standalone repositories are public and have zero open issues.
+- Central eleven-card browser workflow passed with no desktop/mobile overflow, console errors, or failed requests.
+- Full deployed axe-core audit passed across the central portfolio and all eleven standalone sites: 24 desktop/mobile checks with zero violations.
+- All eleven live demos, repositories, and current release pages returned HTTP 200.
+- All eleven standalone repositories are public and have zero open issues.
 - Eight standalone v1.0.1 patches passed deployed browser and desktop/mobile axe-core audits; DocuTrace and FrameForge remain healthy at v1.0.0.
-- The central v2.0.1 release and GitHub profile returned HTTP 200.
-- The profile includes the complete product set and excludes the private contact email.
+- TrustPath v1.0.0 passed engine, repository, local/deployed browser, graph-pixel, privacy, and accessibility validation.
+- The central v2.1.0 release and GitHub profile returned HTTP 200.
+- The profile includes the curated featured set and current portfolio link.
 
-The repeatable browser integration check verifies the ten-card desktop and mobile layouts plus every standalone foundation and Phase Two public link.
+The repeatable browser integration check verifies the eleven-card desktop and mobile layouts plus every standalone foundation and expansion public link.
 
 ## Deployment
 

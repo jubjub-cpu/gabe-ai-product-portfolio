@@ -32,3 +32,16 @@ Scoring dimensions are business clarity, novelty versus the foundation, missing-
 - Data: JSONL text pairs, event JSON, audio samples, multivariate telemetry, and case-note spans.
 - Selected gaps closed: formal evaluation, developer tooling, API/event reliability, audio processing, anomaly monitoring, and local-first privacy-preserving text review all have released evidence.
 - Closest-project rule: every selected product owns a different user, workflow, data type, interface, and primary technical claim.
+
+## Security Expansion
+
+After the ten-product health gate passed, the next selection focused on capabilities still missing from the released set.
+
+| Candidate | New capabilities | Closest overlap | Decision |
+| --- | --- | --- | --- |
+| TrustPath Studio | Directed graph analytics, attack-path evidence, threat modeling, control simulation, security launch governance | FlowReplay developer tooling and EvalDeck release gates | Selected and released: distinct system-security workflow and graph interface |
+| Geospatial response planner | Spatial analysis and route optimization | SignalOps operational response and QueueCast planning | Deferred: strong novelty but higher map-asset complexity |
+| Constraint staff scheduler | Constraint optimization | QueueCast workforce planning | Rejected: employer story is too close |
+| Compliance document checker | Policy controls and evidence | DocuTrace and CivicCase | Rejected: duplicates document and privacy workflows |
+
+TrustPath adds graph reachability and AI product threat modeling as two new strong capabilities. Its target user, architecture input, adversarial workflow, graph Canvas, mitigation output, and security launch decision differ materially from every existing product.

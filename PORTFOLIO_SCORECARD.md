@@ -14,6 +14,7 @@ Scores use a 0-5 scale and reflect verified evidence. Total possible score is 55
 | VoiceGauge Local, standalone | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 55 |
 | ColdChain Sentinel, standalone | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 55 |
 | CivicCase Redact, standalone | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 55 |
+| TrustPath Studio, standalone | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 55 |
 | DocuTrace Desk, embedded archive | 4 | 4 | 3 | 3 | 2 | 3 | 3 | 4 | 4 | 3 | 4 | 37 |
 | ReviewFlow Agent, embedded | 3 | 3 | 3 | 2 | 2 | 3 | 3 | 4 | 4 | 3 | 3 | 33 |
 | FrameForge QA, embedded | 4 | 3 | 2 | 2 | 2 | 3 | 3 | 4 | 4 | 3 | 3 | 33 |
@@ -21,8 +22,8 @@ Scores use a 0-5 scale and reflect verified evidence. Total possible score is 55
 
 ## Score Interpretation
 
-- DocuTrace now leads the verified standalone projects because it combines a specific business workflow, cited evidence, structured output, failure states, human verification, repeatable browser tests, and deployed validation.
-- SignalOps remains the strongest operations-intelligence proof point.
-- ReviewFlow now provides the strongest orchestration proof through visible policy checks, blocked state, editable drafting, two separate human gates, and an event log.
-- FrameForge now provides the portfolio's strongest client-side media-processing evidence through actual Canvas pixels, transparent metrics, region overlays, local file boundaries, and deployed workflow tests.
-- QueueCast replaces PilotMap with the portfolio's first forecasting, uncertainty, scenario simulation, and quantitative capacity-planning evidence.
+- TrustPath provides the portfolio's strongest AI product security proof through graph reachability, attack-path evidence, control simulation, and launch governance.
+- EvalDeck and FlowReplay provide formal AI quality engineering and event-driven developer-tooling evidence.
+- VoiceGauge and FrameForge provide real local browser media-processing evidence for audio and image workflows.
+- ColdChain and QueueCast provide quantitative monitoring, anomaly, forecasting, and scenario evidence.
+- CivicCase and DocuTrace provide privacy engineering and evidence-first document intelligence.
