@@ -6,13 +6,15 @@ Gabe is presented as an AI Digital Product Developer who uses AI-assisted develo
 
 ## Project Selection
 
-The five selected products cover the requested categories:
+The completed five-product foundation covers the requested categories:
 
 1. AI operations intelligence: SignalOps Triage.
 2. AI workflow automation or agent system: ReviewFlow Agent.
 3. Document intelligence: DocuTrace Desk.
 4. Multimodal or creative media product: FrameForge QA.
 5. AI opportunity and workflow design: PilotMap AI.
+
+Phase Two expands the foundation with distinct standalone products. EvalDeck Studio is the first release, adding formal AI-output evaluation, regression analysis, developer tooling, and auditable release gates.
 
 ## Why Static First
 
@@ -30,8 +32,8 @@ A static browser suite avoids unnecessary setup friction, keeps the main workflo
 When repositories are available, pin:
 
 1. `gabe-ai-product-portfolio`
-2. `signalops-triage`
-3. `doctrace-desk`
-4. `reviewflow-agent`
+2. `evaldeck-studio`
+3. `signalops-triage`
+4. `doctrace-desk`
 5. `frameforge-inspect`
 6. `queuecast-planner`

@@ -7,6 +7,7 @@
 | 3 | DocuTrace Desk | Document intelligence | Reviewers need evidence-backed answers from business documents. | Procurement and operations reviewers | Standalone complete | [Standalone repository](https://github.com/jubjub-cpu/doctrace-desk) | [Standalone demo](https://jubjub-cpu.github.io/doctrace-desk/) | v1.0.0 | None | Feature and maintain |
 | 4 | FrameForge Inspect | Browser image inspection | Creative teams need a repeatable first pass for still-image delivery defects. | Content QA leads and creators | Standalone complete | [Standalone repository](https://github.com/jubjub-cpu/frameforge-inspect) | [Standalone demo](https://jubjub-cpu.github.io/frameforge-inspect/) | v1.0.0 | None | Feature and maintain; keep embedded FrameForge QA as archive |
 | 5 | QueueCast Planner | Forecasting and capacity simulation | Service teams need uncertainty-aware staffing scenarios. | Workforce planners | Standalone complete | [Standalone repository](https://github.com/jubjub-cpu/queuecast-planner) | [Standalone demo](https://jubjub-cpu.github.io/queuecast-planner/) | v1.0.0 | None | Feature and maintain; keep embedded PilotMap as archive |
+| 6 | EvalDeck Studio | AI quality engineering | Prompt and model changes need repeatable regression evidence. | AI product engineers and QA leads | Standalone complete | [Standalone repository](https://github.com/jubjub-cpu/evaldeck-studio) | [Standalone demo](https://jubjub-cpu.github.io/evaldeck-studio/) | v1.0.0 | None | Feature and maintain |
 
 ## Inventory Classification
 

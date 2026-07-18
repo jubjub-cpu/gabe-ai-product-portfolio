@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-The first five-project AI Digital Product Developer portfolio is complete as a published static release. It includes five runnable synthetic-data product demos, central portfolio documentation, a capability matrix, case studies, validation checks, screenshots, closed milestone issues, a GitHub release, and next-project prompts.
+The five-project foundation is complete and the portfolio has expanded to six released products with EvalDeck Studio, the first Phase Two release. The published work includes runnable synthetic-data demos, central documentation, a capability matrix, case studies, validation checks, screenshots, closed milestone issues, and versioned GitHub releases.
 
 ## Gabe's Portfolio Positioning
 
@@ -17,6 +17,7 @@ Gabe is positioned as an AI Digital Product Developer who uses AI-assisted devel
 | DocuTrace Desk | [Suite demo](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/doctrace-desk/) / [Standalone demo](https://jubjub-cpu.github.io/doctrace-desk/) | Document review needs source evidence. | Procurement and operations reviewers | Retrieval, cited answers, extraction, version comparison, human verification. | Static HTML/CSS/JS | Logic, repository, local browser, and deployed browser checks passed | Standalone v1.0.0 published |
 | FrameForge Inspect | [Archived suite concept](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/frameforge-qa/) / [Standalone demo](https://jubjub-cpu.github.io/frameforge-inspect/) | Still-image delivery defects need a repeatable local first pass. | Content QA leads and creators | Canvas pixel metrics, clipping and contrast checks, regional overlays, baseline comparison, human decision. | Static HTML/CSS/JS and Canvas | Logic, repository, fixture, local browser, and deployed browser checks passed | Standalone v1.0.0 published |
 | QueueCast Planner | [Archived PilotMap concept](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/pilotmap-ai/) / [Standalone demo](https://jubjub-cpu.github.io/queuecast-planner/) | Service teams need uncertainty-aware capacity scenarios. | Workforce planners | Trend forecast, residual uncertainty, five-assumption simulation, weekly risk, staffing brief, human decision. | Static HTML/CSS/JS and Canvas | Logic, repository, local browser, and deployed browser checks passed | Standalone v1.0.0 published |
+| EvalDeck Studio | [Standalone demo](https://jubjub-cpu.github.io/evaldeck-studio/) | AI product changes need repeatable quality and safety evidence before release. | AI product engineers and QA leads | Pairwise rubric scoring, slice regressions, reference disagreement, configurable gates, reasoned overrides, portable artifacts. | Static HTML/CSS/JS and Canvas | Logic, import/export, repository, local browser, and deployed browser checks passed | Standalone v1.0.0 published |
 
 ## Capability Matrix
 
@@ -33,9 +34,9 @@ The profile README links to the live portfolio and truthfully describes Gabe's A
 ## Recommended Pinned Repositories
 
 1. `gabe-ai-product-portfolio`
-2. `signalops-triage`
-3. `doctrace-desk`
-4. `reviewflow-agent`
+2. `evaldeck-studio`
+3. `signalops-triage`
+4. `doctrace-desk`
 5. `frameforge-inspect`
 6. `queuecast-planner`
 
@@ -43,7 +44,7 @@ The profile README links to the live portfolio and truthfully describes Gabe's A
 
 - `PORTFOLIO VALIDATION PASSED`
 - Browser render checks passed.
-- Interaction checks passed for all five product workflows.
+- Interaction checks passed for all five suite workflows and EvalDeck's standalone regression workflow.
 - Mobile central portfolio check passed at 390 px.
 - No browser console errors observed.
 
@@ -93,6 +94,10 @@ Standalone QueueCast Planner deployment: https://jubjub-cpu.github.io/queuecast-
 
 Standalone QueueCast Planner release: https://github.com/jubjub-cpu/queuecast-planner/releases/tag/v1.0.0
 
+Standalone EvalDeck Studio deployment: https://jubjub-cpu.github.io/evaldeck-studio/
+
+Standalone EvalDeck Studio release: https://github.com/jubjub-cpu/evaldeck-studio/releases/tag/v1.0.0
+
 ## Privacy and Security Summary
 
 All product data is fictional or synthetic. No real customer records, payment-card records, credentials, private communications, employee data, or production logs are included. The validation script scans for common secret patterns.
@@ -101,12 +106,12 @@ All product data is fictional or synthetic. No real customer records, payment-ca
 
 - Pin `gabe-ai-product-portfolio` on the GitHub profile manually. The available GitHub GraphQL schema did not expose a repository-pinning mutation in this environment.
 - Pin `signalops-triage` manually as the strongest standalone operations-intelligence project.
-- Build the five selected Phase Two products in `PHASE_TWO_CANDIDATES.md`.
+- Build the remaining four selected Phase Two products in `PHASE_TWO_CANDIDATES.md`.
 
-## Next Five Projects
+## Next Projects
 
 See `NEXT_5_PROJECTS.md`.
 
 ## Suggested Next Career Step
 
-Use the central portfolio plus SignalOps, DocuTrace, and ReviewFlow to apply for AI product, workflow automation, document intelligence, and operations-focused prototype roles while continuing the foundation wave.
+Use the central portfolio plus EvalDeck, SignalOps, DocuTrace, and FrameForge to apply for AI product, evaluation, workflow automation, document intelligence, and operations-focused prototype roles while continuing Phase Two.

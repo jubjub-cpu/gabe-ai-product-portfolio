@@ -9,6 +9,7 @@ Scores use a 0-5 scale and reflect verified evidence. Total possible score is 55
 | ReviewFlow Agent, standalone | 5 | 5 | 5 | 4 | 5 | 5 | 5 | 4 | 5 | 5 | 5 | 53 |
 | FrameForge Inspect, standalone | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 4 | 5 | 5 | 5 | 54 |
 | QueueCast Planner, standalone | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 55 |
+| EvalDeck Studio, standalone | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 55 |
 | DocuTrace Desk, embedded archive | 4 | 4 | 3 | 3 | 2 | 3 | 3 | 4 | 4 | 3 | 4 | 37 |
 | ReviewFlow Agent, embedded | 3 | 3 | 3 | 2 | 2 | 3 | 3 | 4 | 4 | 3 | 3 | 33 |
 | FrameForge QA, embedded | 4 | 3 | 2 | 2 | 2 | 3 | 3 | 4 | 4 | 3 | 3 | 33 |

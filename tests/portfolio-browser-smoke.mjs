@@ -42,7 +42,7 @@ try {
   page.on("requestfailed", (request) => failedRequests.push(request.url()));
   await page.goto(baseUrl, { waitUntil: "networkidle" });
 
-  assert.equal(await page.locator(".project-card").count(), 5, "Five central project cards should render");
+  assert.equal(await page.locator(".project-card").count(), 6, "Six central project cards should render");
   const docuTraceCard = page.locator(".project-card").filter({ hasText: "DocuTrace Desk" });
   assert.equal(await docuTraceCard.count(), 1, "DocuTrace card should render once");
   assert.equal(await docuTraceCard.getByRole("link", { name: "Standalone live" }).getAttribute("href"), "https://jubjub-cpu.github.io/doctrace-desk/");
@@ -58,6 +58,9 @@ try {
   const queueCastCard = page.locator(".project-card").filter({ hasText: "PilotMap AI" });
   assert.equal(await queueCastCard.getByRole("link", { name: "Standalone live" }).getAttribute("href"), "https://jubjub-cpu.github.io/queuecast-planner/");
   assert.equal(await queueCastCard.getByRole("link", { name: "Repo" }).getAttribute("href"), "https://github.com/jubjub-cpu/queuecast-planner");
+  const evalDeckCard = page.locator(".project-card").filter({ hasText: "EvalDeck Studio" });
+  assert.equal(await evalDeckCard.getByRole("link", { name: "Open live demo" }).getAttribute("href"), "https://jubjub-cpu.github.io/evaldeck-studio/");
+  assert.equal(await evalDeckCard.getByRole("link", { name: "Repo" }).getAttribute("href"), "https://github.com/jubjub-cpu/evaldeck-studio");
   assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth), false, "Desktop portfolio should not overflow");
 
   await page.goto(`${baseUrl}projects/doctrace-desk/`, { waitUntil: "networkidle" });
@@ -86,12 +89,12 @@ try {
   const mobile = await browser.newContext({ viewport: { width: 390, height: 844 } });
   const mobilePage = await mobile.newPage();
   await mobilePage.goto(baseUrl, { waitUntil: "networkidle" });
-  assert.equal(await mobilePage.locator(".project-card").count(), 5, "Five project cards should render on mobile");
+  assert.equal(await mobilePage.locator(".project-card").count(), 6, "Six project cards should render on mobile");
   assert.equal(await mobilePage.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth), false, "Mobile portfolio should not overflow");
   await mobile.close();
 
   console.log("PORTFOLIO BROWSER TESTS PASSED");
-  console.log(JSON.stringify({ target: deployedBaseUrl ? "deployed" : "local", cards: 5, docuTraceLinks: 3, reviewFlowLinks: 3, frameForgeLinks: 3, queueCastLinks: 3, desktopOverflow: false, mobileOverflow: false, consoleErrors: 0, failedRequests: 0 }));
+  console.log(JSON.stringify({ target: deployedBaseUrl ? "deployed" : "local", cards: 6, docuTraceLinks: 3, reviewFlowLinks: 3, frameForgeLinks: 3, queueCastLinks: 3, evalDeckLinks: 2, desktopOverflow: false, mobileOverflow: false, consoleErrors: 0, failedRequests: 0 }));
 } finally {
   if (browser) await browser.close();
   if (server) server.kill();

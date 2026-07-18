@@ -22,7 +22,7 @@ Status key: **Strong** = implemented and directly testable; **Partial** = visibl
 | Browser-based processing | Strong | Strong | Strong | Strong | Strong | Strong |
 | API design | Missing | Missing | Missing | Missing | Missing | Missing |
 | Event-driven automation | Missing | Missing | Strong | Missing | Missing | Strong |
-| Evaluation systems | Missing | Missing | Missing | Missing | Missing | Missing |
+| Evaluation systems | Missing | Missing | Missing | Missing | Missing | Strong via EvalDeck |
 | Accessibility | Strong | Strong | Strong | Strong | Partial | Strong |
 | Security | Partial | Strong | Strong | Strong | Partial | Strong |
 | Testing | Strong | Strong | Strong | Strong | Partial | Strong |
@@ -40,3 +40,9 @@ Status key: **Strong** = implemented and directly testable; **Partial** = visibl
 | QueueCast Planner | Replaced PilotMap | Standalone v1.0.0 with trend forecasting, residual uncertainty, five scenario assumptions, weekly capacity risk, Canvas visualization, human adoption, export, and deployed tests |
 
 The Phase Two wave must add formal evaluation, developer tooling, API design, audio, background automation, and privacy-preserving processing.
+
+## Phase Two Evidence
+
+| Project | New strong capabilities | Verified evidence |
+| --- | --- | --- |
+| EvalDeck Studio | Formal AI-output evaluation, developer tooling, pairwise regression, slice metrics, disagreement review, release gates, JSONL import, JSON/CSV artifacts | Standalone v1.0.0 with logic, repository, local browser, deployed browser, privacy, accessibility, screenshot, issue, and release evidence |

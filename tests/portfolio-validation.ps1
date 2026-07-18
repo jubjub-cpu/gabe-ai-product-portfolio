@@ -21,6 +21,7 @@ $requiredFiles = @(
   "docs/CASE_STUDIES.md",
   "tools/static-server.ps1",
   "tools/static-server.mjs",
+  "tools/capture-portfolio-screenshots.mjs",
   "tests/portfolio-browser-smoke.mjs",
   ".env.example",
   ".gitignore",
@@ -35,7 +36,9 @@ $standaloneEvidence = @(
   "docs/screenshots/frameforge-standalone-desktop.png",
   "docs/screenshots/frameforge-standalone-mobile.png",
   "docs/screenshots/queuecast-standalone-desktop.png",
-  "docs/screenshots/queuecast-standalone-mobile.png"
+  "docs/screenshots/queuecast-standalone-mobile.png",
+  "docs/screenshots/evaldeck-standalone-desktop.png",
+  "docs/screenshots/evaldeck-standalone-mobile.png"
 )
 
 $productPages = @(
@@ -106,7 +109,10 @@ foreach ($url in @(
   "https://github.com/jubjub-cpu/frameforge-inspect/releases/tag/v1.0.0",
   "https://jubjub-cpu.github.io/queuecast-planner/",
   "https://github.com/jubjub-cpu/queuecast-planner",
-  "https://github.com/jubjub-cpu/queuecast-planner/releases/tag/v1.0.0"
+  "https://github.com/jubjub-cpu/queuecast-planner/releases/tag/v1.0.0",
+  "https://jubjub-cpu.github.io/evaldeck-studio/",
+  "https://github.com/jubjub-cpu/evaldeck-studio",
+  "https://github.com/jubjub-cpu/evaldeck-studio/releases/tag/v1.0.0"
 )) {
   if ($allText -notmatch [Regex]::Escape($url)) {
     $failures.Add("Standalone project URL missing: $url")

@@ -18,6 +18,8 @@ My current focus is AI-assisted development, prompt engineering, workflow design
 - **FrameForge Repository:** https://github.com/jubjub-cpu/frameforge-inspect
 - **Standalone QueueCast:** https://jubjub-cpu.github.io/queuecast-planner/
 - **QueueCast Repository:** https://github.com/jubjub-cpu/queuecast-planner
+- **Standalone EvalDeck:** https://jubjub-cpu.github.io/evaldeck-studio/
+- **EvalDeck Repository:** https://github.com/jubjub-cpu/evaldeck-studio
 
 | Project | What It Demonstrates |
 | --- | --- |
@@ -26,6 +28,7 @@ My current focus is AI-assisted development, prompt engineering, workflow design
 | DocuTrace Desk | Standalone local-first document review with cited retrieval, structured extraction, version comparison, human verification, and deployed browser tests. |
 | FrameForge Inspect | Standalone local-first Canvas image inspection with measured pixel metrics, regional overlays, baseline comparison, local file boundaries, and a human delivery gate. |
 | QueueCast Planner | Explainable demand forecasting, residual uncertainty, five-assumption capacity simulation, weekly risk, and a human planning gate. |
+| EvalDeck Studio | Formal AI-output evaluation with pairwise rubrics, slice regressions, reference disagreement, configurable release gates, and reasoned human overrides. |
 
 ## AI Patterns
 
@@ -39,6 +42,8 @@ My current focus is AI-assisted development, prompt engineering, workflow design
 - Browser image processing and visual QA
 - Responsible AI opportunity assessment
 - Forecasting, uncertainty, and capacity simulation
+- AI evaluation, regression analysis, and release gating
+- Local-first developer tooling and portable evaluation artifacts
 
 ## Current Learning Focus
 

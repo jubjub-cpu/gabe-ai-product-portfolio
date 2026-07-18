@@ -15,6 +15,8 @@
     "Testing",
     "Accessibility",
     "Security awareness",
+    "AI evaluation",
+    "Developer tooling",
     "Product documentation",
     "Visual design"
   ];
@@ -99,6 +101,22 @@
       oversight: "No worker schedule or employment action is created; a workforce planner adopts or rejects each scenario.",
       features: ["Demand forecast", "Uncertainty band", "Capacity simulation", "Human planning gate"],
       capabilities: ["Prompt engineering", "AI workflow design", "Business-process automation", "Human-in-the-loop review", "Data visualization", "Security awareness", "Product documentation"]
+    },
+    evaldeck: {
+      name: "EvalDeck Studio",
+      shortName: "EvalDeck",
+      subtitle: "Formal AI output evaluation and regression gating",
+      path: "https://jubjub-cpu.github.io/evaldeck-studio/",
+      pathLabel: "Open live demo",
+      standaloneRepo: "https://github.com/jubjub-cpu/evaldeck-studio",
+      standaloneRelease: "https://github.com/jubjub-cpu/evaldeck-studio/releases/tag/v1.0.0",
+      accent: "violet",
+      problem: "AI product teams need repeatable evidence that prompt or model changes do not hide safety, grounding, format, or slice regressions.",
+      user: "AI product engineers, prompt engineers, evaluation specialists, and QA leads",
+      ai: "Scores baseline and candidate outputs with four transparent rubrics, aggregates slice health and disagreement, and applies configurable regression gates.",
+      oversight: "Raw scores remain visible; reasoned human overrides and the final release decision are recorded separately.",
+      features: ["Pairwise rubrics", "Slice regression", "Release gates", "JSONL and CSV"],
+      capabilities: ["Prompt engineering", "AI workflow design", "Human-in-the-loop review", "Data visualization", "Testing", "Accessibility", "Security awareness", "AI evaluation", "Developer tooling", "Product documentation"]
     }
   };
 
@@ -254,7 +272,7 @@
           ${product.features.map((feature) => `<span class="tag">${feature}</span>`).join("")}
         </div>
         <div class="button-row project-actions">
-          <a class="button-link secondary" href="${product.path}">Open suite demo</a>
+          <a class="button-link secondary" href="${product.path}">${product.pathLabel || "Open suite demo"}</a>
           ${product.standaloneDemo ? `<a class="button-link" href="${product.standaloneDemo}">Standalone live</a>` : ""}
           ${product.standaloneRepo ? `<a class="button-link secondary" href="${product.standaloneRepo}">Repo</a>` : ""}
         </div>
