@@ -27,9 +27,9 @@ A static browser suite avoids unnecessary setup friction, keeps the main workflo
 - Do not imply Gabe has traditional engineering credentials.
 - Do show product thinking, AI workflow design, testing, and responsible scope control.
 
-## Pinning Recommendation
+## Pinned Repository Set
 
-Pin these six repositories manually:
+The GitHub profile is curated with these six repositories:
 
 1. `gabe-ai-product-portfolio`
 2. `evaldeck-studio`
@@ -38,4 +38,4 @@ Pin these six repositories manually:
 5. `coldchain-sentinel`
 6. `frameforge-inspect`
 
-This six-repository set maximizes visible breadth across portfolio narrative, AI evaluation, developer infrastructure, privacy-preserving text, monitoring/time series, and browser media processing. Pinning remains a manual GitHub profile action because the available API does not expose repository pin mutations.
+This six-repository set maximizes visible breadth across portfolio narrative, AI evaluation, developer infrastructure, privacy-preserving text, monitoring/time series, and browser media processing. The set was applied on 2026-07-17 through authenticated GitHub profile controls.

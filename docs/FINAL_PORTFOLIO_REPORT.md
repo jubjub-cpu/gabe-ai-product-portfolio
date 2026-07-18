@@ -35,7 +35,7 @@ Gabe's GitHub profile README repository was created at:
 
 The profile README links to the live portfolio and truthfully describes Gabe's AI-assisted product-development positioning.
 
-## Recommended Pinned Repositories
+## Curated Pinned Repositories
 
 1. `gabe-ai-product-portfolio`
 2. `evaldeck-studio`
@@ -126,7 +126,7 @@ All product data is fictional or synthetic. No real customer records, payment-ca
 
 ## Remaining Manual Actions
 
-- Apply the six-repository recommendation in `docs/PORTFOLIO_STRATEGY.md` manually; repository pinning is not exposed by the available API.
+None. The six-repository GitHub profile set is applied, and the portfolio is in maintenance mode.
 
 ## Historical Planning
 

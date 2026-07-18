@@ -23,4 +23,4 @@ The selection must collectively include a developer-facing product, a local-firs
 - Central product set: all ten releases, preserving the five-product foundation and five-product expansion narrative.
 - Additional projects: complete releases that add useful evidence but duplicate a featured signal.
 - Lab/archive: embedded originals, replaced concepts, and experiments.
-- Current manual pin order: `gabe-ai-product-portfolio`, `evaldeck-studio`, `flowreplay-console`, `civiccase-redact`, `coldchain-sentinel`, `frameforge-inspect`.
+- Current pinned profile set: `gabe-ai-product-portfolio`, `evaldeck-studio`, `flowreplay-console`, `civiccase-redact`, `coldchain-sentinel`, `frameforge-inspect`.
