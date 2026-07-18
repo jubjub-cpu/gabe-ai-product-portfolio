@@ -9,6 +9,7 @@
     "Structured extraction",
     "Retrieval",
     "Multimodal processing",
+    "Audio processing",
     "Business-process automation",
     "Human-in-the-loop review",
     "Data visualization",
@@ -135,6 +136,22 @@
       oversight: "No endpoint is contacted; a human must provide a recovery reason before the simulated replay is recorded.",
       features: ["Contract preflight", "Retry backoff", "Idempotency", "Dead-letter recovery"],
       capabilities: ["AI workflow design", "Human-in-the-loop review", "Data visualization", "Testing", "Accessibility", "Security awareness", "Developer tooling", "API design", "Event-driven systems", "Product documentation"]
+    },
+    voicegauge: {
+      name: "VoiceGauge Local",
+      shortName: "VoiceGauge",
+      subtitle: "Private browser audio QA with real PCM evidence",
+      path: "https://jubjub-cpu.github.io/voicegauge-local/",
+      pathLabel: "Open live demo",
+      standaloneRepo: "https://github.com/jubjub-cpu/voicegauge-local",
+      standaloneRelease: "https://github.com/jubjub-cpu/voicegauge-local/releases/tag/v1.0.0",
+      accent: "coral",
+      problem: "Audio teams need an immediate first pass for clipping, level, silence, and background signal without uploading sensitive recordings.",
+      user: "Content operations teams, media producers, contact-center QA leads, accessibility teams, and creators",
+      ai: "Decodes actual audio locally, measures six transparent PCM metrics, maps timed waveform findings, and compares the source with a generated clear baseline.",
+      oversight: "No transcription or identity inference runs; accepting audio with findings requires written human evidence.",
+      features: ["Web Audio decode", "PCM metrics", "Waveform findings", "Local file boundary"],
+      capabilities: ["Multimodal processing", "Audio processing", "Human-in-the-loop review", "Data visualization", "Testing", "Accessibility", "Security awareness", "Developer tooling", "Product documentation", "Visual design"]
     }
   };
 

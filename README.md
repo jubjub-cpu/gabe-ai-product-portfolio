@@ -1,6 +1,6 @@
 # Gabe - AI Digital Product Developer Portfolio
 
-This portfolio features seven complete, local-first AI digital products that show practical workflow design, prompt-shaped reasoning, formal evaluation, event reliability, human review, synthetic data, and recruiter-friendly product documentation.
+This portfolio features eight complete, local-first AI digital products that show practical workflow design, prompt-shaped reasoning, formal evaluation, event reliability, real browser media processing, human review, synthetic data, and recruiter-friendly product documentation.
 
 ## Overview
 
@@ -19,6 +19,7 @@ The portfolio does not claim traditional software engineering employment, produc
 | QueueCast Planner | Service teams need visible demand uncertainty and capacity tradeoffs before staffing decisions. | Explainable trend, uncertainty band, five-assumption simulation, weekly risk, staffing brief, human planning gate. | [Archived PilotMap concept](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/pilotmap-ai/) / [Standalone](https://jubjub-cpu.github.io/queuecast-planner/) |
 | EvalDeck Studio | AI product teams need repeatable evidence before prompt or model changes ship. | Four pairwise rubrics, slice regressions, reference disagreement, configurable gates, reasoned overrides, JSONL/JSON/CSV artifacts. | [Standalone](https://jubjub-cpu.github.io/evaldeck-studio/) |
 | FlowReplay Console | Integration teams need to distinguish contract drift, transient failures, duplicates, and dead-letter recovery before replaying webhooks. | Versioned contracts, response classification, retry backoff, failure injection, idempotent no-ops, reasoned replay approval, JSON evidence. | [Standalone](https://jubjub-cpu.github.io/flowreplay-console/) |
+| VoiceGauge Local | Audio teams need a private first pass for clipping, level, silence, and background signal. | Real Web Audio decoding, six PCM metrics, timed Canvas findings, baseline comparison, local upload, threshold policy, human handoff gate. | [Standalone](https://jubjub-cpu.github.io/voicegauge-local/) |
 
 ## Business Problem
 
@@ -34,7 +35,7 @@ Each demo uses deterministic browser logic to simulate AI-style workflow support
 
 ## Main Features
 
-- Seven released product demos with synthetic data.
+- Eight released product demos with synthetic data.
 - Central portfolio page with project cards and capability matrix.
 - Human-in-the-loop review points in every product.
 - Recruiter-facing documentation, roadmap, scorecard, state tracking, blocker tracking, and case studies.
@@ -82,6 +83,10 @@ Current screenshots captured from the implemented local app:
 ![Standalone FlowReplay desktop](docs/screenshots/flowreplay-standalone-desktop.png)
 
 ![Standalone FlowReplay mobile](docs/screenshots/flowreplay-standalone-mobile.png)
+
+![Standalone VoiceGauge desktop](docs/screenshots/voicegauge-standalone-desktop.png)
+
+![Standalone VoiceGauge mobile](docs/screenshots/voicegauge-standalone-mobile.png)
 
 ![Mobile portfolio](docs/screenshots/portfolio-mobile.png)
 
@@ -145,6 +150,12 @@ Standalone FlowReplay Console:
 - [Repository](https://github.com/jubjub-cpu/flowreplay-console)
 - [v1.0.0 release](https://github.com/jubjub-cpu/flowreplay-console/releases/tag/v1.0.0)
 
+Standalone VoiceGauge Local:
+
+- [Live demo](https://jubjub-cpu.github.io/voicegauge-local/)
+- [Repository](https://github.com/jubjub-cpu/voicegauge-local)
+- [v1.0.0 release](https://github.com/jubjub-cpu/voicegauge-local/releases/tag/v1.0.0)
+
 Local fallback:
 
 ```text
@@ -162,6 +173,7 @@ The demos show AI product patterns without pretending a paid model is running:
 - Responsible AI opportunity scoring.
 - Formal AI-output evaluation, regression analysis, and release gating.
 - API contracts, event retries, idempotency, failure injection, and dead-letter recovery.
+- Web Audio decoding, PCM signal analysis, waveform overlays, and local audio privacy.
 
 ## Human Oversight
 
@@ -242,12 +254,12 @@ powershell -ExecutionPolicy Bypass -File .\tests\portfolio-validation.ps1
 Latest local validation:
 
 - `PORTFOLIO VALIDATION PASSED`
-- Browser smoke test: all five suite workflows plus the EvalDeck and FlowReplay integrations rendered.
+- Browser smoke test: all five suite workflows plus the EvalDeck, FlowReplay, and VoiceGauge integrations rendered.
 - Interaction test: SignalOps approval, ReviewFlow approval, DocuTrace citations, FrameForge revision review, and PilotMap scoring all responded.
-- Mobile check: central portfolio rendered with seven project cards at 390 px width.
+- Mobile check: central portfolio rendered with eight project cards at 390 px width.
 - Browser console errors: none observed.
 
-The repeatable browser integration check verifies the seven-card desktop and mobile layouts plus the standalone foundation, EvalDeck, and FlowReplay public links.
+The repeatable browser integration check verifies the eight-card desktop and mobile layouts plus the standalone foundation, EvalDeck, FlowReplay, and VoiceGauge public links.
 
 ## Deployment
 
@@ -272,7 +284,7 @@ The recruiter-review path does not require a backend or paid API.
 ## Future Improvements
 
 - Add optional bring-your-own-key AI integrations.
-- Build the remaining three selected Phase Two products in `PHASE_TWO_CANDIDATES.md`.
+- Build the remaining two selected Phase Two products in `PHASE_TWO_CANDIDATES.md`.
 - Add live API-backed variants only when privacy, cost, and security boundaries are clear.
 
 ## AI-Assisted Development

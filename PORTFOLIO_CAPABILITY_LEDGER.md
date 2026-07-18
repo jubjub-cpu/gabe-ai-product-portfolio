@@ -13,7 +13,7 @@ Status key: **Strong** = implemented and directly testable; **Partial** = visibl
 | Agent-style orchestration | Partial | Missing | Strong | Missing | Missing | Strong |
 | Human approval | Strong | Strong | Strong | Strong | Partial | Strong |
 | Computer vision | Missing | Missing | Missing | Strong | Missing | Strong |
-| Audio processing | Missing | Missing | Missing | Missing | Missing | Missing |
+| Audio processing | Missing | Missing | Missing | Missing | Missing | Strong via VoiceGauge |
 | Semantic search | Missing | Mentioned | Missing | Missing | Missing | Mentioned |
 | Forecasting | Missing | Missing | Missing | Missing | Strong | Strong |
 | Anomaly detection | Partial | Missing | Missing | Missing | Missing | Partial |
@@ -39,7 +39,7 @@ Status key: **Strong** = implemented and directly testable; **Partial** = visibl
 | FrameForge Inspect | Rebuilt substantially | Standalone v1.0.0 with actual Canvas pixel metrics, generated PNG fixtures, regional overlays, local file processing, comparison, human decision, export, and deployed tests |
 | QueueCast Planner | Replaced PilotMap | Standalone v1.0.0 with trend forecasting, residual uncertainty, five scenario assumptions, weekly capacity risk, Canvas visualization, human adoption, export, and deployed tests |
 
-The remaining Phase Two wave must add audio, anomaly detection, background monitoring, and privacy-preserving processing; evaluation, developer tooling, and API/event-system gaps are now covered.
+The remaining Phase Two wave must add anomaly detection, background monitoring, and privacy-preserving text processing; evaluation, developer tooling, API/event systems, and audio gaps are now covered.
 
 ## Phase Two Evidence
 
@@ -47,3 +47,4 @@ The remaining Phase Two wave must add audio, anomaly detection, background monit
 | --- | --- | --- |
 | EvalDeck Studio | Formal AI-output evaluation, developer tooling, pairwise regression, slice metrics, disagreement review, release gates, JSONL import, JSON/CSV artifacts | Standalone v1.0.0 with logic, repository, local browser, deployed browser, privacy, accessibility, screenshot, issue, and release evidence |
 | FlowReplay Console | Versioned webhook contracts, response classification, retries and backoff, deterministic failure injection, idempotency, dead-letter recovery, replay audit, local JSON artifacts | Standalone v1.0.0 with engine, repository, local browser, deployed browser, Canvas, privacy, accessibility, screenshot, issue, and release evidence |
+| VoiceGauge Local | Real Web Audio decoding, generated WAV fixtures, PCM peak/RMS/clipping/silence/quiet-floor/pause metrics, Canvas overlays, baseline comparison, local import, human delivery gate | Standalone v1.0.0 with audio engine, fixture generation, repository, local browser, deployed browser, content-type, privacy, accessibility, screenshot, issue, and release evidence |
