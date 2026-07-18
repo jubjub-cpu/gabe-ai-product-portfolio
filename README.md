@@ -12,7 +12,7 @@ The portfolio does not claim traditional software engineering employment, produc
 
 | Project | Business Problem | AI Capability | Demo |
 | --- | --- | --- | --- |
-| SignalOps Triage | Field-service teams need consistent incident triage and dispatch recommendations. | Classification, severity scoring, repeated-failure detection, human approval. | `projects/signalops-triage/index.html` |
+| SignalOps Triage | Field-service teams need consistent incident triage and dispatch recommendations. | Classification, severity scoring, repeated-failure detection, human approval. | [Suite demo](https://jubjub-cpu.github.io/gabe-ai-product-portfolio/projects/signalops-triage/) / [Standalone](https://jubjub-cpu.github.io/signalops-triage/) |
 | ReviewFlow Agent | Admin teams need repeatable review workflows for messy requests. | Agent-style planning, tool-like checks, draft output, approval history. | `projects/reviewflow-agent/index.html` |
 | DocuTrace Desk | Reviewers need document answers with source evidence. | Search, extraction, citations, risk flags. | `projects/doctrace-desk/index.html` |
 | FrameForge QA | Creative teams need cleaner briefs, revision notes, and handoffs. | Creative brief generation, visual QA, shot lists, captions, metadata. | `projects/frameforge-qa/index.html` |
@@ -76,6 +76,12 @@ GitHub profile:
 Release:
 
 [v1.0.0 - Published AI product portfolio](https://github.com/jubjub-cpu/gabe-ai-product-portfolio/releases/tag/v1.0.0)
+
+Standalone SignalOps:
+
+- [Live demo](https://jubjub-cpu.github.io/signalops-triage/)
+- [Repository](https://github.com/jubjub-cpu/signalops-triage)
+- [v1.0.0 release](https://github.com/jubjub-cpu/signalops-triage/releases/tag/v1.0.0)
 
 Local fallback:
 
@@ -195,15 +201,14 @@ The recruiter-review path does not require a backend or paid API.
 
 - The demos simulate AI behavior with deterministic browser logic.
 - There is no persistent database.
-- There is no live deployment link until a static host is configured.
-- Live deployment is not enabled until GitHub Pages or another static host is configured.
+- Live deployments use GitHub Pages static hosting only.
 
 ## Future Improvements
 
 - Add optional bring-your-own-key AI integrations.
-- Split mature products into individual repositories after the central portfolio is reviewed.
+- Split the next strongest products into individual repositories after recruiter review.
 - Add Playwright or browser-based visual regression checks if Node.js becomes available.
-- Add live GitHub Pages deployment.
+- Add live API-backed variants only when privacy, cost, and security boundaries are clear.
 
 ## AI-Assisted Development
 

@@ -2,7 +2,7 @@
 
 ## Current Project
 
-Central portfolio suite containing five product demos.
+Central portfolio suite containing five product demos, plus a published standalone SignalOps repository.
 
 ## Current Branch
 
@@ -14,7 +14,7 @@ GitHub issues #1 through #15 were created and closed for kickoff, midpoint, and 
 
 ## Last Completed Action
 
-Created the central portfolio structure, five static demos, docs, validation script, screenshot evidence, local browser smoke checks, public GitHub repository, closed milestone issues, GitHub Pages deployment, final v1.0.0 release, and public GitHub profile README repository.
+Created the central portfolio structure, five static demos, docs, validation script, screenshot evidence, local browser smoke checks, public GitHub repository, closed milestone issues, GitHub Pages deployment, final v1.0.0 release, public GitHub profile README repository, and standalone SignalOps repo with release and Pages deployment.
 
 ## Tests Last Run
 
@@ -39,9 +39,9 @@ None known after validation and browser smoke checks.
 
 ## Pending Changes
 
-- Optional: manually pin `gabe-ai-product-portfolio` on Gabe's GitHub profile.
-- Optional: split the strongest products into standalone repositories after recruiter review.
+- Optional: manually pin `gabe-ai-product-portfolio` and `signalops-triage` on Gabe's GitHub profile.
+- Optional: split DocuTrace or PilotMap into standalone repositories after recruiter review.
 
 ## Next Executable Step
 
-Review the live portfolio and manually pin the portfolio repository if desired.
+Review the live portfolio, review the standalone SignalOps demo, and manually pin the two strongest repositories if desired.

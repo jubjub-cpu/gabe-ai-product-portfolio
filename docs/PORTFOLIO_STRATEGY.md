@@ -30,7 +30,7 @@ A static browser suite avoids unnecessary setup friction, keeps the main workflo
 When repositories are available, pin:
 
 1. `gabe-ai-product-portfolio`
-2. Future standalone SignalOps repository
+2. `signalops-triage`
 3. Future standalone DocuTrace repository
 4. Future standalone PilotMap repository
 5. `Sporeborne`, only if made public after privacy and licensing review

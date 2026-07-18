@@ -8,10 +8,12 @@ My current focus is AI-assisted development, prompt engineering, workflow design
 
 - **AI Digital Product Developer Portfolio:** https://jubjub-cpu.github.io/gabe-ai-product-portfolio/
 - **Repository:** https://github.com/jubjub-cpu/gabe-ai-product-portfolio
+- **Standalone SignalOps:** https://jubjub-cpu.github.io/signalops-triage/
+- **SignalOps Repository:** https://github.com/jubjub-cpu/signalops-triage
 
 | Project | What It Demonstrates |
 | --- | --- |
-| SignalOps Triage | AI-assisted field-service incident triage with human-approved dispatch recommendations. |
+| SignalOps Triage | AI-assisted field-service incident triage with human-approved dispatch recommendations, now available as a standalone repo and live demo. |
 | ReviewFlow Agent | Agent-style workflow automation with visible planning, draft output, and approval history. |
 | DocuTrace Desk | Document intelligence with structured extraction, search, risk flags, and citations. |
 | FrameForge QA | Creative media review, revision tracking, captions, and shot-list generation. |

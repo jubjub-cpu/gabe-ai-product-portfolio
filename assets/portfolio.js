@@ -25,6 +25,9 @@
       shortName: "SignalOps",
       subtitle: "AI-assisted field-service incident triage",
       path: "projects/signalops-triage/index.html",
+      standaloneDemo: "https://jubjub-cpu.github.io/signalops-triage/",
+      standaloneRepo: "https://github.com/jubjub-cpu/signalops-triage",
+      standaloneRelease: "https://github.com/jubjub-cpu/signalops-triage/releases/tag/v1.0.0",
       accent: "teal",
       problem: "ATM, kiosk, and equipment teams lose time when incident notes are inconsistent and dispatch priority is unclear.",
       user: "Operations coordinators and field-service leads",
@@ -238,7 +241,11 @@
         <div class="tag-row">
           ${product.features.map((feature) => `<span class="tag">${feature}</span>`).join("")}
         </div>
-        <a class="button-link secondary" href="${product.path}">Open demo</a>
+        <div class="button-row project-actions">
+          <a class="button-link secondary" href="${product.path}">Open suite demo</a>
+          ${product.standaloneDemo ? `<a class="button-link" href="${product.standaloneDemo}">Standalone live</a>` : ""}
+          ${product.standaloneRepo ? `<a class="button-link secondary" href="${product.standaloneRepo}">Repo</a>` : ""}
+        </div>
       </article>
     `).join("");
 
@@ -273,6 +280,9 @@
         <nav class="topnav" aria-label="Product navigation">
           <a href="../../index.html">Portfolio</a>
           <a href="../../README.md">README</a>
+          ${product.standaloneDemo ? `<a href="${product.standaloneDemo}">Standalone live</a>` : ""}
+          ${product.standaloneRepo ? `<a href="${product.standaloneRepo}">Repo</a>` : ""}
+          ${product.standaloneRelease ? `<a href="${product.standaloneRelease}">Release</a>` : ""}
         </nav>
       </header>
       <main id="main" class="product-shell">
@@ -637,4 +647,3 @@
   renderPortfolio();
   renderProduct();
 })();
-
